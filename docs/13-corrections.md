@@ -264,18 +264,28 @@ are not the same record* — which is P19 working; **and the session read the
 output wrong anyway before checking it**, which is the correction. A named blind
 spot does not read the output for you.
 
-### C.11 — the scoring chapter's calibration block was wrong in its sign
+### C.11 — the scoring chapter's arithmetic was wrong in two tables, and one of them in its sign
 
-[15](15-prediction-scoring.md)'s first draft gave the extended series as
-**last10 −39.2900, mean −3.9290, rank 22 of 38** and described the last-ten mean
-as an improvement. `python _work/calib3.py --append -3.33` gives **−45.1300,
-−4.5130 and 24**, and the last-ten mean **worsened**.
+**The calibration block.** [15](15-prediction-scoring.md)'s first draft gave the
+extended series as **last10 −39.2900, mean −3.9290, rank 22 of 38** and described
+the last-ten mean as an improvement. `python _work/calib3.py --append -3.33`
+gives **−45.1300, −4.5130 and 24**, and the last-ten mean **worsened**. **The
+error is not the digits, it is the direction**: the paragraph about what the
+series shows was written from a hand sum and said the opposite of what the
+series says.
 
-**The error is not the digits, it is the direction**: the chapter's paragraph
-about what the series shows was written from a hand sum and said the opposite of
-what the series says. **The fifth document in this collection to get its own
-arithmetic wrong on the first pass and the second in this repository**, and both
-times the command that exists for the purpose caught it.
+**The verdict block.** The same draft gave the inherited total as **29.00** with
+**four** inherited halves where its own table below has **two**; gave
+`constructs` at **10.00** where six halves make it **9.50**; and **counted C35
+both ways at once** — a hit inside the open-method total and a half in the
+verdict list. Counted out of the tables the figures are **30.00**, **9.50**, and
+**50 hits and 8 halves**, and 50 + 8 = 58 at residue 0.
+
+**Two tables in one chapter, on one pass.** It is the fifth document in this
+collection to get its own arithmetic wrong on the first pass and **the third in
+this repository** — C.9 is the predictions header and this entry is two more.
+**All three were caught by counting rather than by reading**, twice by a command
+and once by `grep -c` over the chapter's own verdict marks.
 
 ---
 

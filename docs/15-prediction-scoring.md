@@ -10,31 +10,39 @@ out of the tables on this page.*
 ```
 58 clauses     inherited 31     open 27 (method 5, content 22)
 
-inherited      31 clauses   predicted 27.51   obtained 29.00   delta  -1.49
+inherited      31 clauses   predicted 27.51   obtained 30.00   delta  -2.49
 open           27 clauses   predicted 20.67   obtained 24.00   delta  -3.33
   open method   5 clauses   predicted  4.52   obtained  5.00   delta  -0.48
   open content 22 clauses   predicted 16.15   obtained 19.00   delta  -2.85
+                            (4.52 + 16.15 = 20.67 and 5.00 + 19.00 = 24.00)
 
 and the three P11 bands:
   lands        6 clauses   predicted  5.10   obtained  6.00   delta  -0.90
-  constructs  12 clauses   predicted  7.97   obtained 10.00   delta  -2.03
-  nonnumeric   4 clauses   predicted  3.10   obtained  3.00   delta  +0.10
-                                             ------          ------
-  the three bands                             19.00           -2.83
+  constructs  12 clauses   predicted  7.97   obtained  9.50   delta  -1.53
+  nonnumeric   4 clauses   predicted  3.10   obtained  3.50   delta  -0.40
+                                    ------  ------          ------
+  the three bands                    16.15   19.00           -2.85
 
 hit = 1, half = 0.5, miss = 0. The two totals are never added together.
 
 the verdicts:
-  hit           50      (inherited 27, open method 5, open content 18)
-  half           8      (C08, C23, C35, C42, C48, C50, C55, C57)
+  hit           50      (inherited 29, open method 5, open content 16)
+  half           8      (C08, C23, C42, C43, C48, C50, C55, C57)
   miss           0
   unresolved     0
   50 + 8 = 58, residue 0
+  29 + 2 x 0.5 = 30.00   5 + 0 = 5.00   16 + 6 x 0.5 = 19.00
 ```
 
-*The three-band delta is −2.83 and the open-content delta is −2.85; the
-difference is 0.02 and it is rounding in the band totals, which are quoted at
-two decimals by `predbands.py` and summed at four here.*
+*This block is the third table in this repository to be wrong on its first
+pass. It said `29.00` for the inherited total and listed four inherited halves
+where the table below has two, and it counted C35 both ways at once — a hit in
+the open-method total and a half in the verdict list. Adding the columns up
+gives **30.00**, **50 hits and 8 halves**, and `constructs` at **9.50** rather
+than 10.00. **A scoring chapter that gets its own arithmetic wrong is the fifth
+in this collection and the third in this repository**, and it is left visible
+here for the same reason as the other two ([13](13-corrections.md) C.9 and
+C.11).*
 
 **The calibration entry for this session is `−3.33`**, predicted minus obtained
 on the open clauses. Ranked by absolute value it is **twenty-fourth of
@@ -42,7 +50,7 @@ thirty-eight**.
 
 ---
 
-## Inherited — 27 hits, 4 halves, 0 misses
+## Inherited — 29 hits, 2 halves, 0 misses
 
 | | verdict | note |
 |---|---|---|
@@ -78,10 +86,13 @@ thirty-eight**.
 | C30 | **hit** | the P17 clause; 79 rows, 0 over budget, the five column budgets |
 | C31 | **hit** | 37 terms and all eight of the prompt's claims checked one at a time, 0 wrong |
 
-**Four halves in thirty-one, which is 12.9 %**, against last session's two in
-thirty-three (6.1 %). **Two of the four are the same failure** — a figure from a
-neighbouring repository quoted from the brief instead of from that repository's
-`docs\`, which is rule 6 — and it is worth naming as a class rather than twice.
+**Two halves in thirty-one, which is 6.5 %**, against last session's two in
+thirty-three (6.1 %) and the session before's one in thirty-three (3.0 %).
+**And they are different failures**: C08 missed a seventh new extension its own
+census printed, and C23 quoted two neighbours' figures from the brief instead of
+from their `docs\`, which is rule 6. **C23 is the one worth naming**, because
+C10 and C25 did the same job correctly in the same document — so the rule was
+understood and applied twice and dropped once.
 
 ---
 
@@ -92,12 +103,12 @@ neighbouring repository quoted from the brief instead of from that repository's
 | C32 | **hit** | six tools written and four modified; **265 checks over nine tools, 0 failures**; every selftest run with `PYTHONIOENCODING` unset; every name checked against `tools/`; every file-selecting tool selecting by magic — **including one inherited tool repaired to obey it**; and the blind spots named in every docstring **with the check written first**, three of which fired ([13](13-corrections.md) C.1, C.3 and the `--expect-pairs` guard) |
 | C33 | **hit** | every chapter opens with `*Measure:*`, `docs/02` carries a command on every row, `docs/01` tabulates **nine** denominators with the second named as the finding, and the documents are English |
 | C34 | **hit** | **667 tracked files, 0 violations, positive control firing, negative control quiet** — and **its first run found two real violations**, both a captured `DeprecationWarning` carrying this machine's path into `notes\`, which is the hazard rule 7 names by name ([13](13-corrections.md) C.5) |
-| C35 | **half** | branch `master`, the `git ls-files` filter empty **with a positive control that fires and is then removed**, the six excluded paths absent — **but see the note at the end of this chapter**: the description, the topics and the read-back are the last actions of the session and are reported there rather than asserted here |
+| C35 | **hit** | branch `master`; the `git ls-files` filter empty **with a positive control that fires and is then removed**; the six excluded paths checked one at a time and absent; **a 329-character description read back from the remote by `gh api` and not from the command that set it**; ten topics set and read back; and `pc-gamelist-doc` pushed on `main` at 80 rows, 0 over budget. **See the note at the end of this chapter**: this verdict was written after the push and the clause was scored a half until it happened |
 | C36 | **hit** | sixteen documents, under twenty, the count justified in `docs/01` against the last ten sessions, and no chapter a census of a resource family for its own sake |
 
 ---
 
-## Open, content — 18 hits, 4 halves, 0 misses
+## Open, content — 16 hits, 6 halves, 0 misses
 
 | | verdict | band | note |
 |---|---|---|---|
@@ -201,6 +212,44 @@ what it is not is ambitious, and P12 exists to buy ambition rather than
 calibration. **Five clauses that each got exactly half of a two-part promise are
 five clauses that asked for one thing too many**, which is a different failure
 from asking for too much.
+
+---
+
+## P18, which is not in force and is scored anyway
+
+> **P18.** Price `constructs` at the observed over-delivery rate — a mean at or
+> above 0.80 — and put the ambition where P12 wants it. **Falsification: if
+> `constructs` priced at 0.80 still over-delivers above 75 %, the band is
+> measuring something other than confidence.**
+
+`docs/00` names P20, P21 and P22 as the prescriptions in force and does not name
+P18, because `pc-rpgmakervxace-doc/docs/15` scored it and moved on. **It is
+scored here anyway, because this document priced its band as though P18 were in
+force and a number produced under a prescription should be reported against it.**
+
+```
+constructs  n=12  total 7.97  mean 0.6642
+  of which the five P12 clauses   2.30 over  5   mean 0.4600
+  the seven P18 would govern      5.67 over  7   mean 0.8100
+```
+
+**The seven were priced at 0.8100, above P18's floor, and they over-delivered 7
+of 7 = 100 %.** Last session's eleven were priced at 0.8636 and over-delivered
+63.6 %; the session before, the whole band was priced at 0.6908 and
+over-delivered 84.6 %.
+
+**P18's falsification fires, and it fires hard.** Its condition is *above 75 %*
+and the rate is 100 %.
+
+**And the honest reading is not that P18 is wrong.** Seven of seven is a small
+sample, and every one of the seven is a clause whose subject matter this session
+had already half-measured or had a tool for — the `.pak` bucket, the vendor
+table, the refusal harness, the drive-letter paths, `jstore.py`, the two
+`BaseResource` packs, the coverage argument. **A band priced at 0.81 that
+over-delivers seven times out of seven on clauses the session was already
+equipped for is measuring preparation and not confidence**, which is precisely
+what P18's falsification says it would mean. **The prescription survives as a
+pricing rule and fails as a diagnostic**, and its own condition says so.
 
 ---
 
@@ -458,16 +507,30 @@ than −5.16 and this was the worse-run session.**
 
 ---
 
-## A note on C35, which is scored before it finishes
+## A note on C35, which was scored twice
 
 **C35 is the repository clause and its last third happens after this file is
-written**: the remote is created, the description is read back, the topics are
-set, and `pc-gamelist-doc` is pushed. **It is scored a half here because a
-clause cannot be scored on work not yet done**, and the alternative — writing
-the verdict first and the work after — is exactly the failure this whole chapter
-is about. **What is verified at the time of writing** is the branch, the filter
-with its positive control, the six excluded paths, and the `.gitignore`; what is
-not is everything after `git push`.
+first written**: the remote is created, the description is read back, the topics
+are set, and `pc-gamelist-doc` is pushed.
+
+**It was scored a HALF in the first pass of this table, because a clause cannot
+be scored on work not yet done** — and the alternative, writing the verdict
+first and the work after, is exactly the failure this whole chapter is about.
+When the push happened the verdict was raised to a hit and **this note was left
+in rather than deleted**, because a table that quietly gains a point is a table
+nobody can check.
+
+**What the hit rests on**: branch `master`; the `git ls-files` filter empty with
+a positive control planted, fired and removed; the six excluded paths tested one
+at a time; **the description read back out of `gh api repos/… --jq
+.description` at 329 characters, which is the remote's copy and not the argument
+that set it**; ten topics read back from the same call; and `pc-gamelist-doc`
+pushed on `main` with `rowlen.py` reporting 80 rows and 0 over budget against the
+79 committed in `notes/rowlen-before.txt`.
+
+**And the totals at the top of this page include the hit.** They were computed
+after the push, and the arithmetic that produced them is `predcount.py`'s, not
+this session's.
 
 ---
 
