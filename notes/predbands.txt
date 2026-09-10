@@ -1,0 +1,10 @@
+document       : docs\00-predictions.md
+open content   : 22 clauses
+
+lands       n= 6  total  5.10  mean 0.8500   C37 C38 C45 C53 C54 C56
+constructs  n=12  total  7.97  mean 0.6642   C39 C40 C41 C42 C43 C44 C47 C48 C49 C50 C55 C58
+nonnumeric  n= 4  total  3.10  mean 0.7750   C46 C51 C52 C57
+
+open content clauses priced below 0.60 : 5   C42=0.42 C43=0.48 C48=0.45 C50=0.50 C55=0.45
+
+every open content clause carries exactly one band tag, and no other clause carries one.

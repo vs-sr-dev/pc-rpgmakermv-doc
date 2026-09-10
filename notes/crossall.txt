@@ -1,0 +1,1289 @@
+my distinct sha1            : 7417
+  (identical files inside one object collapse into one key here;
+   the file count is the tree census's, not this tool's)
+empty-file sha1 among mine  : YES -- excluded
+collection root             : ..
+skipping                    : pc-rpgmakermv-doc
+
+repositories swept          : 107
+list files swept            : 477
+hash tokens read            : 161543
+distinct sha1 in those lists: (counted below)
+
+========================================================================
+EMPTY-FILE SHA1 (the trap): 57 occurrences in 16 repositories
+   dc-dinocrisis-doc                        x4
+   pc-allodsonline-doc                      x2
+   pc-bloodandlace-doc                      x1
+   pc-brokensword4-doc                      x1
+   pc-canediterracotta-doc                  x1
+   pc-capcombeatemupbundle-doc              x1
+   pc-clic11-doc                            x9
+   pc-deadlypremonitiondc-doc               x3
+   pc-hugoshouseofhorrors-doc               x1
+   pc-ilmiocomputer0206                     x6
+   pc-karmaflow-doc                         x17
+   pc-kingsofthebeach-doc                   x4
+   pc-residentevil-doc                      x2
+   pc-wizardry-doc                          x3
+   pc-zerocomico-doc                        x1
+   vis-racetheclock-doc                     x1
+   -> excluded from the crossings below.
+
+========================================================================
+THE RATE AS A FUNCTION OF MINIMUM FILE LENGTH
+
+A crossing is a claim that two objects share a file. On a tree whose
+files are short, it is also a claim that two short byte strings
+happened to be equal, and those are not the same claim. This table is
+printed BEFORE any figure is quoted, and the figure quoted anywhere
+else has to name the threshold it was taken at.
+
+   min bytes    my hashes    crossings         rate
+           0         7417          297      4.0043 %
+           1         7416          297      4.0049 %
+           4         7414          297      4.0059 %
+           8         7413          297      4.0065 %
+          16         7408          297      4.0092 %
+          32         7401          297      4.0130 %
+          64         7400          297      4.0135 %
+         128         7388          297      4.0200 %
+         256         7301          297      4.0679 %
+        1024         6517          297      4.5573 %
+        4096         5076          296      5.8314 %
+       65536         1983           26      1.3111 %
+
+========================================================================
+CROSSINGS at a minimum length of 0 bytes: 297 of my 7417 distinct hashes appear in another repository
+   (threshold 0 -- every hash, including files too short to be anybody's)
+
+sha1 93dbc50d6d2f3c40dce01a4f0c1ace6ff34d8cf0   303392 bytes
+   mine : dlc/BaseResource/audio/bgs/People1.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 dbd27c4c8abd4a05951c0d78a02a79bca97da9b5   296531 bytes
+   mine : dlc/BaseResource/audio/bgs/People2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 60cd3ae87155ba070679910d2228b1e8cf0d4808   288649 bytes
+   mine : NewData/audio/me/Gameover2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8f9dd5f280cd6fa6c7e92730e1c36e2d476b92cd   266126 bytes
+   mine : dlc/BaseResource/audio/bgs/Wave2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 591c952ac190ccfb4773252dd9e118232c7aa8d1   264167 bytes
+   mine : dlc/BaseResource/audio/bgs/Fire2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 995d812bd676a2ce4321785db807fba2bbc44a80   248260 bytes
+   mine : dlc/BaseResource/audio/bgs/Rain4.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 b58c3eb97187d70de27326293e7cb5e05817ad52   244240 bytes
+   mine : dlc/BaseResource/audio/bgs/Wind4.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 99dcf22855317558bb1f292e04124855cddcb15d   241473 bytes
+   mine : dlc/BaseResource/audio/bgs/Wind3.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 e3f57c7664c6427bae71049650878456ca795aec   240261 bytes
+   mine : dlc/BaseResource/audio/bgs/Wind1.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 4ee43374520904fa6d80c12c273d67eb7b5c984e   219424 bytes
+   mine : steam_api.dll
+   also : pc-academagia-doc                  notes/sha1-all.txt
+
+sha1 35c4ff94211c5ded2938fc7b3aa758a7cef7c540   194444 bytes
+   mine : dlc/BaseResource/audio/me/Victory3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c85dd53ef5bda7b94fcb76511b6ba0198c9f7bd0   192488 bytes
+   mine : dlc/BaseResource/audio/me/Gameover3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 228687b96bb14f5d7248cc5456672889bc1429e7   187835 bytes
+   mine : dlc/BaseResource/audio/me/Fanfare3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8cb8c7fba0b839aaba7bb9bb9f74f89e1e2eff6a   187147 bytes
+   mine : dlc/BaseResource/audio/bgs/Wind2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 01a982e5a22a270da9120b0c75cb0ea2b0b1d56c   155963 bytes
+   mine : dlc/BaseResource/audio/bgs/Rain3.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 c5f8c15ecefcd33cecaa214a59ffa7abd979c5f1   153008 bytes
+   mine : dlc/BaseResource/audio/bgs/Rain2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 bdf92effea83785c1c8449b97e6e8577a3625d24   148607 bytes
+   mine : dlc/BaseResource/audio/bgs/Fire3.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 2c1bd16198559871690764ce27613e55cb61511e   140875 bytes
+   mine : NewData/audio/me/Organ.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e45c2d69c0dab642e141b27f18ab96112003e2cd   140676 bytes
+   mine : dlc/BaseResource/audio/me/Inn2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 10f466e8eb885d4feb1cf982136441e0ad002486   124114 bytes
+   mine : dlc/BaseResource/audio/bgs/Waterfall1.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 f68c63a4d181938a3522baf05837648a1060335b   123917 bytes
+   mine : dlc/BaseResource/audio/bgs/Waterfall2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 6bde952f2b5fc6ce2c685d92d773fcd10781267c   107761 bytes
+   mine : NewData/audio/me/Mystery.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9005db46d93ec8a008cf680b9e8fa66957db3cab   102786 bytes
+   mine : dlc/BaseResource/audio/bgs/Wave1.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 a830f24dba68d466eccee147c73acc4416cbbf50   73180 bytes
+   mine : dlc/BaseResource/audio/me/Item.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 64d135fc915a8fad0689a80700bce7a2a49617e6   71471 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Teleport.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 f1665618db0a7421b07dda07adb5dadfb5b6bd69   66946 bytes
+   mine : NewData/audio/se/Applause1.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 d7d7bc6da47c0a900de3070f5e16de396fc256a4   55618 bytes
+   mine : dlc/BaseResource/audio/me/Shock3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 77aaec9d3cfc5196eae6310eca87f03aba6126c5   49526 bytes
+   mine : NewData/audio/se/Machine.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 29b747cca7a06c67a9984733a2b2f17bc36fa23a   35581 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Dive.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 5997d9fcd37c179615313b3f17068d6f0e581966   34127 bytes
+   mine : dlc/BaseResource/audio/bgs/Quake2.ogg
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 120ec0342908a40050ccba0b94146bc9c0fd8856   32705 bytes
+   mine : NewData/audio/se/Magic3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b31c3bbabf5c7f026e2e17446972fe374a498847   32230 bytes
+   mine : NewData/audio/se/Applause2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 566d70ae9d14fb4fddfcd0abe81e9f8f3391ac70   30075 bytes
+   mine : NewData/audio/se/Devil2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d415d7d95c22d7408924db4083655ebec95a048e   29141 bytes
+   mine : NewData/audio/se/Devil1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 72b8d94558b8e053f5321e95bf63d7a9bf552c7d   23649 bytes
+   mine : NewData/audio/se/Monster4.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 9968fad7560115f91effafb4781bf260f12c888e   23165 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Battle3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 86fe977a4065f46cf9acf62f0e790dc322ac7ec6   23085 bytes
+   mine : dlc/BaseResource/audio/se/Devil3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7067db276a9c7c129990580b6c199f14af96746f   22419 bytes
+   mine : NewData/audio/se/Scream.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6771b418c41598c3eff0a5069515586373c1164f   21984 bytes
+   mine : dlc/BaseResource/audio/se/Cry1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0dc62f9f19d04e425f24bb1c70572497822a6e71   21388 bytes
+   mine : NewData/audio/se/Monster3.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 956c4d888f7c73a3e4994bdc356d9425a3e7df08   21364 bytes
+   mine : dlc/BaseResource/audio/se/Down3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e065fb09301dd111633f900d1da0b7816faba30d   21256 bytes
+   mine : dlc/BaseResource/audio/se/Thunder11.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 fe029198263688dbcb19c65c640fb29f939a6f0f   20967 bytes
+   mine : dlc/BaseResource/audio/se/Fire9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3218b6b2942ff49a3b77118635056a3b57a6dbf8   20936 bytes
+   mine : dlc/BaseResource/audio/se/Wind11.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9b9400a9266e5245acb27b672126fd4d0be39087   20912 bytes
+   mine : dlc/BaseResource/audio/se/Autodoor.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 78bc5f4e3800ae82810dfe1c942b880dae0bd5fb   20647 bytes
+   mine : dlc/BaseResource/audio/se/Flash3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5c9e648284419ccc67403e2a1a5d522c27095649   20640 bytes
+   mine : NewData/audio/se/Monster5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a9437acd4a6884979b37c3cf8681ad671d7accea   19536 bytes
+   mine : dlc/BaseResource/audio/se/Down4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 93c1b6b63bcb65c583d5f70e36dca5e5f2523947   18962 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Starlight.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 110a67f7707602680adb2d33811c794855118aea   18911 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Gun2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4e47e10b88679459d2260e574f6b0b0251a280b4   18384 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Skill3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 17e2a6cfb919c79b4a2e7cd527ac7d1b618a05f7   18358 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Up2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 64ffeb825e60a7cdcba5474682f22a516d2bf95e   18236 bytes
+   mine : dlc/BaseResource/audio/se/Resonance.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 bc6c915e7ee96dbab9d29f67fdace5afa3949a19   18160 bytes
+   mine : NewData/audio/se/Bell1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 322a16e69c7d5c4907d0f95c5cbc348133e3327c   18133 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Up3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 37d47bf0d1b71ae3e527392007b34a4045b3fb48   17532 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Laser1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 76b9bfec855fafe8c07c6c22286eb733d2b6d717   17284 bytes
+   mine : NewData/audio/se/Disappointment.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 72421462ac8d496e46ce159e68b5d0ddecd48a2b   17222 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Item3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7fd8b573e2d90e9d59d066897eecf99971c5d68d   16901 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Skill2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 089c3cd7bb04d47b21d913a09e047c0c17075424   16868 bytes
+   mine : dlc/BaseResource/audio/se/Explosion6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9561d1ba26cd9093925d5c0b3f43ef2199988cbc   16836 bytes
+   mine : dlc/BaseResource/audio/se/Explosion3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 02851ccc7066441a45c766f9795ac67053a580ce   16660 bytes
+   mine : dlc/BaseResource/audio/se/Cry2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 50b63d3c1858fc802341e6a0da2f77d76e91001b   16546 bytes
+   mine : dlc/BaseResource/audio/se/Ice11.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0a12f024daee1606d0330e6104294e6e93c0d7d2   16437 bytes
+   mine : dlc/BaseResource/audio/se/Explosion7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 93118cd5bb0b916d2ca45c73a08da4fc651fff9c   16416 bytes
+   mine : NewData/audio/se/Crow.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 65f2a6e1ec0445623c6fac7221a0342a5672aabc   16384 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Powerup.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9612de88587de044abdda2c5d327e4767b469a1c   16367 bytes
+   mine : dlc/BaseResource/audio/se/Bow4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8ef98969a45a979ec1f3d70c276e5135a15f5423   16310 bytes
+   mine : dlc/BaseResource/audio/se/Monster7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 73992dc654064eb40c54d608732a857135236a4d   16283 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Crash.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ce82514c1abfe2cd483715adef7db57f2dab064e   15724 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Pollen.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 76f0cf237a06da06e52cd7dcfbace31bd2ca289d   15569 bytes
+   mine : NewData/audio/se/Frog.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 08ef779baade58a1bb6bef01ed1e392551b4b303   15511 bytes
+   mine : dlc/BaseResource/audio/se/Thunder12.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c28dd9006351d93bbd42bc9573f1a15b2ff191f6   15382 bytes
+   mine : NewData/audio/se/Chest2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 2bf8d30109dd0c8140e3dc59eafdbaca19e129db   15382 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Battle1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d1ef3f7db0bb2f87709715b1f0f24cc4d818adb2   15269 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Magic1.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 eae685672b5cac0950dc9a32a428b11c8f58d4d9   15113 bytes
+   mine : dlc/BaseResource/audio/se/Explosion5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 992ad5d7b1c5c078e7f961620f24d5447d6609de   15039 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Darkness5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 448447b58c082dfc6eb72f6d9280202510c2727b   15033 bytes
+   mine : dlc/BaseResource/audio/se/Saint7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 08385e5b21baeaafe826f67a215018b8b16b2c76   14802 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Saint4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d657ffbd935c16e17e67383f3fe53c5990606070   14702 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b2a1469ea1a943476a5240bac153c0c71c7e69ea   14679 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Skill1.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 d7881a7b7b76f97e8a5e356a69c117cd72e65f46   14537 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Push.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 aeab0f3763c90f58f2e521b0a9e9aeec8340015d   14511 bytes
+   mine : dlc/BaseResource/audio/se/Magic7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3ecaf6ae97673c98cd9b153c20940bebd4146d27   14488 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Explosion2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4a3816ce74542f2942fb742e0e8af97797a592e2   14400 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Cow.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 594e3d87e11f05fbc9188c6a05c5dec37e633a5d   14364 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Saint2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9397e1faeae659ede8ad6fb6295ca3a724bad68f   14235 bytes
+   mine : dlc/BaseResource/audio/se/Heal4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 647f6749fe3165c501fecf378e3afad1b04b06fe   14201 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Noise.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f9981dbc72462512359645bf6f324426f45897cd   14069 bytes
+   mine : dlc/BaseResource/audio/se/Confuse.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 203782e86300dc461d7ebcd6f752d5ebdc1cc4e2   14068 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Darkness1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 006d08f460e750f8bb628becebdacd2317125afa   14041 bytes
+   mine : NewData/audio/se/Close3.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 ce3624db9e7021b44e1708bef8134a5686db0ff3   13860 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Phone.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ffbdb2c1c4e108a2772b409e9603828865a1b977   13839 bytes
+   mine : NewData/audio/se/Open3.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 1c71ee12f2af3876c18bac0e608950c46bf1667a   13821 bytes
+   mine : NewData/audio/se/Fall.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 4bc029c77f5469a56fac49df47d5a6b8e403a264   13771 bytes
+   mine : dlc/BaseResource/audio/bgs/Rain1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d5c6fa8b5d41cbf8acf1abcdcf1b1f1107a52739   13756 bytes
+   mine : dlc/BaseResource/audio/se/Breath.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6788393c6353f53a4e396117e5a93417236d0266   13635 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Reflection.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 19b8166ecfce1d3c7859ed0189d26b758d8b7fe2   13596 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Down1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2c965893a00db4a6052850a6ecb5d59193675c8c   13540 bytes
+   mine : dlc/BaseResource/audio/se/Saint6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7f41f7307bd4ddaab117c122741652ed34641d32   13438 bytes
+   mine : dlc/BaseResource/audio/se/Wind8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 db82d5eec50165d8e6eb83dc1f2bbf8c6d3582e1   13405 bytes
+   mine : dlc/BaseResource/audio/se/Ice10.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 93716fbe53df6da2688642289911a7491deaad2d   13179 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Up4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 04723894dd6147d10e12dfa2be2dadb55e1d0950   13120 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Explosion1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3e819eb615848ac0fd05e6596bc1eac9cc6053dd   13008 bytes
+   mine : dlc/BaseResource/audio/se/Earth9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 abcc379ecfdb2674545e96112e0cf7f5920e3d60   12971 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Water5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6b69ec21a0e5353edb60c22a6e0bac54742a3e9e   12874 bytes
+   mine : dlc/BaseResource/audio/se/Water6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8c23f4fe382d2aa32369a799166a1f58b6610ee2   12655 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sound3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2b0996efce7393f342bea57249fdadfba8440bb6   12654 bytes
+   mine : dlc/BaseResource/audio/se/Fire7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 42a35cdcf27b279b365bbb82d56d97aecddae8b5   12634 bytes
+   mine : dlc/BaseResource/audio/se/Magic5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e2d4f8a65caa5f4f832e5d1b42900046ed6db241   12634 bytes
+   mine : NewData/audio/se/Wolf.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f2b5e9e24b3bad16d2e399ef5d3911a5f9efec43   12627 bytes
+   mine : dlc/BaseResource/audio/se/Darkness7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 16feabf8a165b5928c1ab4a8bf30c051a4bdbc19   12580 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 54fec32e79448844c8a3971690185ee52cd87dd4   12553 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Magic2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 12ad4253161a8d897a1ab8bff7cea1ae2e65b243   12487 bytes
+   mine : dlc/BaseResource/audio/se/Explosion4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ef80bfb56e7fa604bc5390fc7a1c5ec2fc7b43f4   12470 bytes
+   mine : dlc/BaseResource/audio/se/Ice7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 bf2987df1dd2932c325ed88fbc65158d2c146a17   12439 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Magic4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ed2062fa69cb02ccca139ce211806358dee68971   12395 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Monster2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c92b23915056cf0becae0951fb2773e3048e1b43   12386 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Poison.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c26b09a679b5e450280bf947042c1a725789f65f   12368 bytes
+   mine : dlc/BaseResource/audio/se/Barrier.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 31872588f05e647ff41adf3aa1968842a9c4ea0f   12352 bytes
+   mine : dlc/BaseResource/audio/se/Ice8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 123016d9af4facb18c663bdb7bc6c8dae76c34be   12344 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Darkness2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 90d87198849f7bdfdd4eacd611de3a2540925813   12238 bytes
+   mine : NewData/audio/se/Absorb1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4cd32482de6fe2baecd72198575eaee1b5c43fa2   12225 bytes
+   mine : dlc/BaseResource/audio/se/Fire6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c4c67f8b967b73812ade0b7427cdf11db57b9ff6   12217 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Flash2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 22863986d7a577a9a7979fa6903fdc16af44d9b1   12197 bytes
+   mine : dlc/BaseResource/audio/se/Fire8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 928415b88f0f1415f93fcebf4f903ad91df7df14   12134 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sand.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e9ce680aae9b072a6f3243ba06d6d47227c9b4a4   12056 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Damage4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 48abd2bbe366b735ed8be1ebf7d51ec92b83dd6e   11998 bytes
+   mine : dlc/BaseResource/audio/se/Earth8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2a700b94978d650743841af47f547dab2351a83b   11966 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Gun1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8e5d28a90ff54a91846098c4ac0b1f8d6ed930ad   11950 bytes
+   mine : NewData/audio/se/Saint1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 efdf9ae93879aba93ef01b0844781cbc59cee3e9   11937 bytes
+   mine : dlc/BaseResource/audio/se/Darkness8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a39f9670a310bf764aff2f0d887751a0dc23abe8   11885 bytes
+   mine : dlc/BaseResource/audio/se/Saint8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2e2f9fa4a4b312e93f3daf4e0785b26c64b3c558   11863 bytes
+   mine : dlc/BaseResource/audio/se/Magic6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1a91cecd57cd43464f28aa8f3598167deb9c2e86   11834 bytes
+   mine : dlc/BaseResource/audio/se/Fire5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c15f760afab612239d0025adb0c5b634c17c081c   11723 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Evasion2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0459de59a2e719d4111d82f8950719bcd5918bcc   11702 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sword2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6253549e1b7c12432f7662c37e7873eb94210cf3   11697 bytes
+   mine : NewData/audio/se/Battle2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 811443d30553ac193298b17a18d6added5293218   11640 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 075ea3106f491962e03d4eb688250ed7c6d1c567   11576 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Earth4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f743f16698b0d74d8716a2d4820af37cff7a3ab5   11560 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Break.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ffaa9159384f67e38aea1307d75e40efeafa9734   11379 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Darkness3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d416e0dd73a84551b8faa9019fdf7d40277619bf   11332 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Fire2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6b3fce1c533b23050801bb73df8681c571b285c4   11255 bytes
+   mine : NewData/audio/se/Horse.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c943180e2e71565908ced44511c9efedebd4602f   11126 bytes
+   mine : NewData/audio/se/Shop2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 6a079d04543a1fbb91cec6ee65ad2f3d22d908a3   11054 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Attack3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ef92b1b64c430c25e9dc007d14bbe63f7d11dc03   11018 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Stare.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 eaffb68cf24bd4f71bf86d30cc6bc1e851a5a91a   10920 bytes
+   mine : dlc/BaseResource/audio/se/Fire4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 cc05c1aac068454fe691de752018d26586b79b1a   10776 bytes
+   mine : dlc/BaseResource/audio/se/Wind10.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 87a86fd7c940b3fbc76a4b104d5916c4e25549f2   10767 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3c6d1416cc75794da04344bf76b9820e09f4e939   10649 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Down2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a47b8540fe91435bc88b34271fb3a6411a8eaf99   10626 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e76c9cb6c6acdf9681fe4f1d7897fb18bc5a42e3   10621 bytes
+   mine : dlc/BaseResource/audio/se/Chicken.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d3c5f219c0106fdec33916ad0cad8268fe8934d0   10562 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 87b426e2d101be318941cfd19f51fae99dd85703   10466 bytes
+   mine : dlc/BaseResource/audio/se/Monster6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1510f78e2d5fa6bcbac47b0aa4c10cb357965332   10448 bytes
+   mine : NewData/audio/se/Open5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6d0fc5dadc8627f18dab11137cda43108293a1d5   10394 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Paralyze3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 40e02183250f6570411fa6c35c6ba2300ce499a5   10377 bytes
+   mine : NewData/audio/se/Book1.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 eb5d776bd2296f21527c3e50b3a7d40f7ba4f017   10338 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Fire3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a9bd005d735f5d24b7450ce0003825c5fea1e396   10182 bytes
+   mine : dlc/BaseResource/audio/se/Decision4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 06092b476cfbeb4315070ad3807fee19d3bc3877   10175 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Ice4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d6afa017e4c476ebd2852df05719affbafaa4635   10142 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Blind.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4d368384b88137aadfccf29e7b4e22552e48f5ae   10101 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Up1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 eb5b4cf984e2c38f6dbaaa75d46f26732b799026   10088 bytes
+   mine : dlc/BaseResource/audio/se/Fog2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a5e8ef5f9035c9505c19e7602a38abbd77a27070   10084 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Absorb2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5e22283905296cb19b59399ef0e072d241d771c8   10060 bytes
+   mine : dlc/BaseResource/audio/se/Raise3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ef3b5429036e43ef13bf8bef1a9689b9faa5c90c   10029 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Monster1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e48cb9fbd820c5d3025bda1b22f67c9b8a74a2b0   10006 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Earth2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8c73bc4b6dfc02ab2bfb0e42266be81f8894a4c9   9914 bytes
+   mine : dlc/BaseResource/audio/se/Heal6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 65aa1ed682b2d8e0a5fc575d47b4dcb7400013dd   9900 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Water1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 28a7d98b60576b36e1c05f5ac8f846e7128d2679   9896 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ea99be1f2893ae15b2b020e2d0940ad04b258587   9631 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Damage5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7a08d37b3e04a6e8da0624a16b01ed9950312288   9631 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Darkness4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 83647ea4433b654ce1002fae33e08ecb113b298b   9615 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Water3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c9a927dbe84509577dc85483f365a4cee75c91e4   9597 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Equip1.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 264f61ed6ddc16c02b1d106991b9b35d4ab4e78e   9595 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sword5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2e3bb230c2f462a2a456300749473be28573b5bd   9572 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a9f3523a1f9ab2dd9145afc86f8ea4f8b50b5b9a   9542 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0de9a4020de66038601d053e55c2182edb7cb7a8   9495 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sword4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 178f1f7657694ed4fba363d37d101125a6257ba0   9449 bytes
+   mine : NewData/audio/se/Raise1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 efba49697bb9a1790e6299dfe64fa11f3e931f7e   9436 bytes
+   mine : NewData/audio/se/Sheep.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 54fe2fec7f7464a201b37033f27aaa733f450c25   9405 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Water2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ba3247a9d76618cdc01be549d7c91d7fb2244e19   9402 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder10.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 bbfe368b539085db924fc0ef05a34dac2a346548   9356 bytes
+   mine : dlc/KadokawaPlugins_New/samples/Slot Machine Sample/audio/se/Switch2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 db0cefe364e532f0695919add5b80cd4191cfa99   9349 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Heal3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7444e3c54d997540c709b08a52bffbf58eec09fb   9293 bytes
+   mine : NewData/audio/se/Item2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4b262a30af3191321453301a77276c0f78c28b85   9209 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f9d75eb528df46b71112a20000e541760ce0b23d   9148 bytes
+   mine : NewData/audio/se/Book2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 48fd61f2215e53fc0cd04dabeae875b0af09b8db   9140 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Twine.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d83549b52db041be62eeb70916526f9441ca8b15   9086 bytes
+   mine : NewData/audio/se/Shot1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 47865078b439ec4e36069e8c0b42ed857a50c7ad   9083 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Water4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7f4a9c4f6bcb76920aa6753d18adc689395fbb23   9076 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sound2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 661accec22e9f8855a2e15a99f1eb1d60d34298e   9058 bytes
+   mine : dlc/BaseResource/audio/se/Bow3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8d0b8c9d13f0ad1063bdc6b6df0fb2587af512ba   9025 bytes
+   mine : NewData/audio/se/Shot3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 70e3b887b4f52ee9e0c327dab884f541a98ba86e   9020 bytes
+   mine : dlc/BaseResource/audio/se/Equip3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 adfeace03a404065b14bcb17dd3ea97baa7deada   9005 bytes
+   mine : NewData/audio/se/Switch3.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 dd4747864f73ddea75f621d7841480740eeb246b   8966 bytes
+   mine : dlc/BaseResource/audio/se/Ice6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 22ce1ea59d8662143ba73837f461569d81495d43   8921 bytes
+   mine : NewData/audio/se/Bell2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9a0dc993bcbdf41cbef01c1c404fe0d6fb802cbe   8908 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Fire1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 666393d49c8d1feb711eec1524fa0693ac3a63ea   8821 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Earth1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f5c6948e78727766925dd20147e3376149561069   8797 bytes
+   mine : dlc/BaseResource/audio/se/Decision3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 fcf28710c0edc29a627195ce167aeb10115448c6   8776 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Cancel2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0751321b2fb7101371f0165856e2d32237669b06   8759 bytes
+   mine : dlc/BaseResource/audio/se/Bite.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f2e472507e64ab7557bb324b4f95fa2ddfb9f7b5   8733 bytes
+   mine : dlc/BaseResource/audio/se/Chime2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0f34315ec2b43be6a87cf7bfdd21291e2e0b423c   8722 bytes
+   mine : NewData/audio/se/Equip2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 54d6d9afcfe479ecb4fd3d21165c78ce49f07342   8718 bytes
+   mine : dlc/BaseResource/audio/se/Save2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 0a0300a907f48518e6ed8f845f05e017ee35e441   8676 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Heal2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7236b3bc49a4751d457c21a901933a981efcd909   8658 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Ice2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4e53eee3049a7e583fdbe91f8452398306da1ab8   8556 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Recovery.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5b0a272bdee06b7665f07743897f18d89ec5fbc3   8534 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sword3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a5ad9f6b4094c9d8bc5e5116d4823854ee8b9190   8459 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b4e28242fa6e0138fd2c5a815ae55b687d404565   8413 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Raise2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0d11ab5c9178c932904225c10c0596c589b2c173   8333 bytes
+   mine : NewData/audio/se/Close1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f99d91de8e1517d9d84c2efedefda86280a993ae   8301 bytes
+   mine : dlc/BaseResource/audio/se/Wind9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 965815abb1bd59ead7b59d8deb7d88808da94338   8246 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Earth5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 77177230610c7bc57fdc0ba2b0b940ca1e01243b   8163 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Cat.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 72ea6f4953248f16bafb3e63d32d12c46971a6ac   8161 bytes
+   mine : NewData/audio/se/Close2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f088397bd9500b077e1867f8995617e0c1a6cd13   8144 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4ae458aaa04c8e56054f71982f8146318787a52f   8102 bytes
+   mine : dlc/BaseResource/audio/se/Fog1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 dcbc1635cb055c86119efd664e3d563f6aac8520   8099 bytes
+   mine : dlc/BaseResource/audio/se/Heal7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 dc00bbaa6fb9c52c39de70dfe969dddb86cd3213   8094 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sleep.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e17e42fc855aeaf8611e7ba3901ca85bfd880bb7   8069 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Crossbow.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c596fc94e6019fb0a574df14530168509fa16c1d   7977 bytes
+   mine : dlc/BaseResource/audio/se/Blow4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f29111e9388be52af210735729dbd9cbe5936b45   7871 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 96395718757d43be30052d7c1f81cdf9be330528   7799 bytes
+   mine : NewData/audio/se/Hammer.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8666e9b018024eae893a507f0663e050d0dbb44f   7794 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Attack2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 90c2fd67121d2dc0d5063db91e345aa550fa6cf8   7792 bytes
+   mine : dlc/BaseResource/audio/se/Blow8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 4c18e4425b26bb64c73d37acb34e28f7a570a0c1   7659 bytes
+   mine : dlc/BaseResource/audio/se/Saint9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5883d2649c2095abdfe30700f98c394d46124c79   7657 bytes
+   mine : dlc/BaseResource/audio/se/Blow7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 6f5c10fb000e41576ca34ea0e59078bff1a2c498   7497 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Ice3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1606f95da0bc1ed118a54c053e4922e5ab223cd3   7452 bytes
+   mine : dlc/BaseResource/audio/se/Blow6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0a9e9f9052bdfb4c689a2d52240aaf454d449e4a   7417 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Open2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 cca5d4699565e1279fd050fa325dc1601aa6e9c5   7409 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Flash1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8f3eba314c04549b28f2a923c61843593f8b1620   7393 bytes
+   mine : dlc/BaseResource/audio/se/Bow2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 424f649ff33dd6926fc173fff718eb5291a6b012   7387 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Damage2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9025b4a3c16ca7c030219c2f86e668ca43b0e0b4   7283 bytes
+   mine : NewData/audio/se/Bell3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 d3857eb6296ce0dabcad4539fe8b791c59bbf3b1   7179 bytes
+   mine : dlc/BaseResource/audio/se/Load2.ogg
+   also : pc-rpgmakervxace-doc               notes/crossall.txt
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+   also : pc-rpgmakerxp-doc                  notes/sha1-all.txt
+
+sha1 f3a04de20347223796d7ab409b3331ce7b47dce6   7147 bytes
+   mine : NewData/audio/se/Open4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1228e96c7a7b6923f077364e5ebf0b5d1738d98a   7124 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Ice5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 abe217211762119c17832b9b0d75a99ce5f0471f   7097 bytes
+   mine : NewData/audio/se/Parry.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f35dd949e69ed1d327fba41be45182ad868015c1   7073 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Silence.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e01520f02afd3a20d6e39710ea73b8c3db31d9bd   6981 bytes
+   mine : NewData/audio/se/Buzzer2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 25c31473c1762cba8a01663f0e929e30fe5dc7f6   6958 bytes
+   mine : NewData/audio/se/Saint5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1de1b9217638297bb397792f4feda9495a7bcf66   6952 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Run.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 45785919e80bd991bfc2afbf83ebace7714a5612   6860 bytes
+   mine : NewData/audio/se/Sound1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 cdad825de1087cbf787e88f4dd9a7303ea9ed780   6845 bytes
+   mine : dlc/BaseResource/audio/se/Ice9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5dde1a3c87814fcfc2a98f9b821b2e0352f62634   6834 bytes
+   mine : NewData/audio/se/Damage3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b6304421bb43f4bf0e9d3f5080cf6c73a54e2555   6787 bytes
+   mine : NewData/audio/se/Saint3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 27aaa5588e94e3f3a1607d602d07eb9c0e87464d   6770 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Sword1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3168bb214dc5ed29bdbbe56162c61fdb7144d21e   6639 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Attack1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c5f8c2c6b0657e0921868d00eb74f4566fd59d2b   6612 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Paralyze1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 aedec25f516bb7f9cc26af7e5afd8b0202ccef83   6604 bytes
+   mine : dlc/BaseResource/audio/se/Slash12.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 7059e06bccc8330745d8257cff45c8b39dcb315b   6552 bytes
+   mine : dlc/BaseResource/audio/se/Earth7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1359a52a40ec408d6738d78ded68fbada2faf7d6   6507 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Heal1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 ae5f2d92a60b415f92d4cb8b25888eaa2f4dfeb0   6445 bytes
+   mine : dlc/BaseResource/audio/se/Bow1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 902c13abc87a2ca7f03d7046b63fb486683e8cd6   6418 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Slash2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9d80aa748320bdd17f0466da7df69b920d6380da   6334 bytes
+   mine : dlc/BaseResource/audio/se/Slash9.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 30791f02da09daaebabc60d81e4a019f8cb4b715   6194 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Thunder2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 90eb196729fdcee82ae7086a209d76984c974138   6171 bytes
+   mine : dlc/BaseResource/audio/se/Darkness6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 056b9e3c7229c8598ebc23dfb2eb3e4b03798195   6158 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Slash3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 778f93036850660daddb7f5e7086bac4aea6fd31   6122 bytes
+   mine : dlc/BaseResource/audio/se/Earth6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 fce4e40ec5ef27b05bfdead504cf79256aef509c   6100 bytes
+   mine : NewData/audio/se/Damage1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0ce2a068bf21c13ef4ce5e12b94dcef8fceceee1   6034 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Evasion1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 0417c340ef7a8f813260c1fe1ba802558d15817d   6012 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Slash1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 99dd258ff454a99efb1ad15e66ea2a2080173244   5996 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Slash4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 05dfc675052ef3e932d1391848c38323b152af24   5977 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Slash5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8f432917d88d57f931e5aa3777a6d69f4b055f7d   5960 bytes
+   mine : dlc/BaseResource/audio/se/Slash6.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 cb3078fb37e70436e090d9c3d70e0577f987115b   5939 bytes
+   mine : NewData/audio/se/Open1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f61241bcb942a9d54debeb336544eb63eb97062d   5922 bytes
+   mine : NewData/audio/se/Item1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 050ffa4e99be7318c973fbc8d3126cbc240d76c6   5866 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Earth3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 72d99e65ce76663966eb11b894afb2ea71a3d013   5838 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Coin.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 796b82ac00271942f517a01acb7fe5a1a95f5a3e   5820 bytes
+   mine : NewData/audio/se/Shot2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2de54e8997afe88947b2f01bd0574bfa1a8fab99   5806 bytes
+   mine : dlc/BaseResource/audio/se/Slash11.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 39b3b97c210992e0f44ebce464e0239afd720241   5703 bytes
+   mine : dlc/BaseResource/audio/se/Slash10.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 5589312197296b44abfe1b042c81d5824edaba06   5698 bytes
+   mine : dlc/BaseResource/audio/se/Slash7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 9279426e194ccdfc4a43f61fe0220e3c1cf9f19c   5671 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Ice1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 88aa8023d35422e5eccbc8a3a9549793124465a4   5665 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Blow1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 698d19d1af12b10eb632b7f23c28929cdfcdeb94   5610 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Paralyze2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e7dd6e99727317ab0b117663f87e292eb6b279a0   5603 bytes
+   mine : NewData/audio/se/Dog.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 fbb3413290d4cb60e4d5895a17ec1576a92570e8   5583 bytes
+   mine : dlc/BaseResource/audio/se/Cursor3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 3ceb08006c87eaaec4e5b87a71299b1d54e0b3cc   5522 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Buzzer1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 bd5c10dad917453d6596649a0db7fbc80688ec7a   5507 bytes
+   mine : dlc/BaseResource/audio/se/Blow5.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b24c5e3db2b0382c0b5c49cb9d79323954df3c2c   5448 bytes
+   mine : dlc/BaseResource/audio/se/Chime1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 e4d9e37916105f963bcfd501a13b31616de1e410   5401 bytes
+   mine : dlc/BaseResource/audio/se/Slash8.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 818dd7f9ffdd66bb36d13a92f6ab25471be367a8   5360 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Miss.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 30b6109212ca97de0452d8f86767d27eebdc8297   5321 bytes
+   mine : NewData/audio/se/Jump2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 c513f33b6c0a19c2a059910d6c807804d6d71301   5285 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Blow3.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 51a304b58a011d3d11c472dfefd7c3c5510241e5   5279 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Blow2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 64849edf4ecc5d33d226a9c0809e8408aa7afe59   5096 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind4.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 fdf164e0f301f559717e6d777da78769dcc67c03   4876 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Key.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 a6fd4ab2c3fcf4e6baa4fd631e5bb1d409f8e75a   4852 bytes
+   mine : NewData/audio/se/Cancel1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 2924886b46beef2cb934a7e03f6782e662d76fba   4852 bytes
+   mine : NewData/audio/se/Jump1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 04e1a0168a25eb705c9b8eebbcec52a634791d68   4714 bytes
+   mine : NewData/audio/se/Decision2.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 b6d504c637449f66598287ac3afa4095ce5e9568   4696 bytes
+   mine : dlc/parallax_Resource_Pack/sample_project/audio/se/Knock.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 f0ab0e7715761ceec92495207279d0406f9823a6   4680 bytes
+   mine : NewData/audio/se/Switch1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 58809d03b40a89d3abe171a1a5589dd8eda81a79   4524 bytes
+   mine : dlc/BaseResource/audio/bgs/Clock.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 8088588237e7d813502c0678e014f0bfdd5a532d   4428 bytes
+   mine : dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Wind7.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+
+sha1 1a56855cd147449711448228ef5375050e2870ac   3763 bytes
+   mine : NewData/audio/se/Cursor1.ogg
+   also : pc-rpgmakervxace-doc               notes/sha1-all.txt
+

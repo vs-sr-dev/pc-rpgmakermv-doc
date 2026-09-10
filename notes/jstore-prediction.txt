@@ -1,0 +1,63 @@
+WHAT jstore.py WILL CLAIM ABOUT THE 129 JSON DOCUMENTS, WRITTEN BEFORE IT
+IS RUN
+==========================================================================
+
+Seventh object. The tool reads `FF` + a little-endian u32 count + that many
+sixteen-byte "GUIDs", counts everything it does not understand as filler, and
+therefore closes at residue 0 by construction. Its running total of empty
+closures stands at 138.
+
+`pc-rpgmakerxp-doc/docs/14` made seven predictions of this shape and got five;
+`pc-rpgmakervxace-doc` made eight and got seven, and the one it got right that
+the session before had got wrong was the diagnosis this file is built on:
+**the tool's false-positive rate tracks the density of the byte 0xFF and not
+the file's length.** `Animations.rxdata` at 136,243 bytes and 33.09 `0xFF` per
+1,000 claimed 5,518 GUIDs; `Tilesets.rxdata` at 194,262 bytes with not one
+`0xFF` claimed nothing.
+
+THE POPULATION CHOSEN, AND WHY
+------------------------------
+The 129 `.json` documents, 4,286,178 bytes -- this object's database, which is
+the analogue of the `.rxdata` and `.rvdata2` the last two sessions used. It is
+chosen because its `0xFF` density is PREDICTABLE FROM THE FORMAT rather than
+from a measurement, which makes the prediction falsifiable by the object and
+not by arithmetic.
+
+THE PREDICTIONS, NUMBERED
+-------------------------
+
+1. **All 129 close at residue 0.** Worth nothing, stated first so it cannot
+   later be reported as a result.
+
+2. **The `0xFF` count over all 129 will be ZERO.** UTF-8 is the only encoding
+   in play (`jsonprobe.py`: 128 of 129 parse as UTF-8) and **0xFF is not a
+   legal byte in UTF-8 at any position** -- the lead-byte range stops at 0xF4
+   and continuation bytes are 0x80..0xBF. This is a statement about the
+   encoding and not about this vendor.
+
+3. **Therefore the total claimed will be ZERO GUIDs in ZERO lists**, and 129
+   of 129 will claim zero.
+
+4. **The running total of empty closures will rise from 138 to 267.** 138 +
+   129 = 267.
+
+5. **The one file that does not parse as JSON --
+   `dlc/KadokawaPlugins_New/additional/animations.json` -- will behave like
+   the other 128 and not differently**, because it is concatenated JSON and
+   still UTF-8; its refusal is a grammar failure and not an encoding one.
+
+6. **Pointed at the 222 Chromium `.pak` instead, the tool WILL claim GUIDs**,
+   because those carry compressed and binary resources and 0xFF is a legal
+   byte there. The claim will be large enough that nobody could mistake it for
+   a finding, and the point of running it is to have the contrast in one
+   table.
+
+7. **Nothing the tool claims on either population will be a GUID.** The
+   closure is arithmetic and the arithmetic cannot fail, which is the defect,
+   and this is its seventh consecutive appearance.
+
+8. **The `.pak` claim per 1,000 bytes will be at least ten times the `.json`
+   claim per 1,000 bytes**, since the second is predicted to be exactly zero
+   and the first is predicted to be positive. Stated as a ratio so that a
+   small positive number on the JSON side would falsify prediction 2 and this
+   one together.

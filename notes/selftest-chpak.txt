@@ -1,0 +1,21 @@
+  a v5 index closes on the last byte                                                 ok     
+  its resource and alias counts are read                                             ok     
+  resource lengths come from consecutive offsets                                     ok     [5, 7, 9]
+  the payload sums to the file minus the header                                      ok     
+  a v4 index closes too                                                              ok     
+  v4 has no aliases                                                                  ok     
+  a version other than 4 or 5 is REFUSED                                             ok     
+  an encoding other than 1 is REFUSED                                                ok     
+  non-zero v5 padding is REFUSED                                                     ok     
+  zero resources is REFUSED                                                          ok     
+  THE CLOSURE TEST: one byte short and the sentinel no longer matches                ok     this is the whole check
+  a first offset that is not the end of the header is REFUSED                        ok     
+  offsets that go backwards are REFUSED                                              ok     
+  a file too short for its own index is REFUSED                                      ok     
+  selection is by the header arithmetic, not by extension                            ok     ['a.pak', 'b.dat']
+  a file named .pak whose arithmetic fails is not selected                           ok     
+  THE BLIND SPOT: a resource that is not UTF-8 is COUNTED and reported, not skipped  ok     a reader that skipped it would census its own competence
+  handed a directory it refuses through dirguard                                     ok     
+  a census over an empty population is REFUSED                                       ok     
+
+19 checks, 0 failures

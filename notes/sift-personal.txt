@@ -1,0 +1,23 @@
+root                : rpgmakermv-steam
+blobs searched      : 9641   (9641 of 9641 -- nothing was filtered out)
+bytes searched      : 2925489709
+chance rate in this haystack, per needle width:
+    2 bytes    44639.430374 expected occurrences
+    4 bytes        0.681144 expected occurrences
+    6 bytes        0.000010 expected occurrences
+    8 bytes        0.000000 expected occurrences
+
+pattern                                hits    blobs
+------------------------------------------------------
+e-mail shape                            561       30
+P.O. Box                                  6        6
+telephone shape                          38        8
+Documents and Settings                    0        0
+home dir                                  2        2
+/home/                                    1        1
+Copyright <name>                         62        4
+CONTROL must-hit (none derivable)   2656929     3313
+CONTROL must-miss 'zzqxjvwk'              0        0
+------------------------------------------------------
+positive control fired : YES (2656929 hits)
+negative control quiet : YES

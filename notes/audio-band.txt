@@ -1,0 +1,29 @@
+all pairs                    : n=1341  min   815  max  3135  mean  2617.8   <2048   6  [2048,3072) 1191  >=3072 144
+rates agree                  : n=1075  min   815  max  3135  mean  2604.7   <2048   6  [2048,3072)  970  >=3072  99
+rates differ (Ogg lower)     : n= 266  min  2112  max  3122  mean  2671.0   <2048   0  [2048,3072)  221  >=3072  45
+
+resampled pairs, delta in OGG samples: min 1056  max 2219  mean 1340.2
+   <1024 0   [1024,1536) 219   >=1536 47
+
+the six pairs below 2048 MPEG-4 samples:
+   dlc/BaseResource_Compressed/audio/me/Organ          815 samples  +0.7959 frames  44100/44100 Hz
+   dlc/BaseResource_Compressed/audio/me/Mystery        885 samples  +0.8643 frames  44100/44100 Hz
+   NewData/audio/me/Gameover2                         1024 samples  +1.0000 frames  44100/44100 Hz
+   NewData/audio/me/Mystery                           1024 samples  +1.0000 frames  44100/44100 Hz
+   NewData/audio/me/Organ                             1024 samples  +1.0000 frames  44100/44100 Hz
+   dlc/BaseResource_Compressed/audio/me/Gameover2     1210 samples  +1.1816 frames  44100/44100 Hz
+   NewData/audio/se/Run                               2112 samples  +2.0625 frames  22050/22050 Hz
+   dlc/BaseResource_Compressed/audio/se/Ice5          2112 samples  +2.0625 frames  22050/44100 Hz
+
+the top six:
+   dlc/BaseResource/audio/bgm/03_Fountain_of_Solace   3135 samples  +3.0615 frames  44100/44100 Hz
+   dlc/BaseResource_Compressed/audio/bgm/03_Fountain_of_Solace   3135 samples  +3.0615 frames  44100/44100 Hz
+   NewData/audio/se/Reflection                        3123 samples  +3.0498 frames  44100/44100 Hz
+   dlc/BaseResource_Compressed/audio/se/Reflection    3123 samples  +3.0498 frames  44100/44100 Hz
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/audio/se/Reflection   3123 samples  +3.0498 frames  44100/44100 Hz
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/audio/se/Reflection   3123 samples  +3.0498 frames  44100/44100 Hz
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se/Reflection   3123 samples  +3.0498 frames  44100/44100 Hz
+   dlc/parallax_Resource_Pack/sample_project/audio/se/Reflection   3123 samples  +3.0498 frames  44100/44100 Hz
+
+MPEG-4 sample count == ceil((ogg + delay)/1024)*1024, first delay that fits:
+   {2048: 1191, 'none': 147, 1024: 1, 0: 2}

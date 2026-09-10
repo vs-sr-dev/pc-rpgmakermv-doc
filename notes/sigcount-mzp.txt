@@ -1,0 +1,11 @@
+root      : rpgmakermv-steam
+signature : 4d 5a 50 00  (4 bytes)
+
+files searched                       : 9641
+files BEGINNING with the signature   : 0 of 9641
+occurrences ANYWHERE                 : 1, in 1 files
+   dlc/BaseResource/audio/bgm/Dungeon5.ogg                  1
+
+A signature that begins no file and appears inside many is not a
+near miss.  It is a coincidence, and the two counts are printed
+apart so that neither can be quoted as the other.

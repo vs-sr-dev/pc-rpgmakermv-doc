@@ -1,0 +1,23 @@
+ZIP central directory : 564 members, walked to residue 0
+
+basenames present in the macOS ZIP : 66
+basenames in nwjs-win       : 123
+basenames in nwjs-win-test  : 150
+basenames in nwjs-lnx       : 122
+
+`.pak` basenames in the ZIP : 4
+
+  basename                 osx crc/size           win crc/size           identical?
+  nw_100_percent.pak       187b2e3b/886108        8a5ff6d8/827931        no
+  nw_200_percent.pak       f569eb2d/1366823       aac16aa8/1099441       no
+  resources.pak            11b177e6/4499143       c3b66e66/4624843       no
+
+  nwjs-lnx       absent     1
+  nwjs-lnx       different  3
+  nwjs-win       absent     1
+  nwjs-win       different  3
+
+the three on disk, `.pak` basenames compared pairwise:
+  nwjs-win       vs nwjs-win-test  identical  55   different   1   only one side   0
+  nwjs-win       vs nwjs-lnx       identical   0   different  56   only one side   0
+  nwjs-win-test  vs nwjs-lnx       identical   0   different  56   only one side   0

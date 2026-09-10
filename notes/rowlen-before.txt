@@ -1,0 +1,8 @@
+column         min   med   max   total
+Title           57    79   103    6226
+Year             4     4     4     316
+Studio           4    19    49    1691
+Saga             0     0    18     332
+What it is      19   179   200   12519
+
+79 rows, 0 over budget

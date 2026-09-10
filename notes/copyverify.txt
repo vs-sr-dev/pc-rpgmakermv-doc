@@ -1,0 +1,108 @@
+source files       : 9641
+source directories : 406, of which empty 10
+  copied 200 of 9641
+  copied 400 of 9641
+  copied 600 of 9641
+  copied 800 of 9641
+  copied 1000 of 9641
+  copied 1200 of 9641
+  copied 1400 of 9641
+  copied 1600 of 9641
+  copied 1800 of 9641
+  copied 2000 of 9641
+  copied 2200 of 9641
+  copied 2400 of 9641
+  copied 2600 of 9641
+  copied 2800 of 9641
+  copied 3000 of 9641
+  copied 3200 of 9641
+  copied 3400 of 9641
+  copied 3600 of 9641
+  copied 3800 of 9641
+  copied 4000 of 9641
+  copied 4200 of 9641
+  copied 4400 of 9641
+  copied 4600 of 9641
+  copied 4800 of 9641
+  copied 5000 of 9641
+  copied 5200 of 9641
+  copied 5400 of 9641
+  copied 5600 of 9641
+  copied 5800 of 9641
+  copied 6000 of 9641
+  copied 6200 of 9641
+  copied 6400 of 9641
+  copied 6600 of 9641
+  copied 6800 of 9641
+  copied 7000 of 9641
+  copied 7200 of 9641
+  copied 7400 of 9641
+  copied 7600 of 9641
+  copied 7800 of 9641
+  copied 8000 of 9641
+  copied 8200 of 9641
+  copied 8400 of 9641
+  copied 8600 of 9641
+  copied 8800 of 9641
+  copied 9000 of 9641
+  copied 9200 of 9641
+  copied 9400 of 9641
+  copied 9600 of 9641
+files copied       : 9641
+  verified 200 of 9641
+  verified 400 of 9641
+  verified 600 of 9641
+  verified 800 of 9641
+  verified 1000 of 9641
+  verified 1200 of 9641
+  verified 1400 of 9641
+  verified 1600 of 9641
+  verified 1800 of 9641
+  verified 2000 of 9641
+  verified 2200 of 9641
+  verified 2400 of 9641
+  verified 2600 of 9641
+  verified 2800 of 9641
+  verified 3000 of 9641
+  verified 3200 of 9641
+  verified 3400 of 9641
+  verified 3600 of 9641
+  verified 3800 of 9641
+  verified 4000 of 9641
+  verified 4200 of 9641
+  verified 4400 of 9641
+  verified 4600 of 9641
+  verified 4800 of 9641
+  verified 5000 of 9641
+  verified 5200 of 9641
+  verified 5400 of 9641
+  verified 5600 of 9641
+  verified 5800 of 9641
+  verified 6000 of 9641
+  verified 6200 of 9641
+  verified 6400 of 9641
+  verified 6600 of 9641
+  verified 6800 of 9641
+  verified 7000 of 9641
+  verified 7200 of 9641
+  verified 7400 of 9641
+  verified 7600 of 9641
+  verified 7800 of 9641
+  verified 8000 of 9641
+  verified 8200 of 9641
+  verified 8400 of 9641
+  verified 8600 of 9641
+  verified 8800 of 9641
+  verified 9000 of 9641
+  verified 9200 of 9641
+  verified 9400 of 9641
+  verified 9600 of 9641
+
+bytes                   : 2925489709
+size agrees             : 9641 of 9641
+mtime agrees to 100 ns  : 9641 of 9641
+sha1 agrees             : 9641 of 9641
+directories, source     : 406   copy : 406   agree : True
+empty directories       : 10   copy : 10   agree : True
+size, mtime, sha1 and the directory tree all agree : True
+the original was opened read-only and nothing was written to it

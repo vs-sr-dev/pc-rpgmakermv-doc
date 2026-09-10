@@ -1,0 +1,31 @@
+denominator : 9641 files, 2925489709 bytes -- every file under rpgmakermv-steam, classified BY MAGIC
+
+  bucket      files        bytes      share  format
+  specified    5578    733723600   25.0804 %  PNG (W3C / ISO 15948)
+  specified    1341    684463713   23.3966 %  Ogg container (IETF RFC 3533; Vorbis I by Xiph.Org)
+  specified    1341    473279531   16.1778 %  MPEG-4 / ISO base media (ISO/IEC 14496-12; 14496-14 for M4A)
+  specified     102    379120928   12.9592 %  PE / MZ executable (Microsoft)
+  specified       2    205199578    7.0142 %  ZIP archive (PKWARE APPNOTE)
+  specified      20    188948352    6.4587 %  ELF (System V ABI / Tool Interface Standard 1.2)
+  specified     665     87430499    2.9886 %  plain text, ASCII
+  specified      19     22524976    0.7700 %  Mach-O (Apple, OS X ABI Mach-O File Format)
+  specified       5      7708840    0.2635 %  sfnt / TrueType outline font (Apple; Microsoft OpenType)
+  specified     294      3291324    0.1125 %  plain text, UTF-8 (Unicode; IETF RFC 3629)
+  specified       8       280588    0.0096 %  Unix archive (POSIX.1-2017 ar; SVR4 variant)
+  specified       8       113142    0.0039 %  plain text, Shift-JIS (JIS X 0208; Microsoft cp932)
+  specified       1        73307    0.0025 %  JPEG / JFIF (ITU-T T.81; ISO/IEC 10918)
+  decoded       222     89662863    3.0649 %  Chromium .pak resource container -- no specification; the Chromium source and third-party readers
+  opaque         35     49668468    1.6978 %  not identified by any signature this tool knows
+
+  specified  9384 files   2786158378 bytes    95.2373 % of 2925489709
+  decoded     222 files     89662863 bytes     3.0649 % of 2925489709
+  derived       0 files            0 bytes     0.0000 % of 2925489709
+  opaque       35 files     49668468 bytes     1.6978 % of 2925489709
+  SUM        9641 files   2925489709 bytes   100.0000 %
+  against the denominator 2925489709          RESIDUE 0
+
+  The SUM row is an ACCOUNTING figure and not a coverage figure.
+  It answers 'do the bytes add up to the object'. It does not
+  answer 'how much of this can be checked against something outside
+  it', because SPECIFIED and DECODED carry warrants of different
+  strength and DERIVED carries none but this session's.

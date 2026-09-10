@@ -1,0 +1,16 @@
+shell calls seen by the hook : 215
+  allowed                    : 211
+  REFUSED as rule-0          : 4
+      heredoc                2
+      inline program         1
+      in-place edit script   1
+
+the refusals, in order:
+  2026-09-10T08:29:55  inline program python -c "print('rule 0 deliberate probe')"
+  2026-09-10T09:08:12  heredoc        cd "<path>" && python - <<'EOF'\nprint("probe")\nEOF
+  2026-09-10T09:12:14  in-place edit script cd "<path>" && sed -i.bak 's/^import argparse$/import argparse\nimport collections/' /dev/null 2>/dev/null; grep -n "^im
+  2026-09-10T09:31:40  heredoc        cd "<path>" && python -c "import re,io,sys" 2>/dev/null; python - <<'X'\nX\necho skip
+
+A rule 0 violation that reaches the shell is a hook failure.
+A rule 0 violation that is REFUSED is the hook working, and the
+count of refusals is how many times the habit still fired.

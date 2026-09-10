@@ -1,0 +1,1 @@
+vendorhash: no third-party marker found under rpgmakermv-steam -- refusing to publish an empty list as a finding

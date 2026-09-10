@@ -1,0 +1,26 @@
+crossing blocks parsed : 297
+bytes over the crossing files : 7931979
+
+  partner repositories, counted by CROSSING and not by mention:
+    pc-rpgmakervxace-doc          281
+    pc-rpgmakerxp-doc              36
+    pc-academagia-doc               1
+
+  crossings by number of partners : {1: 276, 2: 21}
+
+  crossings with MORE THAN ONE partner : 21
+       264167  dlc/BaseResource/audio/bgs/Fire2.ogg           vxace,xp
+        71471  dlc/parallax_Resource_Pack/sample_project/audi vxace,xp
+        66946  NewData/audio/se/Applause1.ogg                 vxace,xp
+        35581  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/ vxace,xp
+        23649  NewData/audio/se/Monster4.ogg                  vxace,xp
+        21388  NewData/audio/se/Monster3.ogg                  vxace,xp
+        16416  NewData/audio/se/Crow.ogg                      vxace,xp
+        15382  NewData/audio/se/Chest2.ogg                    vxace,xp
+        15269  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/ vxace,xp
+        14679  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/ vxace,xp
+
+  where MY side of a crossing lives, by top-level directory:
+    dlc                       236
+    NewData                    60
+    steam_api.dll               1

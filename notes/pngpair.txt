@@ -1,0 +1,97 @@
+===== IconSet =====
+  file                                         bytes   chunks
+  IconSet.png                                 206953       28
+  IconSet.png                                  88556        8
+
+  A : IHDR IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IDAT IEND
+  B : IHDR pHYs iCCP cHRM PLTE tRNS IDAT IEND
+
+  chunk  A payload      B payload      verdict
+  IDAT   6706d4e14d5b   f78797b9a45b   differs
+  IEND   da39a3ee5e6b   da39a3ee5e6b   IDENTICAL
+  IHDR   f28ab5f69695   4174a62ba0f6   differs
+  PLTE   -              df77fd890c26   only in B
+  cHRM   -              c209db339de1   only in B
+  iCCP   -              c1abd6e49b9a   only in B
+  pHYs   -              c26521b7895f   only in B
+  tRNS   -              5ba93c9db0cf   only in B
+
+  same pixel stream (IDAT identical)       : False
+  same geometry and colour type (IHDR)     : False
+  same palette (PLTE)                      : None
+===== Balloon =====
+  file                                         bytes   chunks
+  Balloon.png                                  43832        8
+  Balloon.png                                  26028        6
+
+  A : IHDR IDAT IDAT IDAT IDAT IDAT IDAT IEND
+  B : IHDR pHYs iCCP cHRM IDAT IEND
+
+  chunk  A payload      B payload      verdict
+  IDAT   b078c2f409bc   61e79ab1c35e   differs
+  IEND   da39a3ee5e6b   da39a3ee5e6b   IDENTICAL
+  IHDR   fa52d273d9da   e8ec007b40c6   differs
+  cHRM   -              c209db339de1   only in B
+  iCCP   -              c1abd6e49b9a   only in B
+  pHYs   -              a66f91c001e7   only in B
+
+  same pixel stream (IDAT identical)       : False
+  same geometry and colour type (IHDR)     : False
+  same palette (PLTE)                      : None
+  => different pixels: this is not a recolour, and any claim
+     that one is an edit of the other has to be about the
+===== Window =====
+  file                                         bytes   chunks
+  Window.png                                    6776        4
+  Window.png                                    2121        4
+
+  A : IHDR tEXt IDAT IEND
+  B : IHDR sRGB IDAT IEND
+
+  chunk  A payload      B payload      verdict
+  IDAT   4d503d211109   177a6e017fd1   differs
+  IEND   da39a3ee5e6b   da39a3ee5e6b   IDENTICAL
+  IHDR   e537a4882e2d   af2d727171af   differs
+  sRGB   -              5ba93c9db0cf   only in B
+  tEXt   61a33fb909a3   -              only in A
+
+  same pixel stream (IDAT identical)       : False
+  same geometry and colour type (IHDR)     : False
+  same palette (PLTE)                      : None
+  => different pixels: this is not a recolour, and any claim
+     that one is an edit of the other has to be about the
+     image and not about the bytes.
+===== Damage1 =====
+  file                                         bytes   chunks
+  Damage1.png                                  32972        7
+  Damage1.png                                  36191        9
+
+  A : IHDR IDAT IDAT IDAT IDAT IDAT IEND
+  B : IHDR PLTE tRNS IDAT IDAT IDAT IDAT IDAT IEND
+
+  chunk  A payload      B payload      verdict
+  IDAT   ed6c8fc12ae6   68c5f76a7129   differs
+  IEND   da39a3ee5e6b   da39a3ee5e6b   IDENTICAL
+  IHDR   bed0946346bf   3be9876f9d64   differs
+  PLTE   -              d1ed8b97f898   only in B
+  tRNS   -              9fdfe45d2d92   only in B
+
+  same pixel stream (IDAT identical)       : False
+  same geometry and colour type (IHDR)     : False
+  same palette (PLTE)                      : None
+  => different pixels: this is not a recolour, and any claim
+     that one is an edit of the other has to be about the
+     image and not about the bytes.
+  name         object                        width height depth  colour type
+  IconSet.png  pc-rpgmakermv-doc               512    640     8  6 truecolour+alpha   206953 bytes
+  IconSet.png  pc-rpgmakervxace-doc            384    936     8  3 palettised   88556 bytes
+
+  Balloon.png  pc-rpgmakermv-doc               384    720     8  6 truecolour+alpha   43832 bytes
+  Balloon.png  pc-rpgmakervxace-doc            256    320     8  6 truecolour+alpha   26028 bytes
+
+  Window.png   pc-rpgmakermv-doc               192    288     8  6 truecolour+alpha   6776 bytes
+  Window.png   pc-rpgmakervxace-doc            128    128     8  6 truecolour+alpha   2121 bytes
+
+  Damage1.png  pc-rpgmakermv-doc               576    384     8  6 truecolour+alpha   32972 bytes
+  Damage1.png  pc-rpgmakervxace-doc            384    256     8  3 palettised   36191 bytes
+

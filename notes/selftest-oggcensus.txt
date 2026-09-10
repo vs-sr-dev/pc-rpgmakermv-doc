@@ -1,0 +1,17 @@
+  Ogg's CRC of '123456789' is 0x89A1897F             ok     0x89a1897f
+  and it is not zlib's CRC-32 of the same bytes      ok     0x89a1897f vs 0xcbf43926
+  the empty string sums to zero                      ok     
+  one hand-built page walks                          ok     1
+  its declared length is 27 + 1 + 5 = 33             ok     33
+  its CRC verifies                                   ok     
+  one flipped payload bit fails the CRC              ok     
+  a file not beginning OggS is refused               ok     
+  a truncated page is refused                        ok     
+  a page declaring more body than exists is refused  ok     
+  a page with a non-zero version byte is refused     ok     
+  an identification header reads channels and rate   ok     {'channels': 2, 'rate': 44100, 'bitrate_max': 0, 'bitrate_nominal': 112000, 'bitrate_min': 0}
+  its nominal bitrate is read                        ok     112000
+  a first packet that is not \x01vorbis is refused   ok     
+  a directory is refused rather than raised on       ok     
+
+15 checks, 0 failures

@@ -1,0 +1,16 @@
+  Locale                                               656e  'en'
+  RPG Maker MV.app/Contents/MacOS/Locale               656e  'en'
+  Scene Builder.app/Contents/MacOS/Locale              656e  'en'
+  Tileset Builder.app/Contents/MacOS/Locale            656e  'en'
+  Window Builder.app/Contents/MacOS/Locale             656e  'en'
+  tool/GENE/Locale                                     656e  'en'
+  tool/MADO/Locale                                     656e  'en'
+  tool/SAKAN/Locale                                    656e  'en'
+
+files of exactly 2 bytes : 8
+their bytes, summed      : 16
+distinct contents        : [b'en']
+all named `Locale`       : True
+
+depot 363896 declares    : 16
+residue                  : 0

@@ -1,0 +1,17 @@
+  one stem present in both containers pairs                              ok     []
+  the same basename in two directories is TWO pairs, not one             ok     ['one', 'x/same', 'y/same']
+  and pairing is within a directory, not across one                      ok     
+  the Ogg side is 44100/44100 = 1 s                                      ok     
+  the MPEG-4 side is 45056/44100                                         ok     
+  the MPEG-4 side is LONGER, which is the prediction                     ok     
+  and the overshoot is under one frame-time                              ok     0.933594 frames
+  the two sides agree on rate and channels                               ok     
+  THE BLIND SPOT: equal durations pair at delta 0 whatever the audio is  ok     
+  a stem present on one side only is not paired                          ok     4 rows: one, two, x/same, y/same
+  and it is still counted on its own side                                ok     
+  a SHORTER MPEG-4 side is reported with a negative delta                ok     
+  a file named .ogg that is not one is not collected                     ok     
+  a file named .m4a that is not one is not collected                     ok     
+  an empty tree REFUSES rather than pairing zero against zero            ok     oggcensus.ogg_files refuses first, and correctly
+
+15 checks, 0 failures

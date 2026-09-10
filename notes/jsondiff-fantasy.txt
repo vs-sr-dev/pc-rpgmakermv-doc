@@ -1,0 +1,37 @@
+A : rpgmakermv-steam/NewData_FantasyEN/data   9 JSON documents
+B : rpgmakermv-steam/NewData_FantasyJP/data   9 JSON documents
+names in both : 9   only A : 0   only B : 0
+
+  file             A recs B recs   same A only   B only   differ  bytes A / B
+  Actors.json           8      8    yes      0        0        8  1952 / 1997
+  Armors.json         100    100    yes      0        0       86  23858 / 24799
+  Classes.json          8      8    yes      0        0        8  30575 / 30568
+  Enemies.json         20     20    yes      0        0       11  11245 / 11321
+  Items.json           35     30 **NO**      5        0       25  12922 / 11829
+  Skills.json         235    235    yes      0        0      149  101058 / 104984
+  States.json          30     30    yes      0        0       27  13463 / 13743
+  Troops.json          20     20    yes      0        0       14  7652 / 7708
+  Weapons.json         50     50    yes      0        0       40  13804 / 14357
+
+files whose record COUNT agrees : 8 of 9
+records, A 506   B 501   difference 5
+
+  Items.json -- ids on one side only:
+    A only : [31, 32, 33, 34, 35]
+    B only : []
+
+  the records present in both, by how they differ:
+  file               differ    numeric string only  commonest fields
+  Actors.json             8          0          6  name 8, equips 2
+  Armors.json            86          0         85  name 86, description 82, atypeId 1, etypeId 1
+  Classes.json            8          0          7  name 8, learnings 1
+  Enemies.json           11          0         10  name 11, params 1
+  Items.json             25          0         13  name 25, description 22, effects 12, iconIndex 12
+  Skills.json           149          0        147  name 149, description 146, message1 140, note 2
+  States.json            27          0         27  name 27, message1 15, message2 13, message4 10
+  Troops.json            14          0         13  name 14, members 1
+  Weapons.json           40          0         40  description 40, name 40
+
+  A record that differs only in string fields is a TRANSLATION.
+  A record that differs in a numeric or structural field is not,
+  and the two columns are apart for that reason.

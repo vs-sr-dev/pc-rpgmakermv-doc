@@ -1,0 +1,20 @@
+major brand not 'M4A '            : 3
+    ('NewData/audio/me/Gameover2.m4a', 'mp42')
+    ('NewData/audio/me/Mystery.m4a', 'mp42')
+    ('NewData/audio/me/Organ.m4a', 'mp42')
+mvhd disagrees with stts          : 3
+    NewData/audio/me/Gameover2.m4a
+    NewData/audio/me/Mystery.m4a
+    NewData/audio/me/Organ.m4a
+stts carries a delta other than 1024 : 3
+    ('NewData/audio/me/Gameover2.m4a', {1024: 766, 838: 1})
+    ('NewData/audio/me/Mystery.m4a', {1024: 217, 139: 1})
+    ('NewData/audio/me/Organ.m4a', {1024: 277, 209: 1})
+mvhd timescale != mdhd timescale  : 3
+    ('NewData/audio/me/Gameover2.m4a', 90000, 44100)
+    ('NewData/audio/me/Mystery.m4a', 90000, 44100)
+    ('NewData/audio/me/Organ.m4a', 90000, 44100)
+
+mp42 == disagree      : True
+mp42 == short frame   : True
+mp42 == timescale 90k : True

@@ -1,0 +1,26 @@
+Ruby files in this object : 3
+       52298  dlc/parallax_Resource_Pack/sample_project/js/plugins/Ace to MV Converter.rb
+       50618  dlc/RPGmakerWeb_plugins/Shaz/Ace  MV Converter.rb
+       52298  dlc/RPGmakerWeb_plugins/Shaz/Ace to MV Converter.rb
+
+distinct sha1 over the three : 2  {'62a1984c7d7d2bba08f417ba5de3a07d62d3165f': 2, '4fb3aa1925d2b533e5e0e9950570a5a78adecc1b': 1}
+
+RPG:: classes named by the converter : 17
+   RPG::Actor RPG::Animation RPG::Armor RPG::AudioFile RPG::Class RPG::CommonEvent RPG::Enemy RPG::Event::Page RPG::Item RPG::Map::Encounter RPG::MoveCommand RPG::MoveRoute RPG::Skill RPG::State RPG::Tileset RPG::Troop RPG::Weapon
+
+RPG:: classes named in pc-rpgmakervxace-doc/docs : 21
+   RPG::Actor RPG::AudioFile RPG::BGM RPG::BGS RPG::Enemy RPG::Event RPG::Event::Page RPG::Event::Page::Condition RPG::Event::Page::Graphic RPG::EventCommand RPG::Map RPG::MapInfo RPG::MoveCommand RPG::MoveRoute RPG::Skill RPG::Sprite RPG::System RPG::Tileset RPG::Troop RPG::Weapon RPG::Weather
+
+in both                      : 10   RPG::Actor RPG::AudioFile RPG::Enemy RPG::Event::Page RPG::MoveCommand RPG::MoveRoute RPG::Skill RPG::Tileset RPG::Troop RPG::Weapon
+only the converter names     : 7   RPG::Animation RPG::Armor RPG::Class RPG::CommonEvent RPG::Item RPG::Map::Encounter RPG::State
+only the previous session's  : 11   RPG::BGM RPG::BGS RPG::Event RPG::Event::Page::Condition RPG::Event::Page::Graphic RPG::EventCommand RPG::Map RPG::MapInfo RPG::Sprite RPG::System RPG::Weather
+
+the converter names 10 of the previous session's 21
+
+MV `.json` file names the converter writes : 14
+   Actors Animations Armors Classes CommonEvents Enemies Items MapInfos Skills States System Tilesets Troops Weapons
+`.json` names in NewData\data              : 15
+   Actors Animations Armors Classes CommonEvents Enemies Items Map001 MapInfos Skills States System Tilesets Troops Weapons
+names the converter writes that the object ships : 14 of 14
+
+the three files' encodings : {'cp932': 2, 'utf-8': 1}

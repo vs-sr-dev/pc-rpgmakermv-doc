@@ -1,0 +1,26 @@
+A : rpgmakermv-steam/NewData_FantasyEN/data   9 JSON documents
+B : rpgmakermv-steam/NewData_FantasyJP/data   9 JSON documents
+names in both : 9   only A : 0   only B : 0
+
+  file             A recs B recs   same A only   B only   differ  bytes A / B
+  Items.json           35     30 **NO**      5        0       25  12922 / 11829
+
+files whose record COUNT agrees : 0 of 1
+records, A 35   B 30   difference 5
+
+  Items.json -- ids on one side only:
+    A only : [31, 32, 33, 34, 35]
+    B only : []
+      A #31  {"id": 31, "animationId": 51, "consumable": true, "damage": {"critical": false, "elementId": 0, "formula": "0", "type": 0, "variance": 20}, "description": "Increases defense by 3 points.", "effects": [{"code": 42, "dataId": 3, "value1": 3, "value2": 0}], "hitType": 0, "iconIndex": 35, "itypeId": 1, "name": "Guard Increase", "note": "", "occasion": 2, "price": 3000, "repeats": 1, "scope": 7, "speed
+      A #32  {"id": 32, "animationId": 51, "consumable": true, "damage": {"critical": false, "elementId": 0, "formula": "0", "type": 0, "variance": 20}, "description": "Increases M.Attack by 3 points.", "effects": [{"code": 42, "dataId": 4, "value1": 3, "value2": 0}], "hitType": 0, "iconIndex": 36, "itypeId": 1, "name": "Magic Increase", "note": "", "occasion": 2, "price": 3000, "repeats": 1, "scope": 7, "spee
+      A #33  {"id": 33, "animationId": 51, "consumable": true, "damage": {"critical": false, "elementId": 0, "formula": "0", "type": 0, "variance": 20}, "description": "Increases M.Defense by 3 points.", "effects": [{"code": 42, "dataId": 5, "value1": 3, "value2": 0}], "hitType": 0, "iconIndex": 37, "itypeId": 1, "name": "Resistance Increase", "note": "", "occasion": 2, "price": 3000, "repeats": 1, "scope": 7,
+      A #34  {"id": 34, "animationId": 51, "consumable": true, "damage": {"critical": false, "elementId": 0, "formula": "0", "type": 0, "variance": 20}, "description": "Increases agility by 3 points.", "effects": [{"code": 42, "dataId": 6, "value1": 3, "value2": 0}], "hitType": 0, "iconIndex": 38, "itypeId": 1, "name": "Speed Increase", "note": "", "occasion": 2, "price": 3000, "repeats": 1, "scope": 7, "speed
+      A #35  {"id": 35, "animationId": 51, "consumable": true, "damage": {"critical": false, "elementId": 0, "formula": "0", "type": 0, "variance": 20}, "description": "Increases luck by 3 points.", "effects": [{"code": 42, "dataId": 7, "value1": 3, "value2": 0}], "hitType": 0, "iconIndex": 39, "itypeId": 1, "name": "Luck Increase", "note": "", "occasion": 2, "price": 3000, "repeats": 1, "scope": 7, "speed": 0
+
+  the records present in both, by how they differ:
+  file               differ    numeric string only  commonest fields
+  Items.json             25          0         13  name 25, description 22, effects 12, iconIndex 12
+
+  A record that differs only in string fields is a TRANSLATION.
+  A record that differs in a numeric or structural field is not,
+  and the two columns are apart for that reason.

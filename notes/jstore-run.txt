@@ -1,0 +1,39 @@
+=== the 129 JSON documents ===
+  files                      : 129
+  bytes                      : 4286178
+  closing at residue 0       : 129 of 129
+  claiming ZERO GUIDs        : 129
+  claiming at least one      : 0
+  TOTAL GUIDs claimed        : 0
+  total lists claimed        : 0
+  0xFF bytes over the family : 0
+  0xFF per 1,000 bytes       : 0.0000
+  GUIDs per 1,000 bytes      : 0.0000
+
+=== the 222 Chromium .pak ===
+  files                      : 222
+  bytes                      : 89662863
+  closing at residue 0       : 222 of 222
+  claiming ZERO GUIDs        : 203
+  claiming at least one      : 19
+  TOTAL GUIDs claimed        : 990115
+  total lists claimed        : 116
+  0xFF bytes over the family : 127496
+  0xFF per 1,000 bytes       : 1.4219
+  GUIDs per 1,000 bytes      : 11.0426
+  the ten biggest claims:
+     nwjs-win-test/resources.pak                               13088130 bytes    16679 0xFF    418232 GUIDs
+     nwjs-lnx/resources.pak                                     4508128 bytes     7813 0xFF    213175 GUIDs
+     nwjs-win/resources.pak                                     4624843 bytes     8415 0xFF    156144 GUIDs
+     qtwebengine_resources.pak                                  5223311 bytes    70146 0xFF    123927 GUIDs
+     nwjs-lnx/nw_200_percent.pak                                1083941 bytes     2843 0xFF     58408 GUIDs
+     nwjs-win/nw_200_percent.pak                                1099441 bytes     2917 0xFF      5374 GUIDs
+     nwjs-win-test/nw_200_percent.pak                           1099441 bytes     2917 0xFF      5374 GUIDs
+     nwjs-lnx/locales/ml.pak                                     520079 bytes       48 0xFF      1457 GUIDs
+     nwjs-win/nw_100_percent.pak                                 827931 bytes     1740 0xFF      1061 GUIDs
+     nwjs-win-test/nw_100_percent.pak                            827931 bytes     1740 0xFF      1061 GUIDs
+
+=== THE CONTRAST ===
+  JSON : 0 GUIDs over 4286178 bytes
+  .pak : 990115 GUIDs over 89662863 bytes
+  the running total of empty closures : 138 + 129 = 267

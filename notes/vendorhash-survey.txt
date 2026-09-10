@@ -1,0 +1,20 @@
+companies named in a version resource under rpgmakermv-steam
+
+  CompanyName                                      files   covered  state
+  Digia Plc and/or its subsidiary(-ies)               49        49  COVERED
+  The ICU Project                                      6         6  COVERED
+  The NWJS Community                                   5         5  COVERED
+  Microsoft Corporation                                4         0  **NO PROBE**
+  CompanyShortName                                     3         3  COVERED
+  Valve Corporation                                    2         2  COVERED
+  KADOKAWA                                             2         0  the PUBLISHER, not a third party
+
+distinct companies       : 7
+  of which the publisher : 1
+  third parties          : 6
+with no probe at all     : 1
+the table's coverage     : 5 of 6 = 83.3333 %
+
+A company with no probe is a third party this tool cannot see.
+The number above is the tool's own blind spot, measured, and it is
+what a fixed marker table owes the session that inherits it.

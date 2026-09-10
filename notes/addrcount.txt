@@ -1,0 +1,143 @@
+=== THE E-MAIL SHAPES ===
+blobs carrying at least one           : 30
+occurrences                           : 561
+DISTINCT addresses                    : 92
+distinct domains                      : 64
+
+  address       hits   files  domain
+  A4a1320         82       9  openssl.org
+  Afff53d         43       4  cryptsoft.com
+  A16b969         33       4  cryptsoft.com
+  A721187         30       3  courtesan.com
+  A417c0a         26       2  webkit.org
+  Addd9ad         23       4  openssl.org
+  A15af33         15       3  mips.com
+  Af1ce52         12       3  freebsd.org
+  Aff83bd         11       5  thawte.com
+  A7f2c96          9       3  openbsd.org
+  Ac6c5b2          9       3  gzip.org
+  A29328b          9       3  alumni.caltech.edu
+  Ad859e3          7       4  haxx.se
+  A8e6c37          7       4  uiuc.edu
+  A22642c          7       4  citi.umich.edu
+  Af54cff          6       3  openbsd.org
+  Aff7d55          6       3  openbsd.org
+  A2b14f4          6       3  mips.com
+  A9db3eb          6       3  mips.com
+  A554383          6       3  nongnu.org
+  A29fede          6       3  nongnu.org
+  Ae82fc8          6       3  users.sourceforge.net
+  A3b65e5          6       3  muppetlabs.com
+  A14e7ff          5       5  example.com
+  A471083          4       1  valicert.com
+  A9d3e15          4       4  chromium.org
+  A101397          4       2  pantherdev.com
+  Ad8c1bb          4       4  rpgmakerweb.com
+  Ae35d5d          4       4  sourceware.org
+  Ae5041c          4       4  abilitiessoft.com
+  A9b4567          3       3  gmail.com
+  A849f96          3       3  goodboydigital.com
+  Add87e5          3       3  0xlab.org
+  Abe71b4          3       3  sigmasoft.com
+  A379044          3       3  openbsd.org
+  A6c6d45          3       3  softweyr.com
+  Aac2ab3          3       3  freebsd.org
+  Acc73e3          3       3  iclub.nsu.ru
+  A005787          3       3  drijf.net
+  A2702bd          3       3  openbsd.org
+  A830f37          3       3  freebsd.org
+  A010979          3       3  openbsd.org
+  Ab83336          3       3  obtuse.com
+  A0a1111          3       3  physnet.uni-hamburg.de
+  Af09371          3       3  mansr.com
+  Af32c31          3       3  gmail.com
+  Af3be9b          3       3  planet-d.net
+  Ab4576e          3       3  ithinksw.com
+  A59cffc          3       3  xvid.org
+  Af3d95f          3       3  elecard.net.ru
+  A3fd409          3       3  zoy.org
+  A3b8df6          3       3  free.fr
+  A8082fa          3       3  bbrox.org
+  A65215b          3       3  mips.com
+  A2131e8          3       3  gmx.at
+  Adf1aab          3       3  mips.com
+  A1ea0e1          3       3  mips.com
+  A5892c6          3       3  mips.com
+  Af247a4          3       3  mips.com
+  Af6fb93          3       3  mips.com
+  A0b996d          3       3  uk.sun.com
+  A31513b          3       3  modartt.com
+  A13b4db          3       3  freedesktop.org
+  A609526          3       3  genie.uottawa.ca
+  Aeb93d9          3       3  gmd.de
+  Aeb3a3f          3       3  bnoordhuis.nl
+  A9f48bd          3       3  monkey.org
+  A731820          3       3  datanerds.net
+  A80fe8b          3       3  gmail.com
+  A908152          3       3  ffmpeg.org
+  A9b38cc          3       3  fake.chromium.org
+  A9c96af          3       3  example.com
+  A6d004c          3       3  fake.chromium.org
+  A098627          3       3  fake.chromium.org
+  Ad55898          3       3  mhtml.blin
+  A3978ed          3       3  gmail.com
+  Aea1c7b          3       3  bot.talk.google.com
+  Af68d6a          3       3  android.com
+  Aa42fc9          2       2  gmail.com
+  Aef4a2a          2       1  homemail.com.au
+  A392780          2       2  chrome.com
+  A4c1684          1       1  sgdn.pm.gouv.fr
+  A38150e          1       1  -co6.km
+  Acd06a5          1       1  35g6.bika35g6.bika35g6.ajl
+  A12afa4          1       1  razelon.com
+  A98015c          1       1  gmail.com
+  A002db3          1       1  freebsd.org
+  Ad752ef          1       1  u.washington.edu
+  Aaf0def          1       1  narod.ru
+  Abcb193          1       1  gmail.com
+  A81a0db          1       1  videolan.org
+  Af9db23          1       1  gmx.net
+
+  the ten commonest domains:
+     openssl.org                              105
+     cryptsoft.com                            76
+     mips.com                                 45
+     openbsd.org                              30
+     courtesan.com                            30
+     webkit.org                               26
+     freebsd.org                              19
+     gmail.com                                16
+     nongnu.org                               12
+     thawte.com                               11
+
+  addresses appearing in exactly one file  : 13
+  addresses appearing in more than one     : 79
+
+=== THE UUID NODE FIELDS ===
+version-1 UUIDs found by this pattern : 731
+distinct node fields                  : 103
+node fields in exactly one file       : 47
+node fields in more than one file     : 56
+
+  node         uuids   files
+  Mae87           59      35
+  M8d29           34      34
+  M31cc           32      20
+  M6faf           28      16
+  Mfad6           16      16
+  Maac5           16      16
+  M6285           16      16
+  M57e0           16      16
+  M2eca           14      14
+  M72e6           14      14
+  M2eae           14      14
+  M5529           13      13
+  M9c7b           13      13
+  M231d           13      13
+  M4285           13      13
+
+  The node field is not printed. The label above is a hash of it, the
+  same convention uuidscan.py uses, so that two identifiers from one
+  machine can be seen to be from one machine without the machine
+  being named. pc-rpgmaker2003-doc/docs/12: a device identifier is
+  neither credit nor routing, and is redacted anyway.

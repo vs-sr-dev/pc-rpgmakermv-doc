@@ -1,0 +1,27 @@
+  file                     bytes    lines  comment   blank  classes  methods
+  rpg_core.js             235076     9321     3343     826       28      458
+  rpg_managers.js          81146     2839       50     377       10      330
+  rpg_objects.js          293675    10641      294    1477       30     1376
+  rpg_scenes.js            78715     2689      265     391       21      343
+  rpg_sprites.js           77867     2691       78     360       18      318
+  rpg_windows.js          176619     6024      191     932       46      834
+  TOTAL                   943098    34205     4221    4363      153     3659
+
+  comment lines as a share of all lines : 4221 of 34205
+  distinct class names over the six     : 153
+
+  the first line of rpg_core.js:
+     //=============================================================================
+     // rpg_core.js v1.6.2
+     //=============================================================================
+
+  NewData/js/libs:
+     fpsmeter.js                               7571
+     iphone-inline-video.browser.js            3664
+     lz-string.js                              6702
+     pixi-picture.js                          22927
+     pixi-tilemap.js                          42752
+     pixi.js                                1295220
+     TOTAL                                  1378836
+
+  the engine and its libraries together : 2321934 bytes

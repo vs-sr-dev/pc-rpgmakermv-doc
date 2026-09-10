@@ -1,0 +1,16 @@
+  subtree                  files          bytes    claimed      exact  verdict
+  dlc                       4612     1458606099    49.8585    49.8585  ok
+  NewData                   1101      403792717    13.8026    13.8026  ok
+  (root)                      37      323097210    11.0442    11.0442  ok
+  nwjs-win-test              152      232540106     7.9488     7.9488  ok
+  nwjs-lnx                   122      202552945     6.9237     6.9237  ok
+  nwjs-win                   125      159791316     5.4620     5.4620  ok
+  Help                       491       47622147     1.6278     1.6278  ok
+  tutorial-win                40       45369543     1.5508     1.5508  ok
+  tutorial-osx                49       22551339     0.7709     0.7709  ok
+  qtwebengine_locales         53       14282881     0.4882     0.4882  ok
+  Generator                 2738        9283272     0.3173     0.3173  ok
+
+rows checked : 11    rows differing : 0
+every figure above was counted by walking, and every percentage was
+recomputed in exact decimal rather than in floating point.

@@ -1,0 +1,39 @@
+debug.log                    1065 bytes   15 lines  line lengths [71]  15 x 71 = 1065
+     first : [0915/174749:WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+     last  : [0411/014900:WARNING:resource_bundle.cc(286)] locale_file_path.empty()
+     mtime : 2026-04-11T01:49:00.176602
+nwjs-win-test/debug.log      1340 bytes   20 lines  line lengths [67]  20 x 67 = 1340
+     first : [0309/204813.319:ERROR:settings.cc(263)] Settings version is not 1
+     last  : [1019/233909.135:ERROR:settings.cc(263)] Settings version is not 1
+     mtime : 2025-10-19T23:39:09.174202
+projects/steam_autocloud.vdf     51 bytes
+
+the tree            : 2925489709
+SizeOnDisk          : 2925487466
+residue             : 2243
+the three files sum : 2456
+difference          : 213
+
+213 / 71 = 3.0000 -- a whole number of lines
+213 / 67 = 3.1791 -- NOT a whole number of lines, so this file cannot have been 213 bytes
+
+the root log's first 3 lines are 213 bytes
+and (1065 - 213) + 1340 + 51 = 2243
+residue against the shop's 2243 : 0
+
+the root log's line dates, in order:
+    1  0915/174749:W
+    2  0915/174750:W
+    3  0915/174751:W
+    4  1019/233432:W
+    5  1019/233433:W
+    6  0317/215010:W
+    7  0317/215012:W
+    8  0317/220855:W
+    9  0317/220855:W
+   10  0318/203321:W
+   11  0318/203322:W
+   12  0408/203207:W
+   13  0408/203209:W
+   14  0411/014859:W
+   15  0411/014900:W

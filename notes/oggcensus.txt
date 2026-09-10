@@ -1,0 +1,28 @@
+root                      : rpgmakermv-steam
+files whose first bytes are OggS : 1341
+parsed as Ogg             : 1341
+refused                   : 0
+bytes in parsed files     : 684463713
+
+-- closure: 27 + segments + sum(segment lengths), page by page ---
+   files closing at residue 0        : 1341 of 1341
+   pages walked                      : 144905
+   pages whose CRC-32 verifies       : 144905 of 144905
+   files with exactly one stream     : 1341 of 1341
+   files whose last page flags EOS   : 1341 of 1341
+
+-- what the identification header declares ----------------------
+   channels        : {2: 547, 1: 794}
+   sample rates    : {44100: 629, 22050: 708, 32000: 4}
+   nominal bitrate : 293 x 499821, 6 x 192000, 3 x 128000, 55 x 110000, 2 x 92001, 51 x 89990, 5 x 86001, 245 x 64000, 1 x 58000, 22 x 48000, 71 x 45111, 2 x 42000, 321 x 40222, 264 x 24000
+
+-- the clock the granule position is ----------------------------
+   total playing time : 20484.642 s (341.41 min)
+   longest            : dlc/BaseResource/audio/bgm/03_A_Hero's_Return.ogg at 170.680 s
+   shortest           : dlc/BaseResource_Compressed/audio/se/Cursor1.ogg at 0.028 s
+   mean               : 15.276 s
+
+   The granule position of a Vorbis stream's last page is the
+   number of samples; divided by the sample rate it is the
+   playing time. It is declared by the encoder and this tool does
+   not decode a single sample to check it.

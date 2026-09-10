@@ -1,0 +1,19 @@
+document : docs/00-predictions.md
+plan     : notes/workplan.txt
+states this session changes : toolbox, classifier, readers, vendortable, gamelist, notesdir
+
+clauses            : 58
+REGISTER MEMBERS   : 10
+
+  C09   reads classifier                   cites notes/coverage-tree-before.txt
+  C27   reads toolbox                      cites notes/toolscan-before.txt, notes/toolsdiff-before.txt
+  C28   reads toolbox                      cites notes/dirguard-survey-before.txt, notes/nameguard-survey-before.txt
+  C29   reads readers+toolbox              cites notes/refusalclass-before.txt, notes/refusals-before.txt
+  C30   reads gamelist                     cites notes/rowlen-before.txt
+  C37   reads classifier                   cites notes/coverage-tree-before.txt
+  C38   reads classifier                   cites notes/coverage-tree-before.txt
+  C39   reads classifier                   cites notes/coverage-tree-before.txt
+  C40   reads vendortable                  cites notes/vendorhash-before.txt
+  C41   reads readers+toolbox              cites notes/refusals-before.txt
+
+failures : 0

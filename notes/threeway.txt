@@ -1,0 +1,39 @@
+distinct sha1  MV 7416   XP 913   VX Ace 1935
+
+MV & XP          : 36
+MV & VX Ace      : 281
+MV & XP & VX Ace : 21
+XP & VX Ace      : 26   <- what pc-rpgmakervxace-doc/docs/11 reported
+
+the three-way set is a subset of the XP/VX Ace set : True
+in XP and VX Ace but NOT in MV : 5
+
+the 21 that all three carry, by the MV's name for them:
+   NewData/audio/se/Applause1.ogg                        XP: 059-Applause01.ogg           VX: Applause1.ogg
+   NewData/audio/se/Book1.ogg                            XP: 046-Book01.ogg               VX: Book1.ogg
+   NewData/audio/se/Chest2.ogg                           XP: 044-Chest01.ogg              VX: Chest.ogg
+   NewData/audio/se/Close3.ogg                           XP: 027-Door04.ogg               VX: Close3.ogg
+   NewData/audio/se/Crow.ogg                             XP: 078-Small05.ogg              VX: Crow.ogg
+   NewData/audio/se/Dive.ogg                             XP: 022-Dive02.ogg               VX: Dive.ogg
+   NewData/audio/se/Equip1.ogg                           XP: 005-System05.ogg             VX: Equip1.ogg
+   NewData/audio/se/Fall.ogg                             XP: 014-Move02.ogg               VX: Fall.ogg
+   NewData/audio/se/Magic1.ogg                           XP: 087-Action02.ogg             VX: Magic1.ogg
+   NewData/audio/se/Monster3.ogg                         XP: 084-Monster06.ogg            VX: Monster3.ogg
+   NewData/audio/se/Monster4.ogg                         XP: 085-Monster07.ogg            VX: Monster4.ogg
+   NewData/audio/se/Open3.ogg                            XP: 026-Door03.ogg               VX: Open3.ogg
+   NewData/audio/se/Push.ogg                             XP: 045-Push01.ogg               VX: Push.ogg
+   NewData/audio/se/Shop2.ogg                            XP: 006-System06.ogg             VX: Shop.ogg
+   NewData/audio/se/Skill1.ogg                           XP: 086-Action01.ogg             VX: Skill1.ogg
+   NewData/audio/se/Switch2.ogg                          XP: 033-Switch02.ogg             VX: Switch2.ogg
+   NewData/audio/se/Switch3.ogg                          XP: 034-Switch03.ogg             VX: Switch3.ogg
+   NewData/audio/se/Teleport.ogg                         XP: 018-Teleport01.ogg           VX: Teleport.ogg
+   dlc/BaseResource/audio/bgs/Fire1.ogg                  XP: 013-Fire01.ogg               VX: Fire.ogg
+   dlc/BaseResource/audio/se/Load2.ogg                   XP: 008-System08.ogg             VX: Load.ogg
+   dlc/BaseResource/audio/se/Save2.ogg                   XP: 007-System07.ogg             VX: Save.ogg
+
+the 5 the XP and the VX Ace share that the MV dropped:
+   XP: 010-River01.ogg                    VX: River.ogg
+   XP: 016-Drips01.ogg                    VX: Drips.ogg
+   XP: 018-Darkness01.ogg                 VX: Darkness.ogg
+   XP: 011-System11.ogg                   VX: Collapse2.ogg
+   XP: 012-System12.ogg                   VX: Collapse1.ogg

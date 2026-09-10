@@ -1,0 +1,777 @@
+Qt5Core.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Core.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Gui.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Gui.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Network.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Network.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Qml.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Qml.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Quick.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Quick.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Svg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Svg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5WebEngine.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5WebEngine.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5WebEngineCore.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5WebEngineCore.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5WebView.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5WebView.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt5Widgets.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Widgets.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+QtWebEngineProcess.exe
+    (no version resource)
+RPGMV.exe
+    FileDescription    RPG Maker MV
+    LegalCopyright     Copyright (C) 2015 KADOKAWA CORPORATION / YOJI OJIMA
+    ProductName        RPG Maker MV
+    ProductVersion     1.6.3
+
+icudt53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU Data DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icudt53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+icuin53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU I18N DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icuin53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+icuuc53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU Common DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icuuc53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+quazip.dll
+    (no version resource)
+steam_api.dll
+    LegalCopyright     Copyright (C) 2007
+    InternalName       Steam Client API (buildbot_steam-relclient-win32-builder_steam_rel_client_win32@steam-relclient-win32-builder)
+    FileVersion        03.75.32.07
+    CompanyName        Valve Corporation
+    ProductVersion     01.00.00.01
+    FileDescription    Steam Client API
+    OriginalFilename   steam_api.dll
+    ProductName        Steam Client API
+
+zlib1.dll
+    FileDescription    zlib data compression library
+    FileVersion        1.2.8
+    InternalName       zlib1.dll
+    LegalCopyright     (C) 1995-2013 Jean-loup Gailly & Mark Adler
+    OriginalFilename   zlib1.dll
+    ProductName        zlib
+    ProductVersion     1.2.8
+    Comments           For more information visit http://www.zlib.net/
+
+bearer/qgenericbearer.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qgenericbearer.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+bearer/qnativewifibearer.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qnativewifibearer.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks/js/libs/steam_api.dll
+    LegalCopyright     Copyright (C) 2007
+    InternalName       Steam Client API (buildbot_steam-rel-win32-builder_steam_rel_client_win32@steam-rel-win32-builder)
+    FileVersion        03.04.27.90
+    CompanyName        Valve Corporation
+    ProductVersion     01.00.00.01
+    FileDescription    Steam Client API
+    OriginalFilename   steam_api.dll
+    ProductName        Steam Client API
+
+dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks/js/libs/steamworks-win32.node
+    (no version resource)
+iconengines/qsvgicon.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qsvgicon.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qdds.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qdds.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qgif.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qgif.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qicns.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qicns.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qico.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qico.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qjp2.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qjp2.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qjpeg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qjpeg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qmng.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qmng.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qsvg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qsvg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qtga.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qtga.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qtiff.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qtiff.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qwbmp.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwbmp.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+imageformats/qwebp.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwebp.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+nwjs-win/Game.exe
+    CompanyName        KADOKAWA
+    FileDescription    game
+    InternalName       game_exe
+    LegalCopyright     Copyright 2017 Kadokawa. All rights reserved.
+    OriginalFilename   game.exe
+    ProductName        game
+
+nwjs-win/d3dcompiler_47.dll
+    CompanyName        Microsoft Corporation
+    FileDescription    Direct3D HLSL Compiler for Redistribution
+    FileVersion        10.0.16299.15 (WinBuild.160101.0800)
+    InternalName       d3dcompiler_47.dll
+    LegalCopyright     © Microsoft Corporation. All rights reserved.
+    OriginalFilename   d3dcompiler_47.dll
+    ProductName        Microsoft® Windows® Operating System
+    ProductVersion     10.0.16299.15
+
+nwjs-win/ffmpeg.dll
+    (no version resource)
+nwjs-win/libEGL.dll
+    FileDescription    ANGLE libEGL Dynamic Link Library
+    FileVersion        2.1.0.2c9cc8b6e810
+    InternalName       libEGL
+    LegalCopyright     Copyright (C) 2015 Google Inc.
+    OriginalFilename   libEGL.dll
+    PrivateBuild       2.1.0.2c9cc8b6e810
+    ProductName        ANGLE libEGL Dynamic Link Library
+    ProductVersion     2.1.0.2c9cc8b6e810
+    Comments           Build Date: 2018-01-17 20:56:20 +0000
+
+nwjs-win/libGLESv2.dll
+    FileDescription    ANGLE libGLESv2 Dynamic Link Library
+    FileVersion        2.1.0.2c9cc8b6e810
+    InternalName       libGLESv2
+    LegalCopyright     Copyright (C) 2015 Google Inc.
+    OriginalFilename   libGLESv2.dll
+    PrivateBuild       2.1.0.2c9cc8b6e810
+    ProductName        ANGLE libGLESv2 Dynamic Link Library
+    ProductVersion     2.1.0.2c9cc8b6e810
+    Comments           Build Date: 2018-01-17 20:56:20 +0000
+
+nwjs-win/node.dll
+    (no version resource)
+nwjs-win/nw.dll
+    CompanyName        The NWJS Community
+    FileDescription    nwjs
+    InternalName       nw_dll
+    LegalCopyright     Copyright 2017 The Chromium Authors. All rights reserved.
+    OriginalFilename   nw.dll
+    ProductName        nwjs
+
+nwjs-win/nw_elf.dll
+    CompanyName        The NWJS Community
+    FileDescription    nwjs
+    InternalName       nw_elf_dll
+    LegalCopyright     Copyright 2017 The Chromium Authors. All rights reserved.
+    OriginalFilename   nw_elf.dll
+    ProductName        nwjs
+
+nwjs-win/swiftshader/libEGL.dll
+    FileDescription    SwiftShader libEGL 32-bit Dynamic Link Library
+    FileVersion        4.0.0.0
+    InternalName       libEGL
+    LegalCopyright     Copyright (C) 2016 Google Inc.
+    OriginalFilename   libEGL.dll
+    PrivateBuild       4.0.0.0
+    ProductName        SwiftShader libEGL Dynamic Link Library
+    ProductVersion     4.0.0.0
+
+nwjs-win/swiftshader/libGLESv2.dll
+    FileDescription    SwiftShader libGLESv2 32-bit Dynamic Link Library
+    FileVersion        4.0.0.0
+    InternalName       libGLESv2
+    LegalCopyright     Copyright (C) 2016 Google Inc.
+    OriginalFilename   libGLESv2.dll
+    PrivateBuild       4.0.0.0
+    ProductName        SwiftShader libGLESv2 Dynamic Link Library
+    ProductVersion     4.0.0.0
+
+nwjs-win-test/chromedriver.exe
+    (no version resource)
+nwjs-win-test/d3dcompiler_47.dll
+    CompanyName        Microsoft Corporation
+    FileDescription    Direct3D HLSL Compiler for Redistribution
+    FileVersion        10.0.16299.15 (WinBuild.160101.0800)
+    InternalName       d3dcompiler_47.dll
+    LegalCopyright     © Microsoft Corporation. All rights reserved.
+    OriginalFilename   d3dcompiler_47.dll
+    ProductName        Microsoft® Windows® Operating System
+    ProductVersion     10.0.16299.15
+
+nwjs-win-test/ffmpeg.dll
+    (no version resource)
+nwjs-win-test/game.exe
+    CompanyName        KADOKAWA
+    FileDescription    game
+    InternalName       game_exe
+    LegalCopyright     Copyright 2017 Kadokawa. All rights reserved.
+    OriginalFilename   game.exe
+    ProductName        game
+
+nwjs-win-test/libEGL.dll
+    FileDescription    ANGLE libEGL Dynamic Link Library
+    FileVersion        2.1.0.2c9cc8b6e810
+    InternalName       libEGL
+    LegalCopyright     Copyright (C) 2015 Google Inc.
+    OriginalFilename   libEGL.dll
+    PrivateBuild       2.1.0.2c9cc8b6e810
+    ProductName        ANGLE libEGL Dynamic Link Library
+    ProductVersion     2.1.0.2c9cc8b6e810
+    Comments           Build Date: 2018-01-17 20:56:20 +0000
+
+nwjs-win-test/libGLESv2.dll
+    FileDescription    ANGLE libGLESv2 Dynamic Link Library
+    FileVersion        2.1.0.2c9cc8b6e810
+    InternalName       libGLESv2
+    LegalCopyright     Copyright (C) 2015 Google Inc.
+    OriginalFilename   libGLESv2.dll
+    PrivateBuild       2.1.0.2c9cc8b6e810
+    ProductName        ANGLE libGLESv2 Dynamic Link Library
+    ProductVersion     2.1.0.2c9cc8b6e810
+    Comments           Build Date: 2018-01-17 20:56:20 +0000
+
+nwjs-win-test/nacl64.exe
+    CompanyName        The NWJS Community
+    FileDescription    nwjs
+    InternalName       nacl64_exe
+    LegalCopyright     Copyright 2017 The Chromium Authors. All rights reserved.
+    OriginalFilename   nacl64.exe
+    ProductName        nwjs
+
+nwjs-win-test/node.dll
+    (no version resource)
+nwjs-win-test/nw.dll
+    CompanyName        The NWJS Community
+    FileDescription    nwjs
+    InternalName       nw_dll
+    LegalCopyright     Copyright 2017 The Chromium Authors. All rights reserved.
+    OriginalFilename   nw.dll
+    ProductName        nwjs
+
+nwjs-win-test/nw_elf.dll
+    CompanyName        The NWJS Community
+    FileDescription    nwjs
+    InternalName       nw_elf_dll
+    LegalCopyright     Copyright 2017 The Chromium Authors. All rights reserved.
+    OriginalFilename   nw_elf.dll
+    ProductName        nwjs
+
+nwjs-win-test/nwjc.exe
+    (no version resource)
+nwjs-win-test/payload.exe
+    (no version resource)
+nwjs-win-test/swiftshader/libEGL.dll
+    FileDescription    SwiftShader libEGL 32-bit Dynamic Link Library
+    FileVersion        4.0.0.0
+    InternalName       libEGL
+    LegalCopyright     Copyright (C) 2016 Google Inc.
+    OriginalFilename   libEGL.dll
+    PrivateBuild       4.0.0.0
+    ProductName        SwiftShader libEGL Dynamic Link Library
+    ProductVersion     4.0.0.0
+
+nwjs-win-test/swiftshader/libGLESv2.dll
+    FileDescription    SwiftShader libGLESv2 32-bit Dynamic Link Library
+    FileVersion        4.0.0.0
+    InternalName       libGLESv2
+    LegalCopyright     Copyright (C) 2016 Google Inc.
+    OriginalFilename   libGLESv2.dll
+    PrivateBuild       4.0.0.0
+    ProductName        SwiftShader libGLESv2 Dynamic Link Library
+    ProductVersion     4.0.0.0
+
+platforms/qwindows.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwindows.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+plugins/qtwebengine/ffmpegsumo.dll
+    (no version resource)
+qmltooling/qmldbg_qtquick2.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qmldbg_qtquick2.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+qmltooling/qmldbg_tcp.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qmldbg_tcp.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+Qt/labs/folderlistmodel/qmlfolderlistmodelplugin.dll
+    (no version resource)
+Qt/labs/settings/qmlsettingsplugin.dll
+    (no version resource)
+QtQuick/Controls/qtquickcontrolsplugin.dll
+    (no version resource)
+QtQuick/Dialogs/dialogplugin.dll
+    (no version resource)
+QtQuick/Dialogs/Private/dialogsprivateplugin.dll
+    (no version resource)
+QtQuick/Layouts/qquicklayoutsplugin.dll
+    (no version resource)
+QtQuick/PrivateWidgets/widgetsplugin.dll
+    (no version resource)
+QtQuick/Window.2/windowplugin.dll
+    (no version resource)
+QtQuick.2/qtquick2plugin.dll
+    (no version resource)
+QtWebEngine/qtwebengineplugin.dll
+    (no version resource)
+QtWebEngine/experimental/qtwebengineexperimentalplugin.dll
+    (no version resource)
+QtWebView/declarative_webview.dll
+    (no version resource)
+tutorial-win/Qt5Core.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Core.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/Qt5Gui.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Gui.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/Qt5Network.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Network.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/Qt5Svg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Svg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/Qt5Widgets.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   Qt5Widgets.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/TutorialGui.exe
+    (no version resource)
+tutorial-win/icudt53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU Data DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icudt53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+tutorial-win/icuin53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU I18N DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icuin53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+tutorial-win/icuuc53.dll
+    Comments           http://icu-project.org
+    CompanyName        The ICU Project
+    FileDescription    ICU Common DLL
+    FileVersion        53, 1, 0, 0
+    LegalCopyright      Copyright (C) 2014, International Business Machines Corporation and others. All Rights Reserved. 
+    OriginalFilename   icuuc53.dll
+    PrivateBuild       j%
+    ProductName        International Components for Unicode
+    ProductVersion     53, 1, 0, 0
+    SpecialBuild       
+
+tutorial-win/msvcp120.dll
+    CompanyName        Microsoft Corporation
+    FileDescription    Microsoft® C Runtime Library
+    FileVersion        12.00.21005.1 built by: REL
+    InternalName       msvcp120.dll
+    LegalCopyright     © Microsoft Corporation. All rights reserved.
+    OriginalFilename   msvcp120.dll
+    ProductName        Microsoft® Visual Studio® 2013
+    ProductVersion     12.00.21005.1
+
+tutorial-win/msvcr120.dll
+    CompanyName        Microsoft Corporation
+    FileDescription    Microsoft® C Runtime Library
+    FileVersion        12.00.21005.1 built by: REL
+    InternalName       msvcr120.dll
+    LegalCopyright     © Microsoft Corporation. All rights reserved.
+    OriginalFilename   msvcr120.dll
+    ProductName        Microsoft® Visual Studio® 2013
+    ProductVersion     12.00.21005.1
+
+tutorial-win/bearer/qgenericbearer.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qgenericbearer.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/bearer/qnativewifibearer.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qnativewifibearer.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/iconengines/qsvgicon.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qsvgicon.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qdds.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qdds.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qgif.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qgif.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qicns.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qicns.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qico.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qico.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qjp2.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qjp2.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qjpeg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qjpeg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qmng.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qmng.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qsvg.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qsvg.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qtga.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qtga.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qtiff.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qtiff.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qwbmp.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwbmp.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/imageformats/qwebp.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwebp.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+
+tutorial-win/platforms/qwindows.dll
+    CompanyName        Digia Plc and/or its subsidiary(-ies)
+    FileDescription    C++ application development framework.
+    FileVersion        5.4.2.0
+    LegalCopyright     Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+    OriginalFilename   qwindows.dll
+    ProductName        Qt5
+    ProductVersion     5.4.2.0
+

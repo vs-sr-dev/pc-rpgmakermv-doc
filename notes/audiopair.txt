@@ -1,0 +1,88 @@
+Ogg stems      : 1341   over 1341 files
+MPEG-4 stems   : 1341   over 1341 files
+in both        : 1341
+only Ogg       : 0
+only MPEG-4    : 0
+residue        : 0
+
+total Ogg    :    20484.642 s over 1341 pairs
+total MPEG-4 :    20590.761 s
+difference   :      106.119 s   (MPEG-4 minus Ogg)
+per pair     :     0.079134 s
+
+MPEG-4 LONGER  : 1341 of 1341
+exactly equal  : 0
+MPEG-4 SHORTER : 0   <- padding cannot produce this
+  1341 + 0 + 0 = 1341, residue 0
+
+the delta in the MPEG-4 file's OWN frame-times:
+  min 0.795898   max 3.061523   mean 2.556483
+  strictly between 0 and 1 frame-time : 5 of 1341
+  by tenth of a frame : {'0.7': 1, '0.8': 1, '0.9': 3, '1.1': 1, '2.0': 62, '2.1': 121, '2.2': 124, '2.3': 131, '2.4': 145, '2.5': 123, '2.6': 159, '2.7': 149, '2.8': 103, '2.9': 122, '3.0': 96}
+
+pairs whose delta is UNDER 1.00 frame-times : 5 -- the outliers
+   dlc/BaseResource_Compressed/audio/me/Organ     ogg    6.4134  m4a    6.4319  +0.01848 s = +0.7959 frames  44100 Hz / 44100 Hz
+   dlc/BaseResource_Compressed/audio/me/Mystery   ogg    5.0187  m4a    5.0387  +0.02007 s = +0.8643 frames  44100 Hz / 44100 Hz
+   NewData/audio/me/Gameover2                     ogg   17.7823  m4a   17.8055  +0.02322 s = +1.0000 frames  44100 Hz / 44100 Hz
+   NewData/audio/me/Mystery                       ogg    5.0187  m4a    5.0419  +0.02322 s = +1.0000 frames  44100 Hz / 44100 Hz
+   NewData/audio/me/Organ                         ogg    6.4134  m4a    6.4367  +0.02322 s = +1.0000 frames  44100 Hz / 44100 Hz
+
+pairs whose delta is at least 1.00 frame-times : 1336
+   NewData/audio/bgm/Battle1                ogg   71.2728  m4a   71.3317  +0.0589 s = +2.538 frames
+   NewData/audio/bgm/Battle2                ogg   58.1250  m4a   58.1892  +0.0642 s = +2.764 frames
+   NewData/audio/bgm/Battle3                ogg   61.7143  m4a   61.7651  +0.0507 s = +2.186 frames
+   NewData/audio/bgm/Castle1                ogg   64.0001  m4a   64.0639  +0.0638 s = +2.747 frames
+   NewData/audio/bgm/Castle2                ogg   67.5451  m4a   67.5933  +0.0482 s = +2.075 frames
+   NewData/audio/bgm/Dungeon1               ogg  115.2000  m4a  115.2639  +0.0639 s = +2.750 frames
+   NewData/audio/bgm/Dungeon2               ogg   68.4507  m4a   68.4989  +0.0481 s = +2.073 frames
+   NewData/audio/bgm/Dungeon3               ogg   69.8190  m4a   69.8688  +0.0498 s = +2.145 frames
+   NewData/audio/bgm/Field1                 ogg   69.8182  m4a   69.8688  +0.0507 s = +2.183 frames
+   NewData/audio/bgm/Field2                 ogg   72.0000  m4a   72.0515  +0.0515 s = +2.217 frames
+   NewData/audio/bgm/Ship1                  ogg   60.0000  m4a   60.0700  +0.0700 s = +3.016 frames
+   NewData/audio/bgm/Ship2                  ogg   89.1429  m4a   89.2111  +0.0682 s = +2.937 frames
+   NewData/audio/bgm/Ship3                  ogg   64.8649  m4a   64.9230  +0.0581 s = +2.502 frames
+   NewData/audio/bgm/Theme1                 ogg  136.3200  m4a  136.3708  +0.0508 s = +2.187 frames
+   NewData/audio/bgm/Theme2                 ogg  123.2308  m4a  123.2980  +0.0672 s = +2.894 frames
+   NewData/audio/bgm/Theme6                 ogg   75.1987  m4a   75.2559  +0.0572 s = +2.462 frames
+   NewData/audio/bgm/Town1                  ogg   84.1559  m4a   84.2188  +0.0629 s = +2.708 frames
+   NewData/audio/bgm/Town2                  ogg   69.8181  m4a   69.8688  +0.0507 s = +2.184 frames
+   NewData/audio/bgs/City                   ogg   47.0253  m4a   47.0901  +0.0648 s = +2.789 frames
+   NewData/audio/bgs/Darkness               ogg    9.5101  m4a    9.5666  +0.0565 s = +2.433 frames
+   NewData/audio/bgs/Drips                  ogg   12.3500  m4a   12.3995  +0.0494 s = +2.128 frames
+   NewData/audio/bgs/Night                  ogg  109.2903  m4a  109.3428  +0.0525 s = +2.261 frames
+   NewData/audio/bgs/Quake                  ogg    2.5039  m4a    2.5542  +0.0503 s = +2.165 frames
+   NewData/audio/bgs/River                  ogg    8.0186  m4a    8.0805  +0.0619 s = +2.666 frames
+   NewData/audio/bgs/Sea                    ogg    5.1296  m4a    5.1780  +0.0485 s = +2.088 frames
+   NewData/audio/bgs/Storm1                 ogg    2.0845  m4a    2.1362  +0.0517 s = +2.229 frames
+   NewData/audio/bgs/Storm2                 ogg   69.9886  m4a   70.0546  +0.0660 s = +2.844 frames
+   NewData/audio/bgs/Wind                   ogg    4.6296  m4a    4.6904  +0.0608 s = +2.618 frames
+   NewData/audio/me/Curse1                  ogg    5.0000  m4a    5.0620  +0.0620 s = +2.668 frames
+   NewData/audio/me/Curse2                  ogg    3.6923  m4a    3.7616  +0.0693 s = +2.985 frames
+   NewData/audio/me/Defeat1                 ogg    6.0000  m4a    6.0604  +0.0604 s = +2.601 frames
+   NewData/audio/me/Defeat2                 ogg    8.0000  m4a    8.0573  +0.0573 s = +2.469 frames
+   NewData/audio/me/Fanfare1                ogg   10.0000  m4a   10.0542  +0.0542 s = +2.334 frames
+   NewData/audio/me/Fanfare2                ogg   12.3673  m4a   12.4227  +0.0554 s = +2.386 frames
+   NewData/audio/me/Gameover1               ogg   21.6000  m4a   21.6642  +0.0642 s = +2.765 frames
+   NewData/audio/me/Inn                     ogg    8.2106  m4a    8.2663  +0.0557 s = +2.400 frames
+   NewData/audio/me/Musical1                ogg    6.5000  m4a    6.5480  +0.0480 s = +2.068 frames
+   NewData/audio/me/Musical2                ogg    8.1250  m4a    8.1734  +0.0484 s = +2.085 frames
+   NewData/audio/me/Musical3                ogg    6.0000  m4a    6.0604  +0.0604 s = +2.602 frames
+   NewData/audio/me/Shock1                  ogg    6.0000  m4a    6.0604  +0.0604 s = +2.601 frames
+
+the delta in SAMPLES of the MPEG-4 side's own clock:
+  min 815   max 3135   mean 2617.8
+  inside [2048, 3072) -- two frames of encoder delay plus a
+  padded last frame  : 1191 of 1341
+  below 2048         : 6
+  at or above 3072   : 144
+
+pairs agreeing on sample rate    : 1075 of 1341
+  (Ogg rate, MPEG-4 rate) : {(44100, 44100): 629, (22050, 22050): 444, (22050, 44100): 264, (32000, 32000): 2, (32000, 44100): 2}
+pairs agreeing on channel count  : 1341 of 1341
+  (Ogg channels, MPEG-4 channels) : {(1, 1): 794, (2, 2): 547}
+MPEG-4 files carrying an edit list : 0 of 1341
+
+  A pair that agrees on duration, rate and channel count is
+  CONSISTENT WITH one source encoded twice. It is not proof that
+  the two files carry the same performance, and this tool decodes
+  no audio and does not claim it.

@@ -1,0 +1,209 @@
+root                 : rpgmakermv-steam
+files matching .png  : 5578
+parsed as PNG        : 5578
+refused              : 0
+bytes in parsed files: 733723600
+
+-- closure: signature + every declared chunk length + CRC ------
+   files closing at residue 0        : 5578 of 5578
+   chunks walked                     : 91607
+   chunks whose CRC-32 verifies      : 91607 of 91607
+   files with a failing CRC          : 0
+
+-- what IHDR declares ------------------------------------------
+   depth  colour type            interlace  files
+       4  3 palettised                0        4
+       8  2 truecolour                0     1102
+       8  3 palettised                0      561
+       8  6 truecolour+alpha          0     3903
+      16  6 truecolour+alpha          0        8
+
+-- the palettes ------------------------------------------------
+   files carrying a PLTE chunk       : 565 of 5578
+   DISTINCT palettes by sha1 of PLTE : 290
+   palette entry counts              : {255: 16, 256: 345, 252: 1, 254: 3, 253: 2, 64: 1, 192: 1, 47: 3, 56: 2, 52: 1, 49: 2, 43: 5, 24: 4, 48: 2, 33: 5, 128: 2, 16: 4, 14: 5, 7: 2, 2: 40, 3: 37, 4: 37, 5: 12, 20: 1, 15: 1, 12: 3, 60: 2, 179: 2, 23: 2, 17: 2, 19: 2, 29: 2, 30: 4, 36: 2, 166: 1, 68: 1, 184: 1, 46: 1, 50: 4, 51: 1, 125: 1}
+   5b104c075f44ce0d  shared by 36 files
+   b3177df76bf415a6  shared by 21 files
+   947430534887e8dc  shared by 19 files
+   534e21a0d1afc8cb  shared by 15 files
+   48b6a9efb8caaec2  shared by 10 files
+
+-- geometry ----------------------------------------------------
+   distinct (width, height) pairs    : 450
+     144 x 192    937 files
+     576 x 384    856 files
+     144 x 144    779 files
+     144 x 48     649 files
+      64 x 64     464 files
+    1000 x 740    400 files
+     960 x 1152   84 files
+     960 x 960    76 files
+
+-- chunk types seen --------------------------------------------
+   IDAT 74886  IHDR 5578  IEND 5578  mkBT 1530  tEXt 775  pHYs 694  iTXt 655  PLTE 565  tRNS 267  cHRM 235  gAMA 193  sRGB 157  iCCP 136  sBIT 119  prVW 47  mkBF 47  mkTS 47  mkBS 47  bKGD 27  tIME 21  tpNG 2  zTXt 1
+
+-- is any two the same image? ----------------------------------
+   The tree has one sha1 per file, so no two files are
+   byte-identical. This asks the weaker and more useful question:
+   do two files carry the SAME COMPRESSED PIXEL STREAM, which
+   would make them the same image in different wrapping?
+   distinct IDAT streams by sha1      : 4393 over 5578 files
+   files sharing an IDAT stream       : 2030
+      73d814ed7dc0 x15  Generator/TV/Female/TV_FacialMark_p01_c.png, Generator/TV/Female/TV_FacialMark_p02_c.png, Generator/TV/Female/TV_FrontHair2_p04_c.png, Generator/TV/Female/TV_FrontHair2_p07_c.png
+      61ecfb862645 x14  Generator/TV/Female/TV_FacialMark_p01.png, Generator/TV/Female/TV_FrontHair2_p04.png, Generator/TV/Female/TV_FrontHair2_p07.png, Generator/TV/Male/TV_Beard2_p03.png
+      5dc0f5bb5683 x8  dlc/KadokawaPlugins_New/samples/Gacha Sample/icon/icon.png, dlc/KadokawaPlugins_New/samples/Slot Machine Sample/icon/icon.png, dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/icon/icon.png, dlc/parallax_Resource_Pack/sample_project/icon/icon.png
+      7c15a1decb31 x8  Generator/Face/Male/FG_Clothing2_p12_c3_m008.png, Generator/Face/Male/FG_Clothing2_p12_c3_m010.png, Generator/Face/Male/FG_Clothing2_p13_c3_m008.png, Generator/Face/Male/FG_Clothing2_p13_c3_m010.png
+      c027c0bfd03a x6  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/enemies/Death.png, dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/sv_enemies/Death.png, dlc/parallax_Resource_Pack/sample_project/img/enemies/Death.png, dlc/parallax_Resource_Pack/sample_project/img/sv_enemies/Death.png
+   files sharing (w, h, depth, colour, palette) with another
+   file but NOT its pixels            : 3009
+
+-- by directory ------------------------------------------------
+   dir              files        bytes palettes
+   Generator            1       101135 1
+   Generator/Face/Female   287      1487781 1
+   Generator/Face/Kid    14       234856 1
+   Generator/Face/Male   317      1609877 1
+   Generator/SV/Female   236      1770631 1
+   Generator/SV/Kid     8       107132 2
+   Generator/SV/Male   296      1828506 1
+   Generator/TV/Female   328       419793 1
+   Generator/TV/Kid    10       100482 1
+   Generator/TV/Male   382       445876 1
+   Generator/TVD/Female   226        95407 1
+   Generator/TVD/Kid     8        37791 1
+   Generator/TVD/Male   232        96197 1
+   Generator/Variation/Female   177       339950 1
+   Generator/Variation/Kid     9       177319 1
+   Generator/Variation/Male   207       430539 1
+   Help/inc/img       251     26003253 1
+   Help/inc/img/01_11_05    39      9618695 1
+   Help/inc/img/01_11_06    59     10159008 1
+   NewData/icon         1        72778 1
+   NewData/img/animations   117     54597420 1
+   NewData/img/battlebacks1    50     62319880 1
+   NewData/img/battlebacks2    50     39255867 1
+   NewData/img/characters    29      3097067 3
+   NewData/img/enemies    70      7820725 1
+   NewData/img/faces    10      3437107 1
+   NewData/img/parallaxes    15     10568832 1
+   NewData/img/sv_actors    20       576452 1
+   NewData/img/sv_enemies    70      7262013 1
+   NewData/img/system    14       640861 5
+   NewData/img/tilesets    31     17542312 1
+   NewData/img/titles1    20     21221024 1
+   NewData/img/titles2     2       534117 1
+   dlc/BaseResource/img/battlebacks1    26     26858912 1
+   dlc/BaseResource/img/battlebacks2    28     19557014 1
+   dlc/BaseResource/img/characters    18       930804 1
+   dlc/BaseResource/img/enemies    35      6534634 1
+   dlc/BaseResource/img/faces     5      1841125 1
+   dlc/BaseResource/img/sv_actors    21       522494 1
+   dlc/BaseResource/img/sv_enemies    35      5781204 1
+   dlc/BaseResource/img/titles1     2      2560332 1
+   dlc/BaseResource_Compressed/img/animations   118     52330735 1
+   dlc/BaseResource_Compressed/img/battlebacks1    76     26120810 76
+   dlc/BaseResource_Compressed/img/battlebacks2    78     29609873 33
+   dlc/DarkFantasyCharacterPack/img/characters    10       531235 3
+   dlc/DarkFantasyCharacterPack/img/faces     1       247734 1
+   dlc/DarkFantasyCharacterPack/img/pictures     8      1319819 1
+   dlc/DarkFantasyCharacterPack/img/sv_actors    32      1113054 13
+   dlc/DarkFantasyCharacterPack/system     3        28026 1
+   dlc/ExtraAssets/pictures    17      2792873 1
+   dlc/KadokawaPlugins_New/additional/img/animations     6       683423 1
+   dlc/KadokawaPlugins_New/img/slotmachine    10       368389 1
+   dlc/KadokawaPlugins_New/img/system     1         6776 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/icon     1        72778 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/animations    14      3806516 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/battlebacks1    10      9018485 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/battlebacks2    10      6992380 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/characters     5       245687 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/enemies     4       303054 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/faces     3      1110924 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/gacha     5       812901 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/sv_actors     4       113724 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/system    13       618252 4
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/tilesets    31     17478843 1
+   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/titles1     1      1049553 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/icon     1        72778 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/animations     8      3123093 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/battlebacks1    10      9018485 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/battlebacks2    10      6992380 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/characters     5       245687 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/enemies     4       303054 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/faces     3      1110924 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/slotmachine    10       368389 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/sv_actors     4       113724 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/system    13       618252 4
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/tilesets    31     17478843 1
+   dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/titles1     1      1049553 1
+   dlc/Magic_and_SFPack(for_v1.6)/Resource/img/tilesets     5      2678197 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/icon     1        72778 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/animations   117     54597420 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/battlebacks1    13     12426108 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/battlebacks2    13      8966133 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/characters    11      1250289 2
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/enemies     9       827649 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/faces     5      1754884 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/parallaxes     1       873563 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/sv_actors     4       113724 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/sv_enemies     9       813224 1
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/system    13       618252 4
+   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/tilesets    36     20220509 1
+   dlc/Modern_Generator/modern_body/Generator/TV/Female     2         6611 2
+   dlc/Modern_Generator/modern_body/Generator/TV/Male     2         6349 2
+   dlc/Modern_Generator/original_body/Generator/TV/Female     2         5550 1
+   dlc/Modern_Generator/original_body/Generator/TV/Male     2         5490 1
+   dlc/Modern_Generator/parts/Generator/Face/Female    83       258667 3
+   dlc/Modern_Generator/parts/Generator/Face/Male    78       282039 3
+   dlc/Modern_Generator/parts/Generator/SV/Female    76       571614 41
+   dlc/Modern_Generator/parts/Generator/SV/Male    70       451052 42
+   dlc/Modern_Generator/parts/Generator/TV/Female    76       168965 39
+   dlc/Modern_Generator/parts/Generator/TV/Male    70       159404 37
+   dlc/Modern_Generator/parts/Generator/TVD/Female    76        91293 37
+   dlc/Modern_Generator/parts/Generator/TVD/Male    70        85015 34
+   dlc/Modern_Generator/parts/Generator/Variation/Female    37        80195 1
+   dlc/Modern_Generator/parts/Generator/Variation/Male    34        70991 1
+   dlc/RPG Maker Freebies/Marimo/MV Style     8      1321840 1
+   dlc/RPG Maker Freebies/Marimo/VXA Style     8       596956 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Character Gen Parts     9       127525 3
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Characters    15       692327 3
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Facesets     1        69856 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/Female    24       463745 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/Male    23       397310 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/People 2-7     6       105079 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/People 3-5     6       100812 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Actor 2-3     4        63582 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Evil 1-1     4        63033 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Mage08     2        31199 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 2-2     4        63873 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 2-7     4        62409 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 3-5     4        62596 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/System     1         8859 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/animations     1       593313 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/enemies     9      1465844 1
+   dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/sv_actors     5       171296 5
+   dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1     2        48357 1
+   dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1/Generator/TV     4        85729 1
+   dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1/Generator/TVD     2        36670 1
+   dlc/Sangokushi/characters     3        61998 3
+   dlc/Sangokushi/faces     2       368271 1
+   dlc/Sangokushi/pictures    20      3978712 1
+   dlc/Sangokushi/sv_actors    10       148647 10
+   dlc/Special_Wallpaper     3      5048662 1
+   dlc/parallax_Resource_Pack/material/parallaxes    25      6123597 24
+   dlc/parallax_Resource_Pack/sample_project/icon     1        72778 1
+   dlc/parallax_Resource_Pack/sample_project/img/animations     7      2696688 1
+   dlc/parallax_Resource_Pack/sample_project/img/battlebacks1    12     11333259 1
+   dlc/parallax_Resource_Pack/sample_project/img/battlebacks2    14      9677786 1
+   dlc/parallax_Resource_Pack/sample_project/img/characters     7       661218 1
+   dlc/parallax_Resource_Pack/sample_project/img/enemies     6       549182 1
+   dlc/parallax_Resource_Pack/sample_project/img/faces     4      1416732 1
+   dlc/parallax_Resource_Pack/sample_project/img/parallaxes    25      6123597 24
+   dlc/parallax_Resource_Pack/sample_project/img/sv_actors     1        28889 1
+   dlc/parallax_Resource_Pack/sample_project/img/sv_enemies     6       536760 1
+   dlc/parallax_Resource_Pack/sample_project/img/system    14       640806 5
+   dlc/parallax_Resource_Pack/sample_project/img/tilesets    31     17542312 1
+   dlc/parallax_Resource_Pack/sample_project/img/titles1     6      6538989 1
+   nwjs-lnx/icon        1        72778 1
+   nwjs-win-test/www/icon     1        72778 1
+   nwjs-win/www/icon     1        72778 1

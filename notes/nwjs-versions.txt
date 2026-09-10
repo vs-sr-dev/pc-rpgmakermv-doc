@@ -1,0 +1,23 @@
+nwjs-win/nw.dll                  84381696 bytes
+nwjs-win-test/nw.dll             85221888 bytes
+nwjs-lnx/lib/libnw.so           119504256 bytes
+nwjs-win/Game.exe                 1604096 bytes
+nwjs-lnx/nw                        364296 bytes
+
+nwjs-win : 125 files    nwjs-win-test : 152 files
+names in both        : 123
+byte-identical       : 114
+differing            : 9
+only in nwjs-win     : 2  ['Game.exe', 'package.json']
+only in nwjs-win-test: 29  ['chromedriver.exe', 'debug.log', 'game.exe', 'nacl64.exe', 'nacl_irt_x86_32.nexe', 'nacl_irt_x86_64.nexe']
+
+the differing names:
+   ffmpeg.dll                                     win   2058240   test   2058240
+   libEGL.dll                                     win     78848   test     78848
+   libGLESv2.dll                                  win   3730944   test   3730944
+   node.dll                                       win   5749248   test   5750784
+   nw.dll                                         win  84381696   test  85221888
+   nw_elf.dll                                     win    450048   test    449536
+   resources.pak                                  win   4624843   test  13088130
+   swiftshader/libEGL.dll                         win    101888   test    101888
+   swiftshader/libGLESv2.dll                      win   2246144   test   2246144

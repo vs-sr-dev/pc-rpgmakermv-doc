@@ -1,0 +1,136 @@
+path                                              fmt     kind      bytes     linker COFF (UTC)          mtime (local)       CompanyName / module
+---------------------------------------------- ------ -------- ---------- ---------- ------------------- ------------------- ------------------------------
+s/folderlistmodel/qmlfolderlistmodelplugin.dll   PE32   native      42496      12.00 2015-05-31 02:10:02 2018-03-06 22:31:31 
+Qt/labs/settings/qmlsettingsplugin.dll           PE32   native      21504      12.00 2015-05-31 02:10:06 2018-03-06 22:31:31 
+Qt5Core.dll                                      PE32   native    4063744      12.00 2015-05-31 01:55:21 2023-09-28 06:56:07 Digia Plc and/or its subsidiary(-i
+Qt5Gui.dll                                       PE32   native    4545024      12.00 2015-05-31 01:57:45 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+Qt5Network.dll                                   PE32   native     826368      12.00 2015-05-31 01:56:19 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+Qt5Qml.dll                                       PE32   native    2545664      12.00 2015-05-31 02:05:50 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+Qt5Quick.dll                                     PE32   native    2399232      12.00 2015-05-31 02:07:39 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+Qt5Svg.dll                                       PE32   native     251904      12.00 2015-05-31 02:02:31 2018-03-06 22:30:30 Digia Plc and/or its subsidiary(-i
+Qt5WebEngine.dll                                 PE32   native     118272      12.00 2015-05-31 04:41:57 2018-03-06 22:31:26 Digia Plc and/or its subsidiary(-i
+Qt5WebEngineCore.dll                             PE32   native   36804608      12.00 2015-05-31 04:39:27 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+Qt5WebView.dll                                   PE32   native      15872      12.00 2015-05-06 10:33:10 2023-09-28 06:56:10 Digia Plc and/or its subsidiary(-i
+Qt5Widgets.dll                                   PE32   native    4402688      12.00 2015-05-31 01:59:40 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+QtQuick.2/qtquick2plugin.dll                     PE32   native      12288      12.00 2015-05-31 02:10:06 2018-03-06 22:31:24 
+QtQuick/Controls/qtquickcontrolsplugin.dll       PE32   native     780288      12.00 2015-05-31 02:10:58 2018-03-06 22:30:23 
+Quick/Dialogs/Private/dialogsprivateplugin.dll   PE32   native      35328      12.00 2015-05-31 02:11:18 2018-03-06 22:30:59 
+QtQuick/Dialogs/dialogplugin.dll                 PE32   native     179712      12.00 2015-05-31 02:11:48 2018-03-06 22:31:25 
+QtQuick/Layouts/qquicklayoutsplugin.dll          PE32   native      55296      12.00 2015-05-31 02:11:30 2018-03-06 22:31:41 
+QtQuick/PrivateWidgets/widgetsplugin.dll         PE32   native      89600      12.00 2015-05-31 02:11:35 2018-03-06 22:31:25 
+QtQuick/Window.2/windowplugin.dll                PE32   native      12288      12.00 2015-05-31 02:10:15 2018-03-06 22:31:49 
+experimental/qtwebengineexperimentalplugin.dll   PE32   native      29184      12.00 2015-05-31 04:42:13 2018-03-06 22:31:25 
+QtWebEngine/qtwebengineplugin.dll                PE32   native      23040      12.00 2015-05-31 04:42:08 2018-03-06 22:31:25 
+QtWebEngineProcess.exe                           PE32   native      11264      12.00 2015-05-31 04:42:06 2018-03-06 22:31:30 
+QtWebView/declarative_webview.dll                PE32   native      18432      12.00 2015-05-06 10:33:18 2023-09-28 06:56:10 
+RPGMV.exe                                        PE32   native   18656256      12.00 2023-09-15 06:50:16 2023-09-28 06:56:07 
+bearer/qgenericbearer.dll                        PE32   native      37888      12.00 2015-05-31 02:01:31 2018-03-06 22:30:26 Digia Plc and/or its subsidiary(-i
+bearer/qnativewifibearer.dll                     PE32   native      39936      12.00 2015-05-31 02:01:40 2018-03-06 22:30:26 Digia Plc and/or its subsidiary(-i
+ugins/Archeia_Steamworks/js/libs/steam_api.dll   PE32   native     187472      12.00 2015-10-21 18:51:02 2017-05-07 09:43:19 Valve Corporation
+cheia_Steamworks/js/libs/steamworks-win32.node   PE32   native     353792      12.00 2016-01-11 05:54:31 2017-05-07 09:43:19 
+iconengines/qsvgicon.dll                         PE32   native      29184      12.00 2015-05-31 02:02:49 2018-03-06 22:30:26 Digia Plc and/or its subsidiary(-i
+icudt53.dll                                      PE32   native   21529088      12.00 2014-09-03 08:16:13 2018-03-06 22:30:23 The ICU Project
+icuin53.dll                                      PE32   native    1982976      12.00 2014-09-03 08:13:14 2018-03-06 22:30:23 The ICU Project
+icuuc53.dll                                      PE32   native    1355264      12.00 2014-09-03 08:11:32 2018-03-06 22:30:23 The ICU Project
+imageformats/qdds.dll                            PE32   native      38400      12.00 2015-05-31 02:04:06 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qgif.dll                            PE32   native      24576      12.00 2015-05-31 02:01:41 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qicns.dll                           PE32   native      31232      12.00 2015-05-31 02:04:11 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qico.dll                            PE32   native      24576      12.00 2015-05-31 02:01:41 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qjp2.dll                            PE32   native     418816      12.00 2015-05-31 02:04:24 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+imageformats/qjpeg.dll                           PE32   native     240128      12.00 2015-05-31 02:01:34 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qmng.dll                            PE32   native     220672      12.00 2015-05-31 02:04:14 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qsvg.dll                            PE32   native      18432      12.00 2015-05-31 02:03:00 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qtga.dll                            PE32   native      17920      12.00 2015-05-31 02:04:11 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qtiff.dll                           PE32   native     311808      12.00 2015-05-31 02:04:19 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+imageformats/qwbmp.dll                           PE32   native      17920      12.00 2015-05-31 02:04:27 2018-03-06 22:30:28 Digia Plc and/or its subsidiary(-i
+imageformats/qwebp.dll                           PE32   native     291840      12.00 2015-05-31 02:04:33 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+nwjs-win-test/chromedriver.exe                   PE32   native    6428672      14.11 2018-03-07 07:26:08 2023-09-28 06:56:07 
+nwjs-win-test/d3dcompiler_47.dll                 PE32   native    3661112      14.10 2047-10-19 09:23:28 2018-06-21 20:51:01 Microsoft Corporation
+nwjs-win-test/ffmpeg.dll                         PE32   native    2058240      14.11 2018-02-27 16:54:38 2023-09-28 06:56:07 
+nwjs-win-test/game.exe                           PE32   native    1604096      14.11 2018-03-07 07:24:22 2023-09-28 06:56:07 KADOKAWA
+nwjs-win-test/libEGL.dll                         PE32   native      78848      14.11 2018-01-20 12:03:33 2018-06-21 20:53:00 
+nwjs-win-test/libGLESv2.dll                      PE32   native    3730944      14.11 2018-01-20 12:03:21 2018-06-21 20:51:01 
+nwjs-win-test/nacl64.exe                        PE32+   native    3261952      14.11 2018-03-07 06:42:53 2023-09-28 06:56:07 The NWJS Community
+nwjs-win-test/node.dll                           PE32   native    5750784      14.11 2018-03-06 10:52:17 2023-09-28 06:56:07 
+nwjs-win-test/nw.dll                             PE32   native   85221888      14.11 2018-03-07 07:21:27 2023-09-28 06:56:07 The NWJS Community
+nwjs-win-test/nw_elf.dll                         PE32   native     449536      14.11 2018-03-07 03:51:50 2023-09-28 06:56:07 The NWJS Community
+nwjs-win-test/nwjc.exe                           PE32   native   11439616      14.11 2018-03-06 10:54:45 2023-09-28 06:56:07 
+nwjs-win-test/payload.exe                        PE32   native     461312      14.11 2018-03-06 10:53:50 2023-09-28 06:56:07 
+nwjs-win-test/swiftshader/libEGL.dll             PE32   native     101888      14.11 2018-01-20 12:10:48 2018-06-21 20:52:40 
+nwjs-win-test/swiftshader/libGLESv2.dll          PE32   native    2246144      14.11 2018-01-20 12:12:01 2018-06-21 20:51:01 
+nwjs-win/Game.exe                                PE32   native    1604096      14.11 2018-03-07 06:28:46 2018-06-21 20:51:01 KADOKAWA
+nwjs-win/d3dcompiler_47.dll                      PE32   native    3661112      14.10 2047-10-19 09:23:28 2018-06-21 20:51:01 Microsoft Corporation
+nwjs-win/ffmpeg.dll                              PE32   native    2058240      14.11 2018-02-27 15:52:17 2018-06-21 20:51:01 
+nwjs-win/libEGL.dll                              PE32   native      78848      14.11 2018-01-27 12:07:33 2018-06-21 20:52:37 
+nwjs-win/libGLESv2.dll                           PE32   native    3730944      14.11 2018-01-27 12:07:22 2018-06-21 20:51:01 
+nwjs-win/node.dll                                PE32   native    5749248      14.11 2018-03-06 05:54:27 2018-06-21 20:51:01 
+nwjs-win/nw.dll                                  PE32   native   84381696      14.11 2018-03-07 06:26:31 2018-06-21 20:51:01 The NWJS Community
+nwjs-win/nw_elf.dll                              PE32   native     450048      14.11 2018-03-07 03:01:36 2018-06-21 20:51:01 The NWJS Community
+nwjs-win/swiftshader/libEGL.dll                  PE32   native     101888      14.11 2018-01-27 12:16:42 2018-06-21 20:53:12 
+nwjs-win/swiftshader/libGLESv2.dll               PE32   native    2246144      14.11 2018-01-27 12:18:02 2018-06-21 20:51:01 
+platforms/qwindows.dll                           PE32   native     894976      12.00 2015-05-31 02:02:04 2018-03-06 22:30:23 Digia Plc and/or its subsidiary(-i
+plugins/qtwebengine/ffmpegsumo.dll               PE32   native     772096      12.00 2015-05-31 03:42:04 2018-03-06 22:30:23 
+qmltooling/qmldbg_qtquick2.dll                   PE32   native      60416      12.00 2015-05-31 02:09:53 2018-03-06 22:31:22 Digia Plc and/or its subsidiary(-i
+qmltooling/qmldbg_tcp.dll                        PE32   native      26624      12.00 2015-05-31 02:09:45 2018-03-06 22:31:46 Digia Plc and/or its subsidiary(-i
+quazip.dll                                       PE32   native     144384      12.00 2016-05-26 08:15:29 2017-05-07 09:35:28 
+steam_api.dll                                    PE32   native     219424      12.00 2016-12-20 02:17:34 2017-05-07 09:34:38 Valve Corporation
+tutorial-win/Qt5Core.dll                         PE32   native    4063744      12.00 2015-05-31 01:55:21 2017-05-07 09:36:46 Digia Plc and/or its subsidiary(-i
+tutorial-win/Qt5Gui.dll                          PE32   native    4545024      12.00 2015-05-31 01:57:45 2017-05-07 09:36:43 Digia Plc and/or its subsidiary(-i
+tutorial-win/Qt5Network.dll                      PE32   native     826368      12.00 2015-05-31 01:56:19 2017-05-07 09:36:41 Digia Plc and/or its subsidiary(-i
+tutorial-win/Qt5Svg.dll                          PE32   native     251904      12.00 2015-05-31 02:02:31 2017-05-07 09:34:36 Digia Plc and/or its subsidiary(-i
+tutorial-win/Qt5Widgets.dll                      PE32   native    4402688      12.00 2015-05-31 01:59:40 2017-05-07 09:36:53 Digia Plc and/or its subsidiary(-i
+tutorial-win/TutorialGui.exe                     PE32   native     184320      12.00 2017-05-15 08:02:55 2017-06-09 17:58:19 
+tutorial-win/bearer/qgenericbearer.dll           PE32   native      37888      12.00 2015-05-31 02:01:31 2017-05-07 09:32:26 Digia Plc and/or its subsidiary(-i
+tutorial-win/bearer/qnativewifibearer.dll        PE32   native      39936      12.00 2015-05-31 02:01:40 2017-05-07 09:32:26 Digia Plc and/or its subsidiary(-i
+tutorial-win/iconengines/qsvgicon.dll            PE32   native      29184      12.00 2015-05-31 02:02:49 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/icudt53.dll                         PE32   native   21529088      12.00 2014-09-03 08:16:13 2017-05-07 09:33:49 The ICU Project
+tutorial-win/icuin53.dll                         PE32   native    1982976      12.00 2014-09-03 08:13:14 2017-05-07 09:33:49 The ICU Project
+tutorial-win/icuuc53.dll                         PE32   native    1355264      12.00 2014-09-03 08:11:32 2017-05-07 09:33:49 The ICU Project
+tutorial-win/imageformats/qdds.dll               PE32   native      38400      12.00 2015-05-31 02:04:06 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qgif.dll               PE32   native      24576      12.00 2015-05-31 02:01:41 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qicns.dll              PE32   native      31232      12.00 2015-05-31 02:04:11 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qico.dll               PE32   native      24576      12.00 2015-05-31 02:01:41 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qjp2.dll               PE32   native     418816      12.00 2015-05-31 02:04:24 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qjpeg.dll              PE32   native     240128      12.00 2015-05-31 02:01:34 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qmng.dll               PE32   native     220672      12.00 2015-05-31 02:04:14 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qsvg.dll               PE32   native      18432      12.00 2015-05-31 02:03:00 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qtga.dll               PE32   native      17920      12.00 2015-05-31 02:04:11 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qtiff.dll              PE32   native     311808      12.00 2015-05-31 02:04:19 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qwbmp.dll              PE32   native      17920      12.00 2015-05-31 02:04:27 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/imageformats/qwebp.dll              PE32   native     291840      12.00 2015-05-31 02:04:33 2017-05-07 09:33:49 Digia Plc and/or its subsidiary(-i
+tutorial-win/msvcp120.dll                        PE32   native     455328      12.00 2013-10-05 02:43:57 2017-05-07 09:33:50 Microsoft Corporation
+tutorial-win/msvcr120.dll                        PE32   native     970912      12.00 2013-10-05 02:43:50 2017-05-07 09:33:50 Microsoft Corporation
+tutorial-win/platforms/qwindows.dll              PE32   native     894976      12.00 2015-05-31 02:02:04 2017-05-07 09:36:44 Digia Plc and/or its subsidiary(-i
+zlib1.dll                                        PE32   native     107520       2.22 2013-05-13 12:42:08 2017-05-07 09:36:54 
+
+=== files whose mtime PRECEDES their own COFF link timestamp ===
+(a file cannot be written before it is linked; where this happens
+ the mtime is synthetic, or the two clocks are in different zones)
+
+path                                           COFF (UTC)          mtime (local)       mtime - COFF
+nwjs-win-test/d3dcompiler_47.dll               2047-10-19 09:23:28 2018-06-21 20:51:01 -925475547 s = -257076.54 h
+nwjs-win/d3dcompiler_47.dll                    2047-10-19 09:23:28 2018-06-21 20:51:01 -925475547 s = -257076.54 h
+
+impossible mtimes : 2 of 102 datable binaries
+
+binaries        : 102
+by format       : PE32 101, PE32+ 1
+COFF range      : 2013-05-13 .. 2047-10-19
+distinct COFF days: 17  2013-05-13, 2013-10-05, 2014-09-03, 2015-05-06, 2015-05-31, 2015-10-21, 2016-01-11, 2016-05-26, 2016-12-20, 2017-05-15, 2018-01-20, 2018-01-27, 2018-02-27, 2018-03-06, 2018-03-07, 2023-09-15, 2047-10-19
+
+Authenticode: 6 of 102 PE files carry a certificate table
+    SIGNED  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks/js/libs/steam_api.dll
+    SIGNED  nwjs-win-test/d3dcompiler_47.dll
+    SIGNED  nwjs-win/d3dcompiler_47.dll
+    SIGNED  steam_api.dll
+    SIGNED  tutorial-win/msvcp120.dll
+    SIGNED  tutorial-win/msvcr120.dll
+
+CompanyName / module name, by count:
+    Digia Plc and/or its subsidiary(-ies)    49
+    (none)                                   34
+    The ICU Project                          6
+    The NWJS Community                       5
+    Microsoft Corporation                    4
+    Valve Corporation                        2
+    KADOKAWA                                 2

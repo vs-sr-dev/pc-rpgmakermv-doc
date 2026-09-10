@@ -1,0 +1,13 @@
+component rows parsed : 1674
+
+  vendor                                       files          bytes  versions
+  Xiph.Org Foundation                           1341      684463713  20120203 x826, 20050304 x321, 20030909 x76, 20070622 x62
+  The Chromium Authors                           195       94144314  -
+  Digia Plc / The Qt Company                     115       81656902  5.4.2.0 x44, 5.4.2 x5
+  The ICU Project                                  6       49734656  0 x6
+  the pixi.js authors                              6        5147998  4.5.4 x3, 2.2.10 x2, 2.2.9 x1
+  The NWJS Community                               5      173765120  -
+  The V8 project authors                           2      130943872  -
+  Jean-loup Gailly and Mark Adler                  2       21885056  1.2.11 x1, 1.2.8 x1
+  Valve Corporation                                2         406896  03.75.32.07 x1, 03.04.27.90 x1
+  TOTAL                                         1674     1242148527

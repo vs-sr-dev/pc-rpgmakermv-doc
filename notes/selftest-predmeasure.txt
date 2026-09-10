@@ -1,0 +1,15 @@
+  ok   a well-formed open content clause parses
+  ok   its band, count and command floor are read
+  ok   a missing Measures tag is an error
+  ok   declaring fewer measurements than commands is an error
+  ok   THE BLIND SPOT: an inflated declaration passes, by design
+  ok   an inherited clause carrying a Measures tag is NOT an error
+  ok   but it is held apart and never enters a band
+  ok   a Measures tag on a clause that is neither is an error
+  ok   an inherited clause without one is simply skipped
+  ok   an open method clause is skipped
+  ok   two band tags is an error
+  ok   zero measurements is an error
+  ok   two clauses in two bands both parse
+
+13 checks, 0 failures

@@ -1,0 +1,109 @@
+archive          : rpgmakermv-steam/nwjs-osx-unsigned.zip
+file size        : 205182933 bytes
+EOCD at offset   : 205182911  (22 bytes from the end)
+disks            : this 0, cd starts on 0
+entries          : 564 on this disk, 564 total
+central directory: 96136 bytes at offset 205086775
+archive comment  : 0 bytes 
+ZIP64 locator    : absent
+central directory read: 96136 bytes
+
+members parsed   : 564  (header said 564)
+
+directory entries: 219
+file entries     : 345
+compressed total : 204997407 bytes
+uncompressed tot : 504651796 bytes
+whole-archive ratio: 2.4617 : 1  (saves 59.38 %)
+central dir + eocd + local headers overhead: 185526 bytes
+
+compression methods:
+  deflate    ( 8)     337 files       504647100 ->      204992711  2.462:1
+  stored     ( 0)       8 files            4696 ->           4696  1.000:1
+
+version made by (upper byte = host system):
+  0x031e  host 3 Unix          zip spec 3.0   x345
+version needed:
+  2.0  x337
+  1.0  x8
+general purpose flags:
+  0x0002  x345
+extra-field lengths:
+  24 bytes  x345
+
+extensions inside the archive (by uncompressed bytes):
+  (none)         19       372554104 ->      153625475   73.82 %  2.43:1
+  .pak          168        61993122 ->       23283498   12.28 %  2.66:1
+  .dat            3        30513744 ->       13284882    6.05 %  2.30:1
+  .dylib          5        24409168 ->        9147389    4.84 %  2.67:1
+  .bin            9        10009494 ->        2802993    1.98 %  3.57:1
+  .html           1         1977467 ->         332983    0.39 %  5.94:1
+  .icns           2         1787791 ->        1756767    0.35 %  1.02:1
+  .nib          105          946332 ->         615636    0.19 %  1.54:1
+  .plugin         3          234900 ->          98796    0.05 %  2.38:1
+  .strings        1          103270 ->          24139    0.02 %  4.28:1
+  .manifest       1           61137 ->           2737    0.01 %  22.34:1
+  .plist         11           22405 ->           6225    0.00 %  3.60:1
+  .sdef           1           16037 ->           3077    0.00 %  5.21:1
+  .sh             3           15168 ->           6672    0.00 %  2.27:1
+  .png            3            4656 ->           4656    0.00 %  1.00:1
+  .json           7            2959 ->           1446    0.00 %  2.05:1
+  .pb             3              42 ->             36    0.00 %  1.17:1
+  ... 17 extensions total
+
+top-level entries inside the archive:
+  Game.app                                    344 files       502674329 bytes
+  credits.html                                  1 files         1977467 bytes
+
+second-level entries (first two path components):
+  Game.app/Contents                                     344       502674329
+  credits.html                                            1         1977467
+  ... 2 distinct
+
+DOS timestamps inside the archive:
+  members with a parseable date: 345 of 345
+  oldest : 2018-06-06 17:55:26
+  newest : 2018-08-07 13:22:56
+  spread : 61 days, 19:27:30
+  distinct values: 4
+    2018-06-06 17:55:26  x336
+    2018-06-06 17:55:32  x5
+    2018-06-06 17:55:30  x3
+    2018-08-07 13:22:56  x1
+  by month:
+    2018-06  x344
+    2018-08  x1
+
+duplicate content, by (CRC, uncompressed size):
+  distinct (crc,size) pairs: 124
+  pairs appearing more than once: 110
+  members that share a pair with another: 331
+  bytes those duplicates account for (uncompressed): 317521500
+    crc 3bc775a7 size  117777352  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/nwjs Framework
+    crc e8b74039 size   10171248  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/icudtl.dat
+    crc 5ba0682f size    5841932  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/app_mode_loader.app/Contents/MacOS/app_mode_loader
+    crc 11b177e6 size    4499143  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/resources.pak
+    crc 8bd120f7 size    1769596  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/v8_context_snapshot.bin
+    crc f569eb2d size    1366823  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/nw_200_percent.pak
+    crc 3c37fb04 size    1361264  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/snapshot_blob.bin
+    crc 187b2e3b size     886108  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/nw_100_percent.pak
+    crc 61d68977 size     521508  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/ml.lproj/locale.pak
+    crc 7f37303f size     488424  x3     Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/ta.lproj/locale.pak
+
+zero-length members: 0
+largest members:
+       117777352 ->       48414270  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/nwjs Framework
+       117777352 ->       48414270  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/A/nwjs Framework
+       117777352 ->       48414270  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/Current/nwjs Framework
+        21485216 ->        7953292  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/libnode.dylib
+        10171248 ->        4428294  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/icudtl.dat
+        10171248 ->        4428294  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/A/Resources/icudtl.dat
+        10171248 ->        4428294  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/Current/Resources/icudtl.dat
+         5841932 ->        2543118  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/app_mode_loader.app/Contents/MacOS/app_mode_loader
+         5841932 ->        2543118  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/A/Resources/app_mode_loader.app/Contents/MacOS/app_mode_loader
+         5841932 ->        2543118  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/Current/Resources/app_mode_loader.app/Contents/MacOS/app_mode_loader
+         4499143 ->        2434669  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Resources/resources.pak
+         4499143 ->        2434669  deflate  Game.app/Contents/Versions/65.0.3325.146/nwjs Framework.framework/Versions/A/Resources/resources.pak
+
+absolute-looking paths inside member names: 0
+member names containing a backslash: 0

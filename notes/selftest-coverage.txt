@@ -1,0 +1,97 @@
+  every extension falls in exactly one bucket                                                            ok     
+  an unknown extension is not counted as published                                                       ok     ('neither', 'not identified in this session')
+  INS is derived at the member layer and neither at the product layer                                    ok     
+  a name with a path separator takes the last component                                                  ok     
+  a dotfile is not given an extension                                                                    ok     (none)
+  a name with no dot is not given an extension                                                           ok     
+  HLP is NOT counted as published                                                                        ok     
+  the Z archive is derived and not published                                                             ok     
+  a PE is SPECIFIED                                                                                      ok     
+  an MZP stub is SPECIFIED too, because MZ is the signature                                              ok     
+  a PNG is SPECIFIED                                                                                     ok     
+  a RIFF that is not WAVE is not counted as WAVE                                                         ok     
+  a RIFF WAVE is SPECIFIED                                                                               ok     
+  an ITSF container is DECODED, not specified                                                            ok     
+  an LCF database is DECODED, not specified                                                              ok     
+  a file merely CONTAINING LcfDataBase is not one                                                        ok     
+  an LcfMapUnit is DECODED                                                                               ok     
+  an LcfMapTree is DECODED                                                                               ok     
+  the two map variants are told apart                                                                    ok     
+  a wrong length prefix on LcfMapUnit is not one                                                         ok     
+  a PSD is SPECIFIED, because Adobe published the format                                                 ok     
+  a PSD is named as Adobe's                                                                              ok     
+  an Ogg page is SPECIFIED                                                                               ok     
+  an Ogg is named as the IETF's and Xiph.Org's                                                           ok     
+  a file merely CONTAINING OggS is not an Ogg                                                            ok     
+  OggS with a non-zero version byte is not an Ogg                                                        ok     
+  a JPEG is SPECIFIED                                                                                    ok     
+  a JPEG is named as ITU-T T.81 / ISO 10918                                                              ok     
+  FF D8 without the third byte is not a JPEG                                                             ok     
+  a Ruby Marshal 4.8 array is SPECIFIED                                                                  ok     
+  a Ruby Marshal 4.8 object and hash are the same format                                                 ok     
+  Marshal is named as Ruby's own                                                                         ok     
+  04 08 followed by a byte the grammar cannot start with is NOT Marshal                                  ok     
+  a two-byte file of 04 08 is not Marshal either                                                         ok     
+  a Marshal minor other than 8 is not claimed as 4.8                                                     ok     
+  plain text is SPECIFIED                                                                                ok     
+  Shift-JIS text is SPECIFIED, not opaque                                                                ok     
+  and it is named as Shift-JIS rather than as ASCII                                                      ok     
+  a byte string cp932 REFUSES is not called text                                                         ok     
+  a head cut mid-sequence is still recognised as text                                                    ok     
+  but a bad sequence in the MIDDLE is not forgiven                                                       ok     
+  pure ASCII does not reach the Shift-JIS probe                                                          ok     
+  THE ORDERING RULE: every binary signature is tested before every text codec                            ok     
+  and the rule is falsifiable -- a binary probe moved below a text codec is REFUSED                      ok     
+  THE MISFILING: a PDF header is a PDF and not Shift-JIS text                                            ok     
+  and the cp932 probe WOULD have taken it, which is why the order matters                                ok     
+  an sfnt font is SPECIFIED                                                                              ok     
+  THE ONE-BYTE HAZARD: 00 01 00 00 is a font                                                             ok     
+  THE ONE-BYTE HAZARD: 00 00 01 00 is an icon and is NOT called a font                                   ok     
+  an OpenType CFF font is SPECIFIED too                                                                  ok     
+  a BMP is SPECIFIED                                                                                     ok     
+  'BMW' followed by text is NOT claimed as a BMP                                                         ok     
+  a BMP whose reserved u32 is not zero is REFUSED                                                        ok     
+  a ZIP local header is SPECIFIED                                                                        ok     
+  an empty ZIP end-of-central-directory is one too                                                       ok     
+  'PKZIP is a program' is NOT claimed as a ZIP                                                           ok     
+  an ID3v2.3 tag is MPEG audio                                                                           ok     
+  an ID3 tag whose size bytes are not syncsafe is REFUSED                                                ok     
+  a bare MPEG frame sync is MPEG audio                                                                   ok     
+  eleven set bits with an ILLEGAL layer are REFUSED                                                      ok     
+  eleven set bits with bitrate index 1111 are REFUSED                                                    ok     
+  UTF-8 text with a multi-byte character is SPECIFIED                                                    ok     
+  and it is named UTF-8 rather than Shift-JIS                                                            ok     
+  EUC-JP text is SPECIFIED and named EUC-JP                                                              ok     
+  a byte string UTF-8 refuses is not called UTF-8                                                        ok     
+  pure ASCII does not reach the UTF-8 probe                                                              ok     
+  U+FEFF is not printable, which is what caused the defect                                               ok     
+  THE REPAIR: UTF-8 text WITH a byte-order mark is SPECIFIED                                             ok     0 of 190 got through before this
+  and it is still named UTF-8                                                                            ok     
+  a BOM followed by ASCII is UTF-8 and not ASCII, because the mark is a high byte                        ok     
+  the same text WITHOUT a mark is still accepted                                                         ok     
+  a BOM followed by BINARY is still refused -- the repair strips a signature, it does not excuse a file  ok     
+  a lone byte-order mark and nothing else is NOT text                                                    ok     
+  a U+FEFF in the MIDDLE of a file still counts against it                                               ok     
+  an MPEG-4 file type box is SPECIFIED                                                                   ok     
+  and `mp42` as major brand is the same format                                                           ok     
+  `ftyp` at offset 4 with an ABSURD size word is REFUSED                                                 ok     the size is the check, not the four letters
+  an ELF64 shared object is SPECIFIED                                                                    ok     
+  an ELF whose EI_VERSION is not 1 is REFUSED                                                            ok     
+  an ELF whose EI_CLASS is 0 is REFUSED                                                                  ok     
+  a 64-bit Mach-O is SPECIFIED                                                                           ok     
+  a 32-bit big-endian Mach-O is too                                                                      ok     
+  THE FOUR-BYTE HAZARD: a Mach-O universal binary with nfat_arch 2 is a Mach-O                           ok     
+  and a JAVA CLASS FILE, major 52, is NOT called a Mach-O                                                ok     0xCAFEBABE is both; nfat_arch <= 20 < 45 <= major
+  nor is a class file at Java 1.0's major 45                                                             ok     
+  a Unix archive is SPECIFIED                                                                            ok     
+  `!<arch>` without the newline is REFUSED                                                               ok     
+  a Chromium .pak v5 whose entry table starts where the header ends is DECODED                           ok     12 + 3*6 + 1*4 = 34 = 0x22
+  a .pak v4 does the same arithmetic without aliases                                                     ok     9 + 3*6 = 27 = 0x1b
+  a .pak whose first offset does NOT match the header is REFUSED                                         ok     this is the whole signature
+  a four-byte little-endian 5 followed by nothing structural is REFUSED                                  ok     
+  a .pak of version 3 is REFUSED                                                                         ok     
+  a random binary is OPAQUE                                                                              ok     
+  an empty file is OPAQUE and does not crash                                                             ok     
+  the classifier emits only bucket names the report knows                                                ok     
+
+95 checks, 0 failures

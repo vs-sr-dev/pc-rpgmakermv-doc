@@ -1,0 +1,9 @@
+file names outside ASCII      : 5
+directory names outside ASCII : 0
+distinct basenames            : 4
+
+   dlc/DarkFantasyCharacterPack/はじめにお読みください.txt
+   dlc/Modern_Generator/キャラクタージェネレーター素材利用方法.txt
+   dlc/RPGmakerWeb_plugins/『RPGツクールMV　プラグイン集』使用条件.txt
+   dlc/parallax_Resource_Pack/material/parallaxes/遠景・近景素材利用方法.txt
+   dlc/parallax_Resource_Pack/sample_project/js/plugins/『RPGツクールMV　プラグイン集』使用条件.txt

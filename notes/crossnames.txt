@@ -1,0 +1,74 @@
+mine   : notes/sha1-all.txt   9641 rows, 7417 distinct sha1
+theirs : ../pc-rpgmakervxace-doc/notes/sha1-all.txt   2026 rows, 1935 distinct sha1
+
+crossing     : 281 of 7417
+NOT crossing : 7136 of 7417
+the two sum to my distinct hashes : True
+
+-- CROSSING, by extension (one row per distinct hash) ----
+   .ogg       281 files      4842603 bytes
+   TOTAL      281             4842603
+
+-- NOT CROSSING, by extension (one row per distinct hash) ----
+   .png      4458 files    489488696 bytes
+   .m4a      1020 files    368502425 bytes
+   .ogg       728 files    524683494 bytes
+   .js        168 files      9926372 bytes
+   .pak       167 files     73582980 bytes
+   .html      146 files      5797578 bytes
+   .json      102 files      3611483 bytes
+   .txt        86 files       350078 bytes
+   .dll        68 files    293902824 bytes
+   (none)      58 files     54206557 bytes
+   .qml        40 files       356596 bytes
+   .qm         22 files      4526878 bytes
+   .dylib      13 files      3348192 bytes
+   .qmltypes    10 files       386156 bytes
+   .exe         9 files     43651584 bytes
+   .plist       6 files         4301 bytes
+   .so          5 files    147013560 bytes
+   .css         4 files        18006 bytes
+   .rpgproject     3 files           33 bytes
+   .bin         3 files      2728214 bytes
+   .log         2 files         2405 bytes
+   .nexe        2 files      7211744 bytes
+   .dat         2 files     20151616 bytes
+   .info        2 files       800572 bytes
+   .conf        2 files           99 bytes
+   .rb          2 files       102916 bytes
+   .node        1 files       353792 bytes
+   .vdf         1 files           51 bytes
+   .zip         1 files    205182933 bytes
+   .docx        1 files        16645 bytes
+   .ttf         1 files      1541768 bytes
+   .jpg         1 files        73307 bytes
+   .desktop     1 files           88 bytes
+   .lproj       1 files            0 bytes
+   TOTAL     7136          2261523943
+
+-- the crossing hashes, by name -------------------------------
+   same base name in both objects : 266
+   renamed                        : 15
+      spaced            0
+      prefixed          0
+      retranslated     15
+   the three classes sum to the renamed total : True  (0 + 0 + 15 = 15)
+   same + renamed = crossing : True
+
+   -- retranslated
+      Chest                    -> Chest2
+      Cursor2                  -> Cursor3
+      Decision1                -> Decision2
+      Decision2                -> Decision3
+      Decision3                -> Decision4
+      Fire                     -> Fire1
+      Gameover1                -> Gameover3
+      Inn                      -> Inn2
+      Laser                    -> Laser1
+      Load                     -> Load2
+      Rain                     -> Rain1
+      Save                     -> Save2
+      Shock                    -> Shock3
+      Shop                     -> Shop2
+      Victory2                 -> Victory3
+

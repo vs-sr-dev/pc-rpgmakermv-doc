@@ -1,0 +1,37 @@
+text files searched : 735
+
+  term     found  first evidence
+  MV       SPELT  dlc/Magic_and_SFPack(for_v1.6)/README.txt   Maker MV
+  NW.js    used   dlc/KadokawaPlugins_New/samples/Gacha Sample/js/rpg_   NW.js
+  PIXI     SPELT  dlc/KadokawaPlugins_New/samples/Gacha Sample/index.h   pixi.js
+  AAC      NO     -
+  M4A      used   dlc/KadokawaPlugins_New/samples/Gacha Sample/js/rpg_   m4a
+  ELF      NO     -
+  PNaCl    used   Help/page/04.html   native client
+  ICU      used   Help/page/04.html   icu-project
+  PAK      NO     -
+  QM       NO     -
+  V8       SPELT  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/lib   V8
+  JSON     used   dlc/KadokawaPlugins_New/readme.txt   JSON
+  DOCX     NO     -
+  SDK      SPELT  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/P   SDK
+  IRT      NO     -
+  LLC      SPELT  Help/page/01_11_14.html   LLC
+  RGSS     used   dlc/KadokawaPlugins/TinyGetInfoWnd.js   RGSS
+  CRC      used   nwjs-lnx/credits.html   CRC32
+  UUID     used   dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/lib   uuid
+  MAC      NO     -
+  COFF     used   dlc/KadokawaPlugins_New/samples/Gacha Sample/img/til   Coff
+  PE       NO     -
+  ABI      used   Help/page/04.html   abi
+  API      used   dlc/KadokawaPlugins_New/samples/Gacha Sample/js/rpg_   API
+  DLC      used   dlc/Modern_Generator/キャラクタージェネレーター素材利用方法.txt   dlc
+  EULA     SPELT  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/G   END USER LICENSE AGREEMENT
+  POSIX    SPELT  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/lib   posix
+  ISO      NO     -
+  RFC      SPELT  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/lib   RFC 3
+  HTML     used   dlc/KadokawaPlugins/ConfigureRootElement.js   HTML
+  CSS      used   dlc/KadokawaPlugins_New/samples/Gacha Sample/index.h   css
+  GPU      used   dlc/KadokawaPlugins_New/samples/Gacha Sample/js/libs   gpu
+  TP       SPELT  dlc/KadokawaPlugins/HPConsumeSkill.js   TP
+  SE       SPELT  dlc/KadokawaPlugins_New/samples/Gacha Sample/js/rpg_   sound effect

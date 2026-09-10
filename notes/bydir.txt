@@ -1,0 +1,351 @@
+directories in the tree            : 407
+directories carrying at least one file : 324
+directories carrying none          : 83
+files                              : 9641
+bytes                              : 2925489709
+
+  directory                                             files          bytes       share
+  dlc/BaseResource/audio/bgm                              142      498033481    17.0239 %
+  (root)                                                   37      323097210    11.0442 %
+  nwjs-win-test                                            22      159930220     5.4668 %
+  nwjs-lnx/lib                                              3      144119648     4.9263 %
+  NewData/audio/bgm                                        36      134997046     4.6145 %
+  nwjs-win                                                 16      121821312     4.1641 %
+  dlc/BaseResource_Compressed/audio/bgm                   178      108936037     3.7237 %
+  dlc/parallax_Resource_Pack/sample_project/audio/bgm      26       96221250     3.2891 %
+  dlc/ExtraAssets/2000bgm                                  20       69094145     2.3618 %
+  NewData/img/battlebacks1                                 50       62319880     2.1302 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/animations    117       54597420     1.8663 %
+  NewData/img/animations                                  117       54597420     1.8663 %
+  dlc/BaseResource_Compressed/img/animations              118       52330735     1.7888 %
+  tutorial-win                                             24       42711239     1.4600 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/audio/bgm     12       41779647     1.4281 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/audio/bgm     12       40241913     1.3756 %
+  NewData/img/battlebacks2                                 50       39255867     1.3419 %
+  nwjs-win/locales                                        106       35549194     1.2152 %
+  nwjs-win-test/locales                                   106       35549194     1.2152 %
+  nwjs-lnx/locales                                        106       34912287     1.1934 %
+  nwjs-win-test/pnacl                                      21       34639882     1.1841 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/bgm     12       34495557     1.1791 %
+  dlc/BaseResource_Compressed/img/battlebacks2             78       29609873     1.0121 %
+  dlc/BaseResource/img/battlebacks1                        26       26858912     0.9181 %
+  dlc/BaseResource_Compressed/img/battlebacks1             76       26120810     0.8929 %
+  Help/inc/img                                            251       26003253     0.8889 %
+  NewData/img/titles1                                      20       21221024     0.7254 %
+  nwjs-lnx                                                 10       20554320     0.7026 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/tilesets     72       20405034     0.6975 %
+  dlc/BaseResource/img/battlebacks2                        28       19557014     0.6685 %
+  dlc/parallax_Resource_Pack/sample_project/img/tilesets     62       17678502     0.6043 %
+  NewData/img/tilesets                                     62       17674421     0.6042 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/tilesets     62       17610952     0.6020 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/tilesets     62       17610952     0.6020 %
+  qtwebengine_locales                                      53       14282881     0.4882 %
+  dlc/BaseResource/audio/se                               274       13064997     0.4466 %
+  NewData/audio/me                                         36       12650203     0.4324 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/battlebacks1     13       12426108     0.4248 %
+  dlc/BaseResource_Compressed/audio/2000bgm                20       11699034     0.3999 %
+  NewData/audio/bgs                                        20       11508264     0.3934 %
+  dlc/parallax_Resource_Pack/sample_project/img/battlebacks1     12       11333259     0.3874 %
+  NewData/audio/se                                        436       10944210     0.3741 %
+  NewData/img/parallaxes                                   15       10568832     0.3613 %
+  Help/inc/img/01_11_06                                    59       10159008     0.3473 %
+  dlc/parallax_Resource_Pack/sample_project/img/battlebacks2     14        9677786     0.3308 %
+  Help/inc/img/01_11_05                                    39        9618695     0.3288 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/battlebacks1     10        9018485     0.3083 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/battlebacks1     10        9018485     0.3083 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/battlebacks2     13        8966133     0.3065 %
+  dlc/BaseResource_Compressed/audio/se                    710        8664315     0.2962 %
+  dlc/parallax_Resource_Pack/sample_project/audio/bgs      16        8468933     0.2895 %
+  NewData/img/enemies                                      70        7820725     0.2673 %
+  dlc/BaseResource_Compressed/audio/bgs                    58        7294407     0.2493 %
+  NewData/img/sv_enemies                                   70        7262013     0.2482 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/battlebacks2     10        6992380     0.2390 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/battlebacks2     10        6992380     0.2390 %
+  dlc/BaseResource/audio/bgs                               38        6551704     0.2240 %
+  dlc/parallax_Resource_Pack/sample_project/img/titles1      6        6538989     0.2235 %
+  dlc/BaseResource/img/enemies                             35        6534634     0.2234 %
+  dlc/parallax_Resource_Pack/material/parallaxes           26        6124805     0.2094 %
+  dlc/parallax_Resource_Pack/sample_project/img/parallaxes     25        6123597     0.2093 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtWidgets.framework/Versions/5      1        6105824     0.2087 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/se    270        5978105     0.2043 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/bgs      8        5787450     0.1978 %
+  dlc/BaseResource/img/sv_enemies                          35        5781204     0.1976 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtCore.framework/Versions/5      1        5754304     0.1967 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtGui.framework/Versions/5      1        5239536     0.1791 %
+  dlc/Special_Wallpaper                                     3        5048662     0.1726 %
+  dlc/parallax_Resource_Pack/sample_project/audio/me       10        4646885     0.1588 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/audio/me      8        4067896     0.1391 %
+  dlc/Sangokushi/pictures                                  20        3978712     0.1360 %
+  dlc/parallax_Resource_Pack/sample_project/audio/se      102        3830590     0.1309 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/animations     14        3806516     0.1301 %
+  dlc/BaseResource/audio/me                                18        3756352     0.1284 %
+  dlc/BaseResource_Compressed/audio/me                     54        3547961     0.1213 %
+  NewData/img/faces                                        10        3437107     0.1175 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/audio/me      6        3289622     0.1124 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/audio/me      6        3289622     0.1124 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/animations      8        3123093     0.1068 %
+  NewData/img/characters                                   29        3097067     0.1059 %
+  nwjs-lnx/swiftshader                                      2        2893912     0.0989 %
+  dlc/ExtraAssets/pictures                                 17        2792873     0.0955 %
+  dlc/Magic_and_SFPack(for_v1.6)/Resource/img/tilesets     10        2726532     0.0932 %
+  dlc/parallax_Resource_Pack/sample_project/img/animations      7        2696688     0.0922 %
+  dlc/BaseResource/img/titles1                              2        2560332     0.0875 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/audio/se     78        2459384     0.0841 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/audio/se     76        2444234     0.0835 %
+  nwjs-win/swiftshader                                      2        2348032     0.0803 %
+  nwjs-win-test/swiftshader                                 2        2348032     0.0803 %
+  dlc/BaseResource/img/faces                                5        1841125     0.0629 %
+  Generator/SV/Male                                       296        1828506     0.0625 %
+  Generator/SV/Female                                     236        1770631     0.0605 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/faces      5        1754884     0.0600 %
+  Help/page                                               136        1703958     0.0582 %
+  tutorial-osx/TutorialGui.app/Contents/PlugIns/platforms      1        1673856     0.0572 %
+  imageformats                                             12        1656320     0.0566 %
+  tutorial-win/imageformats                                12        1656320     0.0566 %
+  Generator/Face/Male                                     317        1609877     0.0550 %
+  dlc/RPGmakerWeb_plugins/Yanfly                           31        1600610     0.0547 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/fonts       2        1542014     0.0527 %
+  dlc/parallax_Resource_Pack/sample_project/fonts           2        1542014     0.0527 %
+  NewData/fonts                                             2        1542004     0.0527 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/fonts        2        1541848     0.0527 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/fonts      2        1541848     0.0527 %
+  Generator/Face/Female                                   287        1487781     0.0509 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/enemies     11        1467604     0.0502 %
+  tutorial-osx/TutorialGui.app/Contents/PlugIns/imageformats      9        1454736     0.0497 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/libs      6        1420469     0.0486 %
+  dlc/parallax_Resource_Pack/sample_project/js/libs         6        1420469     0.0486 %
+  dlc/parallax_Resource_Pack/sample_project/img/faces       4        1416732     0.0484 %
+  NewData/js/libs                                           6        1378836     0.0471 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtNetwork.framework/Versions/5      1        1337184     0.0457 %
+  dlc/RPG Maker Freebies/Marimo/MV Style                    8        1321840     0.0452 %
+  dlc/DarkFantasyCharacterPack/img/pictures                 8        1319819     0.0451 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/data       22        1288029     0.0440 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/characters     11        1250289     0.0427 %
+  dlc/DarkFantasyCharacterPack/img/sv_actors               32        1113054     0.0380 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/faces      3        1110924     0.0380 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/faces      3        1110924     0.0380 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/titles1      1        1049553     0.0359 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/titles1      1        1049553     0.0359 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js          8         978830     0.0335 %
+  dlc/parallax_Resource_Pack/sample_project/js              8         961527     0.0329 %
+  NewData/js                                                8         944545     0.0323 %
+  dlc/BaseResource/img/characters                          18         930804     0.0318 %
+  platforms                                                 1         894976     0.0306 %
+  tutorial-win/platforms                                    1         894976     0.0306 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/js           8         880928     0.0301 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/js      8         880752     0.0301 %
+  QtQuick/Controls                                          3         876155     0.0299 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/parallaxes      1         873563     0.0299 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/enemies      9         827649     0.0283 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/sv_enemies      9         813224     0.0278 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/gacha      5         812901     0.0278 %
+  plugins/qtwebengine                                       1         772096     0.0264 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/data        15         709172     0.0242 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Characters     16         693058     0.0237 %
+  dlc/KadokawaPlugins_New/additional/img/animations         6         683423     0.0234 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/data     15         675015     0.0231 %
+  NewData/data                                             15         669051     0.0229 %
+  dlc/parallax_Resource_Pack/sample_project/img/characters      7         661218     0.0226 %
+  NewData/img/system                                       14         640861     0.0219 %
+  dlc/parallax_Resource_Pack/sample_project/img/system     14         640806     0.0219 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/system     13         618252     0.0211 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/system     13         618252     0.0211 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/system     13         618252     0.0211 %
+  dlc/RPG Maker Freebies/Marimo/VXA Style                   8         596956     0.0204 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/animations      1         593313     0.0203 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/js/libs      3         592652     0.0203 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/js/libs      3         592652     0.0203 %
+  NewData/img/sv_actors                                    20         576452     0.0197 %
+  dlc/Modern_Generator/parts/Generator/SV/Female           76         571614     0.0195 %
+  dlc/parallax_Resource_Pack/sample_project/img/enemies      6         549182     0.0188 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks/js/libs      3         545836     0.0187 %
+  dlc/parallax_Resource_Pack/sample_project/img/sv_enemies      6         536760     0.0183 %
+  NewData/img/titles2                                       2         534117     0.0183 %
+  dlc/DarkFantasyCharacterPack/img/characters              10         531235     0.0182 %
+  dlc/BaseResource/img/sv_actors                           21         522494     0.0179 %
+  dlc/parallax_Resource_Pack/sample_project/data           39         474155     0.0162 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/Female     24         463745     0.0159 %
+  dlc/Modern_Generator/parts/Generator/SV/Male             70         451052     0.0154 %
+  Generator/TV/Male                                       382         445876     0.0152 %
+  Generator/Variation/Male                                207         430539     0.0147 %
+  Generator/TV/Female                                     328         419793     0.0143 %
+  tutorial-osx/TutorialGui.app/Contents/MacOS               1         417152     0.0143 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/Male     23         397310     0.0136 %
+  dlc/KadokawaPlugins_New/img/slotmachine                  10         368389     0.0126 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/slotmachine     10         368389     0.0126 %
+  dlc/Sangokushi/faces                                      2         368271     0.0126 %
+  Generator/Variation/Female                              177         339950     0.0116 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtPrintSupport.framework/Versions/5      1         322784     0.0110 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/enemies      4         303054     0.0104 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/enemies      4         303054     0.0104 %
+  dlc/Modern_Generator/parts/Generator/Face/Male           78         282039     0.0096 %
+  QtGraphicalEffects                                       26         274436     0.0094 %
+  dlc/Modern_Generator/parts/Generator/Face/Female         83         258667     0.0088 %
+  dlc/DarkFantasyCharacterPack/img/faces                    1         247734     0.0085 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/characters      5         245687     0.0084 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/characters      5         245687     0.0084 %
+  QtQuick.2                                                 3         239074     0.0082 %
+  dlc/KadokawaPlugins                                      38         236076     0.0081 %
+  Generator/Face/Kid                                       14         234856     0.0080 %
+  NewData_FantasyJP/data                                    9         221306     0.0076 %
+  NewData_FantasyEN/data                                    9         216529     0.0074 %
+  QtQuick/Dialogs                                           3         209959     0.0072 %
+  tutorial-osx/TutorialGui.app/Contents/PlugIns/bearer      2         181504     0.0062 %
+  dlc/RPGmakerWeb_plugins/Yami                             10         181352     0.0062 %
+  Generator/Variation/Kid                                   9         177319     0.0061 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/sv_actors      6         174738     0.0060 %
+  dlc/Modern_Generator/parts/Generator/TV/Female           76         168965     0.0058 %
+  dlc/Modern_Generator/parts/Generator/TV/Male             70         159404     0.0054 %
+  dlc/KadokawaPlugins_New/js/plugins                        5         158456     0.0054 %
+  dlc/Sangokushi/sv_actors                                 10         148647     0.0051 %
+  dlc/RPGmakerWeb_plugins/Shaz                             10         132610     0.0045 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Character Gen Parts      9         127525     0.0044 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/img/sv_actors      4         113724     0.0039 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/img/sv_actors      4         113724     0.0039 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/img/sv_actors      4         113724     0.0039 %
+  dlc/RPGmakerWeb_plugins/Galenmereth                       6         107806     0.0037 %
+  Generator/SV/Kid                                          8         107132     0.0037 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/People 2-7      6         105079     0.0036 %
+  Generator                                                 1         101135     0.0035 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/People 3-5      6         100812     0.0034 %
+  QtQuick/PrivateWidgets                                    3         100543     0.0034 %
+  Generator/TV/Kid                                         10         100482     0.0034 %
+  Generator/TVD/Male                                      232          96197     0.0033 %
+  Help/inc/js/lib                                           1          95786     0.0033 %
+  Generator/TVD/Female                                    226          95407     0.0033 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/js/plugins      5          94766     0.0032 %
+  dlc/Modern_Generator/parts/Generator/TVD/Female          76          91293     0.0031 %
+  dlc/Magic_and_SFPack(for_v1.6)/Resource/js/plugins        4          90525     0.0031 %
+  qmltooling                                                2          87040     0.0030 %
+  dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1/Generator/TV      4          85729     0.0029 %
+  dlc/Modern_Generator/parts/Generator/TVD/Male            70          85015     0.0029 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/js/plugins      8          82606     0.0028 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/js/plugins      9          81216     0.0028 %
+  dlc/DarkFantasyCharacterPack/js                           1          80469     0.0028 %
+  dlc/Modern_Generator/parts/Generator/Variation/Female     37          80195     0.0027 %
+  dlc/parallax_Resource_Pack/sample_project/js/plugins      4          78976     0.0027 %
+  NewData/js/plugins                                       10          78155     0.0027 %
+  bearer                                                    2          77824     0.0027 %
+  tutorial-win/bearer                                       2          77824     0.0027 %
+  dlc/Modern_Generator                                      2          74910     0.0026 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample/icon         1          72778     0.0025 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample/icon      1          72778     0.0025 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/icon        1          72778     0.0025 %
+  dlc/parallax_Resource_Pack/sample_project/icon            1          72778     0.0025 %
+  NewData/icon                                              1          72778     0.0025 %
+  nwjs-lnx/icon                                             1          72778     0.0025 %
+  nwjs-win/www/icon                                         1          72778     0.0025 %
+  nwjs-win-test/www/icon                                    1          72778     0.0025 %
+  dlc/Modern_Generator/parts/Generator/Variation/Male      34          70991     0.0024 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Facesets      1          69856     0.0024 %
+  QtGraphicalEffects/private                                8          68542     0.0023 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 2-2      4          63873     0.0022 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Actor 2-3      4          63582     0.0022 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Evil 1-1      4          63033     0.0022 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 3-5      4          62596     0.0021 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/People 2-7      4          62409     0.0021 %
+  dlc/Sangokushi/characters                                 3          61998     0.0021 %
+  QtQuick/Layouts                                           3          58380     0.0020 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins      6          55507     0.0019 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks/js/plugins      1          51120     0.0017 %
+  dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1           3          49088     0.0017 %
+  Qt/labs/folderlistmodel                                   3          44723     0.0015 %
+  tutorial-osx/TutorialGui.app/Contents/PlugIns/printsupport      1          38096     0.0013 %
+  Generator/TVD/Kid                                         8          37791     0.0013 %
+  dlc/RPG Maker Freebies/Thernz - RMXP Grappler 1/Generator/TVD      2          36670     0.0013 %
+  QtQuick/Dialogs/Private                                   2          35456     0.0012 %
+  dlc/KadokawaPlugins_New/additional                        1          31938     0.0011 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/Generator Parts/TVD/Mage08      2          31199     0.0011 %
+  QtWebEngine/experimental                                  2          29282     0.0010 %
+  iconengines                                               1          29184     0.0010 %
+  tutorial-win/iconengines                                  1          29184     0.0010 %
+  QtWebEngine                                               3          29063     0.0010 %
+  dlc/parallax_Resource_Pack/sample_project/img/sv_actors      1          28889     0.0010 %
+  dlc/DarkFantasyCharacterPack/system                       3          28026     0.0010 %
+  QtQuick/Window.2                                          3          22933     0.0008 %
+  Help/parts                                                2          22208     0.0008 %
+  Qt/labs/settings                                          3          22107     0.0008 %
+  QtWebView                                                 3          19420     0.0007 %
+  Help/inc/css                                              1          17444     0.0006 %
+  dlc/Sangokushi                                            1          16645     0.0006 %
+  dlc/RPGmakerWeb_plugins/Zalerinian                        1          16067     0.0005 %
+  QtWebEngine/UIDelegates                                   8          14721     0.0005 %
+  dlc/RPGmakerWeb_plugins/Neonblack                         2          13549     0.0005 %
+  tutorial-osx/TutorialGui.app/Contents/_CodeSignature      1          10122     0.0003 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics/System      1           8859     0.0003 %
+  dlc/RPG Maker Freebies/RPG Maker MV Patches               2           8590     0.0003 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources        3           7872     0.0003 %
+  dlc/KadokawaPlugins_New/img/system                        1           6776     0.0002 %
+  dlc/Modern_Generator/modern_body/Generator/TV/Female      2           6611     0.0002 %
+  dlc/Modern_Generator/modern_body/Generator/TV/Male        2           6349     0.0002 %
+  dlc/Modern_Generator/original_body/Generator/TV/Female      2           5550     0.0002 %
+  dlc/Modern_Generator/original_body/Generator/TV/Male      2           5490     0.0002 %
+  dlc/Magic_and_SFPack(for_v1.6)/Resource/glsl              3           4812     0.0002 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project/glsl        3           4812     0.0002 %
+  dlc/KadokawaPlugins_New                                   1           3567     0.0001 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Graphics      1           3470     0.0001 %
+  dlc/RPGmakerWeb_plugins/Zeriab                            1           2836     0.0001 %
+  dlc/RPGmakerWeb_plugins                                   1           2420     0.0001 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtCore.framework/Versions/5/_CodeSignature      1           2318     0.0001 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtGui.framework/Versions/5/_CodeSignature      1           2318     0.0001 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtNetwork.framework/Versions/5/_CodeSignature      1           2318     0.0001 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtPrintSupport.framework/Versions/5/_CodeSignature      1           2318     0.0001 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtWidgets.framework/Versions/5/_CodeSignature      1           2318     0.0001 %
+  dlc/Magic_and_SFPack(for_v1.6)                            1           2000     0.0001 %
+  dlc/Magic_and_SFPack(for_v1.6)/Resource                   1           2000     0.0001 %
+  dlc/Magic_and_SFPack(for_v1.6)/Sample_Project             3           1920     0.0001 %
+  dlc/parallax_Resource_Pack/sample_project                 3           1910     0.0001 %
+  NewData                                                   2           1839     0.0001 %
+  dlc/RPG Maker Freebies/RPG Maker MV Free Resources/Plugins/Archeia_Steamworks      2           1818     0.0001 %
+  dlc/KadokawaPlugins_New/samples/Slot Machine Sample       2           1394     0.0000 %
+  dlc/KadokawaPlugins_New/samples/Gacha Sample              2           1387     0.0000 %
+  dlc/RPGmakerWeb_plugins/Archeia                           1           1091     0.0000 %
+  Help                                                      1           1047     0.0000 %
+  dlc/RPG Maker Freebies/Marimo                             1            880     0.0000 %
+  Help/inc/js                                               1            748     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents                     2            744     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtPrintSupport.framework/Versions/5/Resources      1            724     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtNetwork.framework/Versions/5/Resources      1            714     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtWidgets.framework/Versions/5/Resources      1            714     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtCore.framework/Versions/5/Resources      1            708     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtGui.framework/Versions/5/Resources      1            706     0.0000 %
+  dlc/DarkFantasyCharacterPack                              1            662     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Resources           2             78     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtPrintSupport.framework      2             57     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtNetwork.framework      2             52     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtWidgets.framework      2             52     0.0000 %
+  projects                                                  1             51     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtCore.framework      2             49     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtGui.framework      2             48     0.0000 %
+  RPG Maker MV.app/Contents/MacOS                           1              2     0.0000 %
+  Scene Builder.app/Contents/MacOS                          1              2     0.0000 %
+  Tileset Builder.app/Contents/MacOS                        1              2     0.0000 %
+  tool/GENE                                                 1              2     0.0000 %
+  tool/MADO                                                 1              2     0.0000 %
+  tool/SAKAN                                                1              2     0.0000 %
+  Window Builder.app/Contents/MacOS                         1              2     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtCore.framework/Versions      1              1     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtGui.framework/Versions      1              1     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtNetwork.framework/Versions      1              1     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtPrintSupport.framework/Versions      1              1     0.0000 %
+  tutorial-osx/TutorialGui.app/Contents/Frameworks/QtWidgets.framework/Versions      1              1     0.0000 %
+  SUM                                                    9641     2925489709
+
+  rows sum to the file count : False
+  rows sum to the byte count : False
+  RESIDUE                    : -7615 files, -2582767305 bytes
+
+  the seven top-level totals:
+    dlc            4612     1458606099    49.8585 %
+    NewData        1101      403792717    13.8026 %
+    nwjs-win-test    152      232540106     7.9488 %
+    nwjs-lnx        122      202552945     6.9237 %
+    nwjs-win        125      159791316     5.4620 %
+    Help            491       47622147     1.6278 %
+    tutorial-win     40       45369543     1.5508 %
+    tutorial-osx     49       22551339     0.7709 %
+    Generator      2738        9283272     0.3173 %
+    qtwebengine_locales     53       14282881     0.4882 %
+    (root)           37      323097210    11.0442 %
+    SUM            9520     2919489575
+    residue against the tree : 121 files, 6000134 bytes

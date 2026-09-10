@@ -1,0 +1,18 @@
+waves parsed : 17
+files summed : 9641
+bytes summed : 2925489709
+against the tree's 9641 / 2925489709, residue : 0 / 0
+shares summed: 99.99 %
+
+LastUpdated 1695877036 = 2023-09-28 04:57:16 UTC = 2023-09-28 06:57:16 local
+wave 15 runs 2023-09-28 06:56:06 .. 2023-09-28 06:56:43 over 451 files and 452652918 bytes
+same calendar day as LastUpdated : True
+
+waves Steam wrote  : 15, 9638 files, 2925487253 bytes
+waves the owner wrote: 2, 3 files, 2456 bytes
+
+the previous four objects' wave counts, from their own docs:
+  pc-rpgmaker2000-doc  1     pc-rpgmaker2003-doc  1
+  pc-rpgmakerxp-doc    1     pc-rpgmakervxace-doc 2 (one of them the
+                                                     owner's two files)
+  pc-rpgmakermv-doc    17    of which Steam's 15

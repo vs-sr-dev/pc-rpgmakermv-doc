@@ -1,0 +1,72 @@
+# the work plan, declared BEFORE the first clause of docs/00-predictions.md
+#
+# P20 (pc-rpgmakervxace-doc/docs/15) requires that membership of the P17
+# register be derived by a program rather than by judgement. A program needs
+# something to compute against, and this file is it: every state this session
+# intends to change, named, one per line, before any clause is written.
+#
+# regcheck.py reads this file, reads the predictions document, works out for
+# every command a clause names which of these states that command READS, and
+# refuses any clause that names a figure from a changed state without citing a
+# committed notes/*-before.txt file.
+#
+# format:  change <state>   # prose
+#          reads  <tool>    <state>[,<state>...]
+#
+# The states this session will change:
+
+change toolbox      # new tools written into tools/, so any count of tools/ moves
+change classifier   # coverage.py: the BOM repair and four new magics
+change readers      # tools/ gains readers, so the refusal harness's population moves
+change vendortable  # vendorhash.py's marker table is extended
+change gamelist     # ../pc-gamelist-doc gains a row
+change notesdir     # notes/ is written into all session, so any count of it moves
+
+# What each command reads. A tool absent from this table reads only the object
+# tree, which this session does NOT change -- rule 4, nothing is executed and
+# nothing is installed, so the object is read-only for the whole session.
+
+reads toolsdiff     toolbox
+reads toolscan      toolbox
+reads dirguard      toolbox
+reads nameguard     toolbox
+reads refusals      toolbox,readers
+reads refusalclass  readers
+reads coverage      classifier
+reads vendorhash    vendortable
+reads rowlen        gamelist
+reads predcount     notesdir
+reads predbands     notesdir
+reads predmeasure   notesdir
+reads regcheck      notesdir,toolbox
+
+# `final` -- a tool whose figure describes the state at the END of this
+# session. A `-before` output for one of these would not be evidence of
+# anything, so requiring one is the check being wrong and not the clause.
+#
+# This line type did not exist when the plan was first written. It was added
+# after regcheck.py's first run against the finished document refused seven
+# clauses, three of which it was right about and four of which were this
+# table's fault. That is P20's own instrument correcting P20's own input, and
+# it is recorded in docs/13 rather than quietly absorbed. Each of the four is
+# justified below, because `final` is also the obvious way to make the check
+# shut up.
+#
+# pathcheck  -- the figure a clause can ask for is "zero violations over the
+#               tracked files as published". There is no useful earlier state:
+#               a repository with no documents in it trivially publishes no
+#               absolute paths.
+# crossall   -- swept with `--skip pc-rpgmakermv-doc`, so this repository's own
+#               notes/ are excluded by construction and publishing it changes
+#               nothing the sweep reads. The five denominators it needs are
+#               published before the result, which is the clause's own promise
+#               and a stronger discipline than a register entry.
+# jstore     -- its running total of empty closures is a figure about the
+#               PREVIOUS six objects, held in their repositories. Nothing this
+#               session does changes it, and the reads-line that said `toolbox`
+#               was simply wrong: jstore reads a store file, not tools/.
+# namecensus, dircensus -- counts of the object, which rule 4 forbids changing.
+
+final pathcheck
+final crossall
+final jstore

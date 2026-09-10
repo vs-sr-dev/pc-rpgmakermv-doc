@@ -1,0 +1,33 @@
+  a File Type Box is 8 + its payload                                                 ok     
+  the tree walks to the last byte and back                                           ok     10 boxes
+  and it finds the nested mvhd                                                       ok     
+  the major brand is read                                                            ok     
+  the compatible brands are read                                                     ok     ['M4A ', 'mp42', 'isom']
+  mvhd gives 88200/44100 = 2 s                                                       ok     
+  stts sums to 86 x 1024 = 88064 units                                               ok     
+  and 88064/44100 is NOT 2 s -- the two clocks disagree                              ok     THE BLIND SPOT: both are reported, neither is preferred
+  the frame length is the commonest delta                                            ok     
+  one frame-time at 44100 is 1024/44100 s                                            ok     
+  no edit list is present in this file                                               ok     
+  selection is by magic, not by extension                                            ok     ['a.m4a', 'truth.bin']
+  a truncated box tree is REFUSED and not silently shortened                         ok     
+  a box shorter than its own header is REFUSED                                       ok     
+  a box declaring size 0 runs to the end of the file and closes                      ok     {'ftyp': 1, 'mdat': 1}
+  a 64-bit largesize box is walked                                                   ok     {'ftyp': 1, 'mdat': 1}
+  a file with no File Type Box is REFUSED                                            ok     
+  a version-1 mvhd is read with 64-bit fields                                        ok     
+  an edit list is reported when present                                              ok     
+  the AudioSpecificConfig is found through esds                                      ok     
+  its audioObjectType is read                                                        ok     
+  frequency index 7 is 22050 Hz                                                      ok     
+  its channel configuration is 1                                                     ok     
+  THE ADVISORY FIELD: the mp4a box says 2 channels and 44100 Hz                      ok     
+  and the disagreement is REPORTED rather than reconciled                            ok     288 of 1,341 on this object
+  the config-derived value is the one the census uses                                ok     
+  with no decoder configuration the advisory field is used and `asc` is None         ok     
+  a two-byte base-128 descriptor length is decoded and CLIPPED to the enclosing box  ok     0x81 0x02 declares 130 bytes and only 2 are there
+  a one-byte descriptor length is decoded                                            ok     
+  handed a directory it refuses through dirguard                                     ok     
+  a census over an empty population is REFUSED                                       ok     
+
+31 checks, 0 failures

@@ -1,0 +1,11 @@
+mine   : tools
+theirs : ../pc-rpgmakervxace-doc/tools
+
+mine   : 568 .py     theirs : 562 .py
+only mine   : audiopair.py, chpak.py, jsondiff.py, mp4box.py, predmeasure.py, regcheck.py
+only theirs : none
+common      : 562    differing   : 4
+   DIFFERS  coverage.py              mine 56ef463fcaec  theirs 644e1c2b183b
+   DIFFERS  oggcensus.py             mine 4876a45b014d  theirs 588073abebd9
+   DIFFERS  refusals.py              mine 4f224eb36853  theirs e8d383d12899
+   DIFFERS  vendorhash.py            mine 797b50359afd  theirs fecdd4afb320

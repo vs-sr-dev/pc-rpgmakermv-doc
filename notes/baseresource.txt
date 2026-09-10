@@ -1,0 +1,25 @@
+BaseResource            : 642 files  585993053 bytes
+BaseResource_Compressed : 1292 files  248203172 bytes
+
+paths in both           : 526
+only in BaseResource    : 116  (18170593 bytes)
+only in the Compressed  : 766  (136318545 bytes)
+residue                 : 0
+
+STEMS (path without extension) in both : 290
+stems only in BaseResource             : 116
+stems only in the Compressed           : 492
+
+  ext         A files        A bytes    B files        B bytes
+  .ogg            236      323399501        510       66129512
+  .m4a            236      198007033        510       74012242
+  .png            170       64586519        272      108061418
+
+  extension pairs over the shared stems, and the byte ratio A:B
+     .m4a     -> .m4a        236 pairs   ratio min 0.600  median 2.713  max 4.427
+     .m4a     -> .ogg        236 pairs   ratio min 0.714  median 2.976  max 5.277
+     .ogg     -> .m4a        236 pairs   ratio min 0.746  median 4.893  max 7.641
+     .ogg     -> .ogg        236 pairs   ratio min 1.084  median 5.386  max 8.553
+     .png     -> .png         54 pairs   ratio min 1.157  median 3.165  max 6.258
+
+  pairs identical in size and extension : 0

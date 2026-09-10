@@ -1,0 +1,30 @@
+EN: array length 36, records 35
+   effect code 42 (permanent parameter growth):
+     id 28  icon  32  price  3000  dataId 0 (MHP)  value 50  name 'Life Increase'
+     id 29  icon  33  price  3000  dataId 1 (MMP)  value 10  name 'MP Increase'
+     id 30  icon  34  price  3000  dataId 2 (ATK)  value 3  name 'Power Increase'
+     id 31  icon  35  price  3000  dataId 3 (DEF)  value 3  name 'Guard Increase'
+     id 32  icon  36  price  3000  dataId 4 (MAT)  value 3  name 'Magic Increase'
+     id 33  icon  37  price  3000  dataId 5 (MDF)  value 3  name 'Resistance Increase'
+     id 34  icon  38  price  3000  dataId 6 (AGI)  value 3  name 'Speed Increase'
+     id 35  icon  39  price  3000  dataId 7 (LUK)  value 3  name 'Luck Increase'
+
+JP: array length 31, records 30
+   effect code 42 (permanent parameter growth):
+     id 23  icon  32  price  3000  dataId 0 (MHP)  value 50  name 'ライフアップ'
+     id 24  icon  33  price  3000  dataId 1 (MMP)  value 10  name 'マナアップ'
+     id 25  icon  34  price  3000  dataId 2 (ATK)  value 3  name 'パワーアップ'
+     id 26  icon  35  price  3000  dataId 3 (DEF)  value 3  name 'ガードアップ'
+     id 27  icon  36  price  3000  dataId 4 (MAT)  value 3  name 'マジックアップ'
+     id 28  icon  37  price  3000  dataId 5 (MDF)  value 3  name 'レジストアップ'
+     id 29  icon  38  price  3000  dataId 6 (AGI)  value 3  name 'スピードアップ'
+     id 30  icon  39  price  3000  dataId 7 (LUK)  value 3  name 'ラックアップ'
+
+the last five ids of each, by name:
+  EN: [(28, 'Life Increase'), (29, 'MP Increase'), (30, 'Power Increase'), (31, 'Guard Increase'), (32, 'Magic Increase'), (33, 'Resistance Increase'), (34, 'Speed Increase'), (35, 'Luck Increase')]
+  JP: [(23, 'ライフアップ'), (24, 'マナアップ'), (25, 'パワーアップ'), (26, 'ガードアップ'), (27, 'マジックアップ'), (28, 'レジストアップ'), (29, 'スピードアップ'), (30, 'ラックアップ')]
+
+NewData (the shipped starter, not a language sample):
+  array length 5, records 4
+  last eight: [(1, 'Potion'), (2, 'Magic Water'), (3, 'Dispel Herb'), (4, 'Stimulant')]
+  records carrying effect code 42 : 0

@@ -1,0 +1,26 @@
+files searched : 9641   bytes : 2925489709
+the search is case-insensitive and is run twice per file: once over
+the bytes as they are, and once for the same text interleaved with
+zeros, which is how a linker writes a version resource.
+
+  name                8-bit    files   UTF-16    files
+  Kadokawa               96       45        9        3
+  Yoji Ojima             95       54        1        1
+  Enterbrain              4        2        0        0
+  Degica                 40       13        0        0
+  Yukihiro Matsumoto        0        0        0        0
+  Neil Hodgson            0        0        0        0
+  Scintilla               0        0        0        0
+  pixi                 8625       47        0        0
+  Ruby                   81       10        0        0
+
+  Kadokawa : 47 file(s) carry it in one form or the other
+     of which 2 only a UTF-16 pass can see : nwjs-win-test/game.exe, nwjs-win/Game.exe
+  Yoji Ojima : 54 file(s) carry it in one form or the other
+  Enterbrain : 2 file(s) carry it in one form or the other
+  Degica : 13 file(s) carry it in one form or the other
+  Yukihiro Matsumoto : 0 file(s) carry it in one form or the other
+  Neil Hodgson : 0 file(s) carry it in one form or the other
+  Scintilla : 0 file(s) carry it in one form or the other
+  pixi : 47 file(s) carry it in one form or the other
+  Ruby : 10 file(s) carry it in one form or the other

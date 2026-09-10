@@ -1,0 +1,22 @@
+  ok   unregistered changed-state clause fails
+  ok   and it is classified a member
+  ok   registered changed-state clause passes
+  ok   and the citation is captured
+  ok   unchanged-state clause is not a member
+  ok   and it does not fail
+  ok   an undeclared tool is silently treated as reading nothing
+  ok   citing a -before file without reading changed state fails
+  ok   a missing -before file fails
+  ok   a -before file that exists does not fail
+  ok   three spellings of one tool collapse to one stem
+  ok   a tool reading an undeclared state is a fatal plan error
+  ok   a plan that changes nothing is fatal
+  ok   a state declared twice is fatal
+  ok   a well-formed plan parses
+  ok   a `final` line parses
+  ok   a tool declared both `reads` and `final` is fatal
+  ok   a line that is neither change nor reads is fatal
+  ok   states union across a clause's commands
+  ok   a clause naming no command is not a member
+
+20 checks, 0 failures

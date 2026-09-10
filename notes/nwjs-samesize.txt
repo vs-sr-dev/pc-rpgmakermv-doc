@@ -1,0 +1,35 @@
+ffmpeg.dll                     2058240 bytes   differing bytes   611 in 81 run(s)
+      offset       280 ..       281   (2 bytes)   b17e / 4e8d
+      offset   1463362 ..   1463362   (1 bytes)   b0 / b4
+      offset   1463367 ..   1463367   (1 bytes)   b0 / b4
+      offset   1463405 ..   1463405   (1 bytes)   b8 / bc
+      offset   1463410 ..   1463410   (1 bytes)   b8 / bc
+      offset   1994532 ..   1994533   (2 bytes)   b17e / 4e8d
+libEGL.dll                       78848 bytes   differing bytes   601 in 85 run(s)
+      offset       280 ..       282   (3 bytes)   856b6c / 153063
+      offset      3558 ..      3558   (1 bytes)   38 / 3c
+      offset      3563 ..      3563   (1 bytes)   38 / 3c
+      offset      3601 ..      3601   (1 bytes)   40 / 44
+      offset      3606 ..      3606   (1 bytes)   40 / 44
+      offset     62100 ..     62102   (3 bytes)   856b6c / 153063
+libGLESv2.dll                  3730944 bytes   differing bytes   895 in 117 run(s)
+      offset       264 ..       266   (3 bytes)   7a6b6c / 093063
+      offset   2568103 ..   2568103   (1 bytes)   c8 / cc
+      offset   2568108 ..   2568108   (1 bytes)   c8 / cc
+      offset   2568146 ..   2568146   (1 bytes)   d0 / d4
+      offset   2568151 ..   2568151   (1 bytes)   d0 / d4
+      offset   3495556 ..   3495558   (3 bytes)   7a6b6c / 093063
+swiftshader/libEGL.dll          101888 bytes   differing bytes   797 in 105 run(s)
+      offset       272 ..       274   (3 bytes)   aa6d6c / c83163
+      offset     24887 ..     24887   (1 bytes)   ec / f0
+      offset     24892 ..     24892   (1 bytes)   ec / f0
+      offset     24930 ..     24930   (1 bytes)   f4 / f8
+      offset     24935 ..     24935   (1 bytes)   f4 / f8
+      offset     86452 ..     86454   (3 bytes)   aa6d6c / c83163
+swiftshader/libGLESv2.dll      2246144 bytes   differing bytes 15398 in 3187 run(s)
+      offset       288 ..       290   (3 bytes)   fa6d6c / 113263
+      offset       400 ..       400   (1 bytes)   a0 / b0
+      offset       408 ..       408   (1 bytes)   84 / 94
+      offset       576 ..       576   (1 bytes)   7a / 8a
+      offset   1638618 ..   1638618   (1 bytes)   b8 / c0
+      offset   1639568 ..   1639568   (1 bytes)   d8 / e0

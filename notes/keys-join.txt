@@ -1,0 +1,30 @@
+JSON documents parsed         : 128
+distinct object keys          : 283
+distinct engine class names   : 153
+the two sets intersect on     : 0   []
+
+database keys the engine source names : 266 of 283
+keys the engine never names           : 17
+   armorTypes chromium-args editMapId elements expanded icon js-flags main order parallaxShow parentId releaseByDamage scrollX scrollY toolbar weaponTypes window
+
+the twenty commonest keys, and whether the engine names each:
+   code                  6410   named
+   indent                4695   named
+   parameters            4681   named
+   name                  4299   named
+   id                    2457   named
+   flashColor            2456   named
+   flashDuration         2456   named
+   flashScope            2456   named
+   frame                 2456   named
+   se                    2456   named
+   pan                   1838   named
+   pitch                 1838   named
+   volume                1838   named
+   dataId                1615   named
+   note                  1577   named
+   value                 1111   named
+   list                  1064   named
+   iconIndex             1028   named
+   description            940   named
+   trigger                740   named

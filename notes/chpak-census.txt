@@ -1,0 +1,31 @@
+files whose .pak header arithmetic closes : 222
+index walks that close on the last byte   : 222 of 222
+
+  by version : {4: 54, 5: 168}
+  bytes      : {4: 19506192, 5: 70156671}
+  total bytes: 89662863
+
+  resources, summed  : 868459
+  aliases,   summed  : 127790
+  index bytes        : 5723246
+  payload bytes      : 83937115
+  index + payload    : 89660361 over 222 files
+  duplicate ids inside one index : 0
+
+  resource sizes : min 0  median 34  max 1711525  mean 96.7
+  zero-length resources : 164
+  resources that decode as UTF-8 : 862722 of 868459
+  resources that do not          : 5737
+  and those, classified BY MAGIC with coverage.py's own table:
+       3928  PNG (W3C / ISO 15948)
+       1805  not identified by any signature this tool knows
+          2  JPEG / JFIF (ITU-T T.81; ISO/IEC 10918)
+          1  RIFF WAVE (Microsoft and IBM)
+          1  Windows icon
+
+  distinct file sha1 : 167 of 222
+  the commonest byte string appears 2 times
+
+  This census counts and sizes resources. It does not read them:
+  what a resource MEANS is not in the container, and a tool that
+  guessed would be reporting its own guess.

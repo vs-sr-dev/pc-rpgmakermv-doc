@@ -1,0 +1,18 @@
+root      : rpgmakermv-steam
+the tree  : 9641 files, 2925489709 bytes
+grouped by PATH PREFIX, longest match first
+
+  label        files      counted     declared   residue  paths
+  363896           8           16           16         0  Locale, RPG Maker MV.app/Contents/MacOS/Locale, Scene Builder.app/Contents/MacOS/Locale, Tileset Builder.app/Contents/MacOS/Locale, Window Builder.app/Contents/MacOS/Locale, tool/GENE/Locale, tool/MADO/Locale, tool/SAKAN/Locale
+  everything-else    9633   2925489693            -         -  <everything else>
+  SUM           9641   2925489709
+
+  every file claimed by exactly one group : True
+  files no group claimed                  : 0
+  the groups cover the tree, residue      : 0
+
+  groups whose counted bytes differ from the declared figure : 0
+
+  Every figure above was produced by WALKING. No group's total is
+  the tree's total minus another group's, and this tool cannot be
+  made to produce one that way.

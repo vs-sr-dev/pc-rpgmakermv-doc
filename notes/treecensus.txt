@@ -1,0 +1,84 @@
+root            : rpgmakermv-steam
+files           : 9641
+directories     : 406
+bytes           : 2925489709
+
+year of the directory record:
+  year    files          bytes
+  2017     6990     1604183886
+  2018     2127      868342111
+  2019       70         308338
+  2023      451      452652918
+  2025        1           1340
+  2026        2           1116
+
+extensions:
+  ext         files          bytes
+  .png         5578      733723600
+  .m4a         1341      473279531
+  .ogg         1341      684463713
+  .pak          222       89662863
+  .js           218       13147515
+  .txt          192         810693
+  .info         159       63826999
+  .html         147        7814014
+  .json         129        4286178
+  .dll           92      335115552
+  (none)         73       54206679
+  .qml           40         356596
+  .qm            24        4873554
+  .dylib         13        3348192
+  .qmltypes      10         386156
+  .exe            9       43651584
+  .css            6          18332
+  .bin            6        4300802
+  .plist          6           4301
+  .ttf            5        7708840
+  .so             5      147013560
+  .rpgproject      4             44
+  .dat            4       40494112
+  .rb             3         155214
+  .conf           3            120
+  .log            2           2405
+  .nexe           2        7211744
+  .jpg            1          73307
+  .node           1         353792
+  .docx           1          16645
+  .desktop        1             88
+  .zip            1      205182933
+  .vdf            1             51
+  .lproj          1              0
+
+top-level entries:
+  name            files          bytes     pct
+  dlc              4612     1458606099  49.86%
+  NewData          1101      403792717  13.80%
+  (root)             37      323097210  11.04%
+  nwjs-win-test     152      232540106   7.95%
+  nwjs-lnx          122      202552945   6.92%
+  nwjs-win          125      159791316   5.46%
+  Help              491       47622147   1.63%
+  tutorial-win       40       45369543   1.55%
+  tutorial-osx       49       22551339   0.77%
+  qtwebengine_locales     53       14282881   0.49%
+  Generator        2738        9283272   0.32%
+  imageformats       12        1656320   0.06%
+  QtQuick            17        1303426   0.04%
+  platforms           1         894976   0.03%
+  plugins             1         772096   0.03%
+  QtGraphicalEffects     34         342978   0.01%
+  QtQuick.2           3         239074   0.01%
+  NewData_FantasyJP      9         221306   0.01%
+  NewData_FantasyEN      9         216529   0.01%
+  qmltooling          2          87040   0.00%
+  bearer              2          77824   0.00%
+  QtWebEngine        13          73066   0.00%
+  Qt                  6          66830   0.00%
+  iconengines         1          29184   0.00%
+  QtWebView           3          19420   0.00%
+  projects            1             51   0.00%
+  tool                3              6   0.00%
+  RPG Maker MV.app      1              2   0.00%
+  Scene Builder.app      1              2   0.00%
+  Tileset Builder.app      1              2   0.00%
+  Window Builder.app      1              2   0.00%

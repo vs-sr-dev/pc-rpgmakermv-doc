@@ -1,0 +1,9 @@
+  top-level tree     build roots named in its bytes
+  nwjs-win           {'nw27_win32': 319, 'nw29_win32': 76}
+  nwjs-win-test      {'nw27_sdk_win32': 319, 'nw29_sdk_win32': 80}
+
+  `sdk` is NW.js's own name for the build carrying the developer
+  tools; the number is the NW.js release. These strings are a build
+  machine's directory names left in the binaries by the linker, and
+  they are a third party's paths published by that third party --
+  pc-rpgmakerxp-doc/docs/11's rule, applied.

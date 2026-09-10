@@ -1,0 +1,2 @@
+  dlc/BaseResource/audio/bgm/Dungeon5.ogg              size   4474408   offset   3455871   77.24 % of the way in
+     the 16 bytes around it : 522eefd44b024d5a50004034d54901cf

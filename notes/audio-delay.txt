@@ -1,0 +1,18 @@
+pairs                                  : 1341
+exact fit ceil((ogg+D)/1024)*1024, same-rate pairs only:
+   D = 2112            1069
+   D = no exact fit     269
+   D = 0                  2
+   D = 1024               1
+
+same-rate pairs      : 1075
+resampled pairs      : 266
+
+all          n=1341  min   815.00  max  3135.00  mean  2617.84   inside [2112, 3136) : 1335
+same rate    n=1075  min   815.00  max  3135.00  mean  2604.68   inside [2112, 3136) : 1069
+resampled    n= 266  min  2112.00  max  3122.00  mean  2671.01   inside [2112, 3136) :  266
+
+the pairs that do NOT fit D = 2112 at equal rates : 3
+   NewData/audio/me/Gameover2                               ogg   784198  m4a   785222  delta  1024
+   NewData/audio/me/Mystery                                 ogg   221323  m4a   222347  delta  1024
+   NewData/audio/me/Organ                                   ogg   282833  m4a   283857  delta  1024

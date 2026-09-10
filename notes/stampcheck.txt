@@ -1,0 +1,118 @@
+binaries with a COFF TimeDateStamp : 102
+
+  file                                                bytes      stamp as a time (UTC)      T1 T2 T3
+  nwjs-win-test/nw.dll                             85221888 1520407287 2018-03-07 07:21:27  .  .  .
+  nwjs-win/nw.dll                                  84381696 1520403991 2018-03-07 06:26:31  .  .  .
+  Qt5WebEngineCore.dll                             36804608 1433047167 2015-05-31 04:39:27  .  .  .
+  icudt53.dll                                      21529088 1409732173 2014-09-03 08:16:13  .  .  .
+  tutorial-win/icudt53.dll                         21529088 1409732173 2014-09-03 08:16:13  .  .  .
+  RPGMV.exe                                        18656256 1694760616 2023-09-15 06:50:16  .  .  .
+  nwjs-win-test/nwjc.exe                           11439616 1520333685 2018-03-06 10:54:45  .  .  .
+  nwjs-win-test/chromedriver.exe                    6428672 1520407568 2018-03-07 07:26:08  .  .  .
+  nwjs-win-test/node.dll                            5750784 1520333537 2018-03-06 10:52:17  .  .  .
+  nwjs-win/node.dll                                 5749248 1520315667 2018-03-06 05:54:27  .  .  .
+  Qt5Gui.dll                                        4545024 1433037465 2015-05-31 01:57:45  .  .  .
+  tutorial-win/Qt5Gui.dll                           4545024 1433037465 2015-05-31 01:57:45  .  .  .
+  Qt5Widgets.dll                                    4402688 1433037580 2015-05-31 01:59:40  .  .  .
+  tutorial-win/Qt5Widgets.dll                       4402688 1433037580 2015-05-31 01:59:40  .  .  .
+  Qt5Core.dll                                       4063744 1433037321 2015-05-31 01:55:21  .  .  .
+  tutorial-win/Qt5Core.dll                          4063744 1433037321 2015-05-31 01:55:21  .  .  .
+  nwjs-win/libGLESv2.dll                            3730944 1517054842 2018-01-27 12:07:22  .  .  .
+  nwjs-win-test/libGLESv2.dll                       3730944 1516449801 2018-01-20 12:03:21  .  .  .
+  nwjs-win/d3dcompiler_47.dll                       3661112 2455089808 2047-10-19 09:23:28  Y  .  .
+  nwjs-win-test/d3dcompiler_47.dll                  3661112 2455089808 2047-10-19 09:23:28  Y  .  .
+  nwjs-win-test/nacl64.exe                          3261952 1520404973 2018-03-07 06:42:53  .  .  .
+  Qt5Qml.dll                                        2545664 1433037950 2015-05-31 02:05:50  .  .  .
+  Qt5Quick.dll                                      2399232 1433038059 2015-05-31 02:07:39  .  .  .
+  nwjs-win/swiftshader/libGLESv2.dll                2246144 1517055482 2018-01-27 12:18:02  .  .  .
+  nwjs-win-test/swiftshader/libGLESv2.dll           2246144 1516450321 2018-01-20 12:12:01  .  .  .
+  nwjs-win/ffmpeg.dll                               2058240 1519746737 2018-02-27 15:52:17  .  .  .
+  nwjs-win-test/ffmpeg.dll                          2058240 1519750478 2018-02-27 16:54:38  .  .  .
+  icuin53.dll                                       1982976 1409731994 2014-09-03 08:13:14  .  .  .
+  tutorial-win/icuin53.dll                          1982976 1409731994 2014-09-03 08:13:14  .  .  .
+  nwjs-win/Game.exe                                 1604096 1520404126 2018-03-07 06:28:46  .  .  .
+  nwjs-win-test/game.exe                            1604096 1520407462 2018-03-07 07:24:22  .  .  .
+  icuuc53.dll                                       1355264 1409731892 2014-09-03 08:11:32  .  .  .
+  tutorial-win/icuuc53.dll                          1355264 1409731892 2014-09-03 08:11:32  .  .  .
+  tutorial-win/msvcr120.dll                          970912 1380941030 2013-10-05 02:43:50  .  .  .
+  platforms/qwindows.dll                             894976 1433037724 2015-05-31 02:02:04  .  .  .
+  tutorial-win/platforms/qwindows.dll                894976 1433037724 2015-05-31 02:02:04  .  .  .
+  Qt5Network.dll                                     826368 1433037379 2015-05-31 01:56:19  .  .  .
+  tutorial-win/Qt5Network.dll                        826368 1433037379 2015-05-31 01:56:19  .  .  .
+  QtQuick/Controls/qtquickcontrolsplugin.dll         780288 1433038258 2015-05-31 02:10:58  .  .  .
+  plugins/qtwebengine/ffmpegsumo.dll                 772096 1433043724 2015-05-31 03:42:04  .  .  .
+  nwjs-win-test/payload.exe                          461312 1520333630 2018-03-06 10:53:50  .  .  .
+  tutorial-win/msvcp120.dll                          455328 1380941037 2013-10-05 02:43:57  .  .  .
+  nwjs-win/nw_elf.dll                                450048 1520391696 2018-03-07 03:01:36  .  .  .
+  nwjs-win-test/nw_elf.dll                           449536 1520394710 2018-03-07 03:51:50  .  .  .
+  imageformats/qjp2.dll                              418816 1433037864 2015-05-31 02:04:24  .  .  .
+  tutorial-win/imageformats/qjp2.dll                 418816 1433037864 2015-05-31 02:04:24  .  .  .
+  dlc/RPG Maker Freebie.../steamworks-win32.node     353792 1452491671 2016-01-11 05:54:31  .  .  .
+  imageformats/qtiff.dll                             311808 1433037859 2015-05-31 02:04:19  .  .  .
+  tutorial-win/imageformats/qtiff.dll                311808 1433037859 2015-05-31 02:04:19  .  .  .
+  imageformats/qwebp.dll                             291840 1433037873 2015-05-31 02:04:33  .  .  .
+  tutorial-win/imageformats/qwebp.dll                291840 1433037873 2015-05-31 02:04:33  .  .  .
+  Qt5Svg.dll                                         251904 1433037751 2015-05-31 02:02:31  .  .  .
+  tutorial-win/Qt5Svg.dll                            251904 1433037751 2015-05-31 02:02:31  .  .  .
+  imageformats/qjpeg.dll                             240128 1433037694 2015-05-31 02:01:34  .  .  .
+  tutorial-win/imageformats/qjpeg.dll                240128 1433037694 2015-05-31 02:01:34  .  .  .
+  imageformats/qmng.dll                              220672 1433037854 2015-05-31 02:04:14  .  .  .
+  tutorial-win/imageformats/qmng.dll                 220672 1433037854 2015-05-31 02:04:14  .  .  .
+  steam_api.dll                                      219424 1482200254 2016-12-20 02:17:34  .  .  .
+  dlc/RPG Maker Freebie.../js/libs/steam_api.dll     187472 1445453462 2015-10-21 18:51:02  .  .  .
+  tutorial-win/TutorialGui.exe                       184320 1494835375 2017-05-15 08:02:55  .  .  .
+  QtQuick/Dialogs/dialogplugin.dll                   179712 1433038308 2015-05-31 02:11:48  .  .  .
+  quazip.dll                                         144384 1464250529 2016-05-26 08:15:29  .  .  .
+  Qt5WebEngine.dll                                   118272 1433047317 2015-05-31 04:41:57  .  .  .
+  zlib1.dll                                          107520 1368448928 2013-05-13 12:42:08  .  .  .
+  nwjs-win/swiftshader/libEGL.dll                    101888 1517055402 2018-01-27 12:16:42  .  .  .
+  nwjs-win-test/swiftshader/libEGL.dll               101888 1516450248 2018-01-20 12:10:48  .  .  .
+  QtQuick/PrivateWidgets/widgetsplugin.dll            89600 1433038295 2015-05-31 02:11:35  .  .  .
+  nwjs-win/libEGL.dll                                 78848 1517054853 2018-01-27 12:07:33  .  .  .
+  nwjs-win-test/libEGL.dll                            78848 1516449813 2018-01-20 12:03:33  .  .  .
+  qmltooling/qmldbg_qtquick2.dll                      60416 1433038193 2015-05-31 02:09:53  .  .  .
+  QtQuick/Layouts/qquicklayoutsplugin.dll             55296 1433038290 2015-05-31 02:11:30  .  .  .
+  Qt/labs/folderlistmod...derlistmodelplugin.dll      42496 1433038202 2015-05-31 02:10:02  .  .  .
+  bearer/qnativewifibearer.dll                        39936 1433037700 2015-05-31 02:01:40  .  .  .
+  tutorial-win/bearer/qnativewifibearer.dll           39936 1433037700 2015-05-31 02:01:40  .  .  .
+  imageformats/qdds.dll                               38400 1433037846 2015-05-31 02:04:06  .  .  .
+  tutorial-win/imageformats/qdds.dll                  38400 1433037846 2015-05-31 02:04:06  .  .  .
+  bearer/qgenericbearer.dll                           37888 1433037691 2015-05-31 02:01:31  .  .  .
+  tutorial-win/bearer/qgenericbearer.dll              37888 1433037691 2015-05-31 02:01:31  .  .  .
+  QtQuick/Dialogs/Priva...alogsprivateplugin.dll      35328 1433038278 2015-05-31 02:11:18  .  .  .
+  imageformats/qicns.dll                              31232 1433037851 2015-05-31 02:04:11  .  Y  .
+  tutorial-win/imageformats/qicns.dll                 31232 1433037851 2015-05-31 02:04:11  .  Y  .
+  iconengines/qsvgicon.dll                            29184 1433037769 2015-05-31 02:02:49  .  .  .
+  QtWebEngine/experimen...experimentalplugin.dll      29184 1433047333 2015-05-31 04:42:13  .  .  .
+  tutorial-win/iconengines/qsvgicon.dll               29184 1433037769 2015-05-31 02:02:49  .  .  .
+  qmltooling/qmldbg_tcp.dll                           26624 1433038185 2015-05-31 02:09:45  .  .  .
+  imageformats/qgif.dll                               24576 1433037701 2015-05-31 02:01:41  .  .  .
+  imageformats/qico.dll                               24576 1433037701 2015-05-31 02:01:41  .  .  .
+  tutorial-win/imageformats/qgif.dll                  24576 1433037701 2015-05-31 02:01:41  .  .  .
+  tutorial-win/imageformats/qico.dll                  24576 1433037701 2015-05-31 02:01:41  .  .  .
+  QtWebEngine/qtwebengineplugin.dll                   23040 1433047328 2015-05-31 04:42:08  .  .  .
+  Qt/labs/settings/qmlsettingsplugin.dll              21504 1433038206 2015-05-31 02:10:06  .  Y  .
+  imageformats/qsvg.dll                               18432 1433037780 2015-05-31 02:03:00  .  .  .
+  QtWebView/declarative_webview.dll                   18432 1430908398 2015-05-06 10:33:18  .  .  .
+  tutorial-win/imageformats/qsvg.dll                  18432 1433037780 2015-05-31 02:03:00  .  .  .
+  imageformats/qtga.dll                               17920 1433037851 2015-05-31 02:04:11  .  Y  .
+  imageformats/qwbmp.dll                              17920 1433037867 2015-05-31 02:04:27  .  .  .
+  tutorial-win/imageformats/qtga.dll                  17920 1433037851 2015-05-31 02:04:11  .  Y  .
+  tutorial-win/imageformats/qwbmp.dll                 17920 1433037867 2015-05-31 02:04:27  .  .  .
+  Qt5WebView.dll                                      15872 1430908390 2015-05-06 10:33:10  .  .  .
+  QtQuick/Window.2/windowplugin.dll                   12288 1433038215 2015-05-31 02:10:15  .  .  .
+  QtQuick.2/qtquick2plugin.dll                        12288 1433038206 2015-05-31 02:10:06  .  Y  .
+  QtWebEngineProcess.exe                              11264 1433047326 2015-05-31 04:42:06  .  .  .
+
+  T1 IMPOSSIBLE (mtime precedes link time)      : 2 of 102
+  T2 COLLIDING  (a stamp shared across sizes)   : 6 of 102
+  T3 ROUND      (a round binary quantity)       : 0 of 102
+  FALSE by at least one test                    : 8 of 102
+  the same, counted by DISTINCT BINARY not by file : 5 of 78
+
+
+-- and what the tests do NOT say ------------------------------
+  A stamp that passes all three is not thereby true. These tests
+  catch three ways of being obviously false and no way of being
+  quietly false, and a linker that writes a plausible wrong date
+  defeats all of them.

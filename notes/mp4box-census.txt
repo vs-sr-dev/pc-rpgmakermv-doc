@@ -1,0 +1,19 @@
+files whose first box is `ftyp`  : 1341
+box trees that close at residue 0: 1341 of 1341
+bytes over the parsed files      : 473279531
+
+  major brands       : {'M4A ': 1338, 'mp42': 3}
+  top-level boxes    : {'ftyp': 1341, 'moov': 1341, 'free': 826, 'mdat': 1341}
+  sample rates       : {44100: 895, 22050: 444, 32000: 2}
+  channel counts     : {2: 835, 1: 506}
+  frame length, units: {1024: 1341}
+  files with an edit list : 0 of 1341
+
+  total duration, mvhd : 20590.750 s
+  total duration, stts : 20590.761 s
+  the two agree per file on : 1338 of 1341
+  access units, summed : 869364
+
+  mvhd is the container's claim and stts is what the sample table
+  adds up to. They are printed apart because a reader that prefers
+  one of them throws away the evidence that they differ.

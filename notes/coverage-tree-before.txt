@@ -1,0 +1,26 @@
+denominator : 9641 files, 2925489709 bytes -- every file under rpgmakermv-steam, classified BY MAGIC
+
+  bucket      files        bytes      share  format
+  specified    5578    733723600   25.0804 %  PNG (W3C / ISO 15948)
+  specified    1341    684463713   23.3966 %  Ogg container (IETF RFC 3533; Vorbis I by Xiph.Org)
+  specified     102    379120928   12.9592 %  PE / MZ executable (Microsoft)
+  specified       2    205199578    7.0142 %  ZIP archive (PKWARE APPNOTE)
+  specified     665     87430499    2.9886 %  plain text, ASCII
+  specified       5      7708840    0.2635 %  sfnt / TrueType outline font (Apple; Microsoft OpenType)
+  specified     104      2182962    0.0746 %  plain text, UTF-8 (Unicode; IETF RFC 3629)
+  specified       8       113142    0.0039 %  plain text, Shift-JIS (JIS X 0208; Microsoft cp932)
+  specified       1        73307    0.0025 %  JPEG / JFIF (ITU-T T.81; ISO/IEC 10918)
+  opaque       1835    825473140   28.2166 %  not identified by any signature this tool knows
+
+  specified  7806 files   2100016569 bytes    71.7834 % of 2925489709
+  decoded       0 files            0 bytes     0.0000 % of 2925489709
+  derived       0 files            0 bytes     0.0000 % of 2925489709
+  opaque     1835 files    825473140 bytes    28.2166 % of 2925489709
+  SUM        9641 files   2925489709 bytes   100.0000 %
+  against the denominator 2925489709          RESIDUE 0
+
+  The SUM row is an ACCOUNTING figure and not a coverage figure.
+  It answers 'do the bytes add up to the object'. It does not
+  answer 'how much of this can be checked against something outside
+  it', because SPECIFIED and DECODED carry warrants of different
+  strength and DERIVED carries none but this session's.

@@ -1,0 +1,23 @@
+document      : docs\00-predictions.md
+clauses        : 58
+  inherited    : 31
+  open         : 27
+  method       : 5
+  content      : 53
+
+the cross-tabulation, which is the one that matters:
+  inherited method  : 0
+  inherited content : 31
+  open      method  : 5
+  open      content : 22
+
+TWO TOTALS, NEVER SUMMED TOGETHER:
+  inherited predicted : 27.51 of 31
+  open      predicted : 20.67 of 27
+
+content share of the open clauses : 22 of 27 = 81.5 %
+  (the prescription in force says write FEWER of these on a
+   container nobody has opened; they score about 68 %.)
+
+all clauses carry exactly one kind tag, one origin tag and one
+predicted figure, and the numbering is contiguous.
