@@ -24,11 +24,70 @@ the cross-tabulation, which is the one that matters:
   open      content : 22
 
 TWO TOTALS, NEVER SUMMED TOGETHER:
-  inherited predicted : 28.55 of 31
-  open      predicted : 21.90 of 27
+  inherited predicted : 27.51 of 31
+  open      predicted : 20.67 of 27
 
 content share of the open clauses : 22 of 27 = 81.5 %
 ```
+
+*The first draft of this header said `28.55` and `21.90`. `predcount.py` says
+`27.51` and `20.67`, and the header is regenerated from its output. That is the
+fifth predictions or scoring document in this collection to get its own
+arithmetic wrong on the first pass and the fifth time the command caught it —
+[13](13-corrections.md) C.9.*
+
+And the three P11 bands, which are the split the scoring chapter has to report:
+
+```
+python tools/predbands.py --expect-under 0.60 5
+
+open content   : 22 clauses
+
+lands       n= 6  total  5.10  mean 0.8500   C37 C38 C45 C53 C54 C56
+constructs  n=12  total  7.97  mean 0.6642   C39 C40 C41 C42 C43 C44 C47
+                                             C48 C49 C50 C55 C58
+nonnumeric  n= 4  total  3.10  mean 0.7750   C46 C51 C52 C57
+
+open content clauses priced below 0.60 : 5   C42=0.42 C43=0.48 C48=0.45
+                                             C50=0.50 C55=0.45
+```
+
+**And the number P18 asks for is not the band mean but the sub-mean.** P12's
+five total **2.30** for a mean of **0.4600**; the **seven `constructs` clauses
+P12 does not govern total 5.67 for a mean of 0.8100**, above P18's floor of 0.80
+and against last session's 0.8636 over eleven. **That is the figure P18's
+falsification has to be evaluated against**, and the scoring chapter reports it
+separately or P18 cannot be scored at all.
+
+And P21's, which this document establishes for the first time:
+
+```
+python tools/predmeasure.py
+
+  band          n   measures    mean   priced   mean price
+  lands         6         17    2.83     5.10       0.8500
+  constructs   12         49    4.08     7.97       0.6642
+  nonnumeric    4          8    2.00     3.10       0.7750
+  ALL          22         74    3.36
+
+  INHERITED clauses that declare a count -- reported apart:
+    C17=6 C18=5 C21=4 C22=4     4 clauses, 19 measurements, mean 4.75
+```
+
+And P20's, which refuses the document if a clause is unregistered:
+
+```
+python tools/regcheck.py --plan notes/workplan.txt
+
+clauses            : 58
+REGISTER MEMBERS   : 10
+failures           : 0
+```
+
+**Ten clauses of fifty-eight name a command whose figure depends on state this
+session changes, and every one of the ten cites a committed `-before` file.**
+The program refused seven of them on its first run; [15](15-prediction-scoring.md)
+scores which three of the seven it was right about.
 
 ---
 
