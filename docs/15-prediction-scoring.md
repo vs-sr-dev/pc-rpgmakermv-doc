@@ -444,17 +444,24 @@ pointing an existing *check* at an existing tool.**
 
 ```
 python tools/rule0hook.py --report                        (notes/rule0.txt)
-shell calls seen by the hook : 190
-  allowed                    : 186
+shell calls seen by the hook : 231
+  allowed                    : 227
   REFUSED as rule-0          : 4
       heredoc 2     inline program 1     in-place edit script 1
 ```
 
 **Four refusals: one deliberate probe and three reflexes** — a heredoc reached
 for to print one line, a `sed -i` pointed at `/dev/null` while checking whether
-an import existed, and a second heredoc. **None reached the shell.** The
-denominator is a running count that only grows; the four refusals are complete
-and they are the measurement. Reported as a plain fact worth zero points.
+an import existed, and a second heredoc. **None reached the shell.**
+
+**The denominator is a running count that only grows and the numerator is not.**
+231 is the figure at the moment `notes/rule0.txt` was last regenerated and every
+shell call after that line adds one; **the four refusals are complete**, and they
+are the measurement. Last session the same report read 172 allowed and 3
+refused, and the session before 239 and 5. **Three objects, twelve refusals,
+none reaching the shell**, and the habit fires about once every fifty calls
+whatever the object is. Reported as a plain fact worth zero points, which is the
+only honest way to score a falsification.
 
 ---
 

@@ -1,5 +1,5 @@
-shell calls seen by the hook : 231
-  allowed                    : 227
+shell calls seen by the hook : 234
+  allowed                    : 230
   REFUSED as rule-0          : 4
       heredoc                2
       inline program         1

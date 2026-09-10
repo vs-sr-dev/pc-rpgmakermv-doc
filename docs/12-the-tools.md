@@ -375,9 +375,17 @@ touched**, and its first live test was a `python -c` that it refused. There is
 deliberately no clause about rule 0 in [00](00-predictions.md), because P16 says
 the clause is not the instrument.
 
-**It refused four times this session. One was the deliberate probe and three
-were reflexes** — a heredoc reached for to print one line, a `sed -i` pointed at
-`/dev/null` while checking for an import, and a second heredoc. **None reached
-the shell.** The denominator is a running count that only grows and the numerator
-is complete; the four refusals are the measurement and the count of allowed
-calls is the moment `notes/rule0.txt` was last regenerated.
+```
+python tools/rule0hook.py --report                        (notes/rule0.txt)
+shell calls seen by the hook : 231
+  allowed                    : 227
+  REFUSED as rule-0          : 4
+      heredoc 2     inline program 1     in-place edit script 1
+```
+
+**It refused four times. One was the deliberate probe and three were reflexes** —
+a heredoc reached for to print one line, a `sed -i` pointed at `/dev/null` while
+checking for an import, and a second heredoc. **None reached the shell.** The
+denominator is a running count that only grows and the numerator is complete;
+the four refusals are the measurement, and 231 is the figure at the moment
+`notes/rule0.txt` was last regenerated.
